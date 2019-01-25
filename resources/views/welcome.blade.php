@@ -57,29 +57,33 @@
     </div>
     <div class="row">
         <div class="container">
-            <div class="row">
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-            </div>
-            <div class="row">
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-            </div>
-            <div class="row">
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-                ㅋㅋㅋ<br>
-            </div>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
         </div>
     </div>
+    <div class="row">
+        <div class="container">
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+            ㅋㅋㅋ<br>
+        </div>
+    </div>
+
+
     <div class="container">
         <div class="row">
             <div class="col-3">

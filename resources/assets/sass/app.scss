@@ -5,10 +5,53 @@
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// // Bootstrap
+// @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// .navbar-laravel {
+//   background-color: #fff;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
+
+*{
+  outline:1px solid red;
+  padding:0px;
+  margin:0px;
 }
+.container{
+  width:1200px;
+  margin:0 auto;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.img{
+  width:100%;
+}
+
+.col-1{ width:102px; margin:0 10px 0 10px; }
+.col-1:first-child{ margin-left:0px; }
+.col-1:last-child{ margin-right:0px; }
+
+.col-2{ width:224px; margin:0 10px 0 10px; }
+.col-2:first-child{ margin-left:0px; }
+.col-2:last-child{ margin-right:0px; }
+
+.col-3{ width:346px; margin:0 10px 0 10px; }
+.col-3:first-child{ margin-left:0px; }
+.col-3:last-child{ margin-right:0px; }
+
+.col-4{ width:468px; margin:0 10px 0 10px; }
+.col-4:first-child{ margin-left:0px; }
+.col-4:last-child{ margin-right:0px; }
+
+.col-5{ width:590px; margin:0 10px 0 10px; }
+.col-5:first-child{ margin-left:0px; }
+.col-5:last-child{ margin-right:0px; }
+
+.col-10{ width:1180px; margin:0 20px 0 20px; }
+

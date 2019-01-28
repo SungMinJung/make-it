@@ -27,7 +27,7 @@ class HomeController extends Controller
             [
                 'link'=>'//naver.com',
                 'title'=>'재미니',
-                'main_image'=>'//placehold.it/224x224',
+                'main_image'=>'http://blogfiles.naver.net/20090722_123/auxxua_1248240560248tfj1y_gif/%BA%B0%B9%E8%B0%E6_auxxua.gif',
                 'category'=>'app'
             ],
             [
@@ -60,6 +60,6 @@ class HomeController extends Controller
         //     {{ $item->name }}
         //     {{ $item['name'] }}
         // }
-        return view('home',compact('portfolio'));
+        return view('welcome',compact('portfolio'));
     }
 }

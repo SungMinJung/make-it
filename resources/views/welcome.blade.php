@@ -86,63 +86,17 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-3">
-                사진 + 포트폴리오
-            </div>
+            sd
         </div>
         <div class="row">
             li li li li
         </div>
         <div class="row">
-            <div class="col-2">
-                test<br>test<br>test<br>
+        @foreach ($portfolio as $item)
+            <div class="col-2" style="background: url('{{$item['main_image'] }}')">
+                <p>{{ $item['title'] }}</p>
             </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
-            <div class="col-2">
-                test<br>test<br>test<br>
-            </div>
+        @endforeach
         </div>
     </div>
     <div class="row">

@@ -1,7 +1,3 @@
-@extends('layouts.app')
-
-@section('content')
-    
 <style>
 
 .bluetitle {
@@ -100,5 +96,5 @@
     </div>
 </div>
 
-@endsection
+</div>
 

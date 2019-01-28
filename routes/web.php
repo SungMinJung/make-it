@@ -20,10 +20,3 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/app',function(){
-    return view('layouts.app');
-});
-//재민 임시
-Route::get('top', function() {
-    return view('main.1');
-});

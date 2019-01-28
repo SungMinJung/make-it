@@ -11,7 +11,7 @@
 
 </style>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<div class="container" style="positon:relative;">
+<div class="container" style="positon:relative;">  
 <div class="body" style="width:1920px; height:330px;">
     <div class="col-1">
         <div class="row">

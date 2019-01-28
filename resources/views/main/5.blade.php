@@ -30,8 +30,8 @@
             <p id="subject"><h3>을 선택해야하는 이유</h3>
             <p id="command"><h3>다양성</h3><span> variety</span>
         </div>
-            </div>
-        </div>
+            </div>  
+        </div> 
     </div>
 </div>
 

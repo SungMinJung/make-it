@@ -33,7 +33,3 @@ Route::get('/Contact_us','ContactusController@index')->name('contact');
 Route::get('/app',function(){
     return view('layouts.app');
 });
-//재민 임시
-Route::get('top', function() {
-    return view('main.1');
-});

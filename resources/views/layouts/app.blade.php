@@ -21,10 +21,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
-        @include('header')
-            @yield('content')
-        @include('footer')
-    </div>
+    @include('common.header')
+        @yield('content')
+    @include('common.footer')
 </body>
 </html>

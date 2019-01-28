@@ -2,7 +2,6 @@
 #footer{
     background: #3d3d3d;
     height:337px;
-
 }
 #footerlogo{
     margin: 61px 20px 137px 0;

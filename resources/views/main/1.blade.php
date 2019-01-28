@@ -2,75 +2,16 @@
 
 @section('content')
     
-<style>
-
-.bluetitle {
-    font-weight: 500;
-    color: #0066FF;
-}
-
-.btn {
-    width: 224px;
-    height: 51px;
-    text-align: center;
-    font-size: 15px;
-    font-family: inherit;
-    font-weight: bold;
-}
-
-.blue {
-    border-color: #0066FF;
-    background-color: #ffffff;
-    color:#0066FF;
-}
-
-.blue:active {
-    background-color: #0066FF;
-    color: #ffffff;
-}
-
-.gray {
-    background-color: #ffffff;
-    color: #3d3d3d;
-}
-
-.gray:active {
-    background-color: #3d3d3d;
-    color: #ffffff;
-}
-
-.title1 {
-    font-family:inherit;
-    font-size:20px;
-    line-height:1.45;
-    font-weight:500;
-    font-family: inherit;
-}
-
-.content1 {
-    font-size:15px;
-    font-weight:300;
-    line-height:1.67;
-    color:#707070;
-    font-family: inherit;
-}
-
-</style>
-
-<div class="row" style="background-image:url('/image/마스크 그룹 39.jpg');width:1920px;height:480px;padding-top:150px;background-size:contain">
+<div class="row" style="margin: 0 auto; background-image:url('/image/마스크 그룹 39.jpg');width:1920px;height:480px;padding-top:150px;background-position:center">
     <div class="container">
         <div class="row" >
-            <div class="col-5">
-
-            </div>
+            <div class="col-5"></div>
             <div class="row">
                 <div class="col-3">
                     <img src="/image/그룹 103.png" alt="" srcset="">
                 </div>
             </div>
-            <div class="col-5">
-
-            </div>
+            <div class="col-5"></div>
             <div class="row">
                 <div class="col-4">
                     <p class="title1" style="margin-top:20px;margin-bottom:20px">
@@ -79,9 +20,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-5">
-
-            </div>
+            <div class="col-5"></div>
             <div class="row">
                 <div class="col-5">
                     <p class="content1">
@@ -91,11 +30,44 @@
                     </p>
                 </div>
             </div>
-            <div class="col-5">
-                
-            </div>
+            <div class="col-5"></div>
             <button type="submit" class="btn blue" style="margin:0px auto;">Portfolio</button>
-            <button type="submit" class="btn gray" style="margin:0px auto;">Portfolio</button>
+        </div>
+    </div>
+</div>
+
+<div class="row"><br><br></div>
+
+<div class="container">
+    <div class="row">
+        <img src="/image/MAKEIT1.png" alt="" style="width:167px;height;83px;"><span class="needbot">를 필요로 하는 고객</span>
+    </div>
+    <div class="row"><br></div>
+    <div class="row">
+        <div class="col-2 bluebox">
+            <img src="/image/그룹 1.png" alt="" style="">
+            <img src="/image/자신만의 웹앱없는분.png" alt="" class="topimage">
+            <p class="bluecontent">자신만의 웹/앱이 없는 분</p>
+        </div>
+        <div class="col-2 bluebox">
+            <img src="/image/그룹 2.png" alt="">
+            <img src="/image/그룹 17.png" alt="" class="topimage">
+            <p class="bluecontent">웹/앱을 수정하고 싶으신 분</p>
+        </div>
+        <div class="col-2 bluebox">
+            <img src="/image/그룹 3.png" alt="">
+            <img src="/image/그룹 23.png" alt="" class="topimage">
+            <p class="bluecontent">웹/앱에 대한 유지보수가<br> 힘드신 분</p>
+        </div>
+        <div class="col-2 bluebox">
+            <img src="/image/그룹 4.png" alt="">
+            <img src="/image/그룹 33.png" alt="" class="topimage">
+            <p class="bluecontent">웹/앱 제작에 비용적 부담을<br> 느끼시는 분</p>
+        </div>
+        <div class="col-2 bluebox">
+            <img src="/image/그룹 39.png" alt="">
+            <img src="/image/그룹 38.png" alt="" class="topimage">
+            <p class="bluecontent">감각적인 웹/앱을 원하시는 분</p>
         </div>
     </div>
 </div>

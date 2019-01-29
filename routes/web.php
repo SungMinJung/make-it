@@ -37,3 +37,6 @@ Route::get('/app',function(){
 Route::get('/main', function() {
     return view('main.index');
 });
+Route::get('/dropdown',function(){
+    return view('prac.dropdown2');
+});

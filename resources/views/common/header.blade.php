@@ -2,6 +2,7 @@
     #header{
         width: 1920px;
         height: 100px !important;
+        border-bottom: 1px solid #707070;
     }
 
 
@@ -18,19 +19,14 @@
         color: #707070;
     }
     #logo{
+        margin-left:80px;
         padding: 10px 0px 20px  24px;
     }
 
 
     /*  */
-    #navBar1 {
-border-radius: 13px;
--moz-border-radius: 13px;
--webkit-border-radius: 13px;
-background: -moz-linear-gradient (bottom, #596a63, # 829a90);
-background: -webkit-gradient (linear, left bottom, left top, from (#596a63), to (# 829a90));
--moz-box-shadow: 2px 5px 7px #161617;
-box-shadow: 2px 5px 7px #161617;}
+
+
 
 #navBar1 ul ul {
 display: none;
@@ -45,8 +41,7 @@ display: none;
  #navBar1 ul li {
  display: block;
  float: left;
- /* padding-top: 9px;
- padding-bottom: 9px; */
+
 } 
 
 
@@ -61,7 +56,6 @@ display: none;
  }
  #navBar1 ul li a:hover {
  color: black;
- /* text-decoration: underline; */
  text-decoration: none;
 }
 
@@ -69,11 +63,9 @@ display: none;
  #navBar1 ul ul {
 
  position: absolute;
- /* top: 42px; */
  top: 30px;
- /* background:url(menuDropBG.png); */
  background: rgb(255,255,255);
- opacity:1;
+ opacity:0.7;
  width: 487px;
  height:48px;
  border: thin solid #849c92;
@@ -85,26 +77,24 @@ display: none;
  display: block;
  border-radius:30px;
  text-decoration:none;
+ box-shadow: 5px 10px 18px #888888;
+ 
 }
 
  #navBar1 ul ul li {
-     /* width:487px; */
-     /* height:48px; */
+
     padding: 11px 15px 12px 0px;
- /* padding: 0;
- padding-top: 3px;
- padding-bottom: 2px; */
+
 }
 
  #navBar1 ul ul li a {
  border: none;
  color: #707070;
  font-size:17px;
- /* font-weight:bold; */
+
 }
 
 </style>
-<div class="container">
     
         <div class="row" id="header">
             <div id="logo" class="col-3">
@@ -143,5 +133,3 @@ display: none;
                    <a href="{{route('contact')}}">Contact us</a>  
             </div>
         </div>
-
-</div>

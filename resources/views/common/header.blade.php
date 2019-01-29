@@ -123,9 +123,9 @@ display: none;
                             <li class = "headerList1"> <span> <a href="#">Service
                                 <img src="/img/dropdown.png" alt="">  </a> </span>
                             <ul>
-                            <li> <a href="#"> WebSite </a> </li>
-                            <li> <a href="#"> Mobile Application </a> </li>
-                            <li> <a href="#"> Responsive Website </a> </li>
+                            <li> <a href="{{route('service.web')}}"> WebSite </a> </li>
+                            <li> <a href="{{route('service.mobile')}}"> Mobile Application </a> </li>
+                            <li> <a href="{{route('service.responsive')}}"> Responsive Website </a> </li>
                             </ul>
                             </li>
                                 

@@ -87,9 +87,9 @@
                                 <p>245-85-00306</p>
                             </div>
                     <div id="sns" class="col-1">
-                        <img style="padding-top:144px;" src="/img/insta.png" alt=""><br>
-                        <img style="padding-top: 6px;" src="/img/facebook.png" alt=""><br>
-                        <img style="padding-top: 6px;" src="/img/twitter.png" alt="">
+                        <a href="https://www.instagram.com/"> <img style="padding-top:144px;" src="/img/insta.png" alt=""></a><br>
+                        <a href="https://www.facebook.com/"> <img style="padding-top: 6px;" src="/img/facebook.png" alt=""></a><br>
+                        <a href="https://twitter.com/?lang=en"> <img style="padding-top: 6px;" src="/img/twitter.png" alt=""></a>
                     </div>
 
     </div>

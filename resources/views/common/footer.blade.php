@@ -36,7 +36,7 @@
 #data{
     /* margin:0px; */
     font-size: 15px;
-    padding:101px 0 156px 0;
+    padding:60px 0 156px 0;
     font-weight:lighter;
 }
 /* #sns{

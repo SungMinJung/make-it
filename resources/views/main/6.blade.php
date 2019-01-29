@@ -33,6 +33,9 @@
     background-color: #3d3d3d;
     color: #ffffff;
 }
+p{
+    padding-top:30px;
+}
 </style>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 <div class="container">
@@ -42,8 +45,9 @@
         </div>
          <div class="col-1"></div>
          <div class="col-4">
-            <h4><p><strong>항상 최고의 솔루션을 제공합니다.</p><br>
-            <p>Always Successful Partner with Clients.</strong></p></h4><br>
+            <h4><p><strong>항상 최고의 솔루션을 제공합니다.<br>
+            <br>
+             Always Successful Partner with Clients.</strong></p></h4><br>
             <br>
             <button type="submit" class="btn blue" style="margin:0px auto;">CONTACT US</button>
         </div>

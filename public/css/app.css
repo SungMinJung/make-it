@@ -1,8 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);.container {
-  width: 1200px;
-  margin: 0 auto;
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+* {
+  outline: 1px solid red;
+  padding: 0px;
+  margin: 0px;
 }
 
+.container {
 .row {
   display: -webkit-box;
   display: -ms-flexbox;

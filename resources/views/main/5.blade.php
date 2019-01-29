@@ -1,11 +1,6 @@
 <style>
 
-#title{
-    color:blue;
-    font-weight:bold;
-    font-size:20px;
-    text-align:left;
-}
+
 #choice{
     padding-top:120px;
 }
@@ -16,7 +11,7 @@
 <div class="container">
         <div class="row">
             <div class="col-5">
-        </div>
+                </div>
 
             <div class="col-5">
                 <img id="choice" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/E788CFC0-2C6B-4413-978F-FD68FF882C5F.png" style="width:166.5px; height:83px;"><strong>을 선택해야하는 이유</strong><br>
@@ -37,7 +32,4 @@
         </div>
     </div>   
 
-
-
-
-
+</div>

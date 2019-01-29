@@ -54,6 +54,7 @@ background-repeat:no-repeat;
     height:21.6px;
 }
 #notice_title{
+    margin-top:5%;
     font-size:20px;
     text-align:center;
     margin-bottom:13px;

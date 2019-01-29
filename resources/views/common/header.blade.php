@@ -19,7 +19,7 @@
         color: #707070;
     }
     #logo{
-        margin-left:80px;
+        margin-left:12%;
         padding: 10px 0px 20px  24px;
     }
 

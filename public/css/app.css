@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
-
-
+@import url(https://fonts.googleapis.com/css?family=Nunito);.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .row {
   display: -webkit-box;

@@ -115,7 +115,7 @@ input {
     padding-left:12px;
 }
 #horizen{
-    border:1px solid #3d3d3d;
+    border:2px solid #3d3d3d;
 }
 
     </style>
@@ -146,7 +146,12 @@ input {
           <hr id="horizen">
   
           <table id="notice_table">
-              <tr >
+              {{-- <tr id="title">
+                  <th>전체</th>
+                  <th>공지사항</th>
+                  <th>Q&A</th>
+              </tr> --}}
+              <tr>
                   <td id="notice"><div id="icon">공지</div></td>
                   <td id="content">MAKEIT 업무 휴무 공지. 5월 1일 근로자의 날</td>
               </tr>

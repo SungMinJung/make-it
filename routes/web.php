@@ -16,7 +16,6 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix'=>'Service','as'=>'service.'],function(){
@@ -30,13 +29,3 @@ Route::get('/Portfolio','PortfolioController@index')->name('portfolio');
 Route::get('/QandA','QnaController@index')->name('qna');
 Route::get('/Contact_us','ContactusController@index')->name('contact');
 // Route::get('/Portfolio','')
-Route::get('/app',function(){
-    return view('layouts.app');
-});
-
-Route::get('/main', function() {
-    return view('main.index');
-});
-Route::get('/dropdown',function(){
-    return view('prac.dropdown2');
-});

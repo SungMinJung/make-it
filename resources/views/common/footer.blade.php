@@ -8,6 +8,7 @@
     height:337px;
     text-align:left;
     color:white;
+    width:1920px;
     
     
 }

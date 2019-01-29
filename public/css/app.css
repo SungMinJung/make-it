@@ -1,4 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);.container {
+@import url(https://fonts.googleapis.com/css?family=Nunito);* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
   width: 1200px;
   margin: 0 auto;
 }

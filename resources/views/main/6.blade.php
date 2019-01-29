@@ -49,7 +49,7 @@ p{
             <br>
              Always Successful Partner with Clients.</strong></p></h4><br>
             <br>
-            <button type="submit" class="btn blue" style="margin:0px auto;">CONTACT US</button>
+            <button type="submit" class="btn blue" style="margin:0px auto;" onclick="location.href='/Contact_us'">CONTACT US</button>
         </div>
     </div>
 </div>

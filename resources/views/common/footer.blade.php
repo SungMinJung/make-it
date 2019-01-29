@@ -2,48 +2,49 @@
     /* *{
   padding:0px;
   margin:0px;
-} */
-#footer{
+ } */
+ #footer{
     background: #3d3d3d;
     height:337px;
     text-align:left;
     color:white;
-    
-    
-}
-#footerlogo{
+    width:1920px;
+ 
+ 
+ }
+ #footerlogo{
     margin: 61px 20px 137px 0;
-}
-#foo #title{
+ }
+ #foo #title{
     font-size: 20px;
     font-weight:bold;
     padding-top:45px;
     padding-bottom:-30px;
-}
-#foo{
-}
-.foo_content{
+ }
+ #foo{
+ }
+ .foo_content{
     /* line-height:29px; */
     /* font-family:NotoSans-Light; */
     font-weight:lighter;
     font-size: 15px;
     margin-top:-40px;
     /* padding-top:-20px; */
-    
-
-}
-#data{
+ 
+ 
+ }
+ #data{
     /* margin:0px; */
     font-size: 15px;
-    padding:101px 0 156px 0;
+    padding:60px 0 156px 0;
     font-weight:lighter;
-}
-/* #sns{
+ }
+ /* #sns{
     padding: 4px 0 4px 0 ;
-} */
-</style>
-
-<div>
+ } */
+ </style>
+ 
+ <div>
     <div id="footer">
         <div class="container">
             <div class="row">
@@ -61,7 +62,7 @@
                     <p>Contact us</p>
                 </div>
                 </div>
-
+ 
                 <div class="col-1" id="foo">
                         <p id="title">SERVICE</p><br>
                         <div class="foo_content">
@@ -69,7 +70,7 @@
                         <p>Website</p>
                         <p>Responsive</p>                        </div>
                     </div>
-
+ 
                     <div class="col-1" id="foo">
                             <p id="title">CONTACT</p><br>
                             <div class="foo_content">
@@ -79,7 +80,7 @@
                             <p>사업자등록번호</p>
                             </div>
                         </div>
-
+ 
                         <div id="data" class="col-3" >
                                 <p>02-6-81-1933</p>
                                 <p>contact@make-it.co.kr</p>
@@ -91,9 +92,9 @@
                         <a href="https://www.facebook.com/"> <img style="padding-top: 6px;" src="/img/facebook.png" alt=""></a><br>
                         <a href="https://twitter.com/?lang=en"> <img style="padding-top: 6px;" src="/img/twitter.png" alt=""></a>
                     </div>
-
+ 
     </div>
     </div>
     </div>
-
-</div>
+ 
+ </div>\

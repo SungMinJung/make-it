@@ -33,3 +33,7 @@ Route::get('/Contact_us','ContactusController@index')->name('contact');
 Route::get('/app',function(){
     return view('layouts.app');
 });
+
+Route::get('/main', function() {
+    return view('main.index');
+});

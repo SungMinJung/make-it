@@ -19,7 +19,7 @@
         color: #707070;
     }
     #logo{
-        margin-left:80px;
+        margin-left:12%;
         padding: 10px 0px 20px  24px;
     }
 
@@ -48,11 +48,11 @@ display: none;
 
  #navBar1 ul li a {
  display: block;
-
  text-decoration: none;
  font-family: Tahoma, Geneva, sans-serif;
  text-align:right;
  padding-left:16px;
+ padding-top:-9px;
  }
  #navBar1 ul li a:hover {
  color: black;

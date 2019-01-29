@@ -12,11 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('main/5');
+    return view('main.index');
 });
 
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix'=>'Service','as'=>'service.'],function(){
@@ -35,13 +34,3 @@ Route::post('/Contact_us','ContactusController@store')->name('contact.store');
 Route::get('/Contact_us/{id}','ContactusController@show')->name('contact.show');
 Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.destroy');
 // Route::get('/Portfolio','')
-Route::get('/app',function(){
-    return view('layouts.app');
-});
-
-Route::get('/main', function() {
-    return view('main.index');
-});
-Route::get('/dropdown',function(){
-    return view('prac.dropdown2');
-});

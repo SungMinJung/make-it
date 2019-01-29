@@ -52,7 +52,7 @@
                     <img id="footerlogo" src="/img/footer.png" alt="">
                 </div>
                 <div class="col-1" id="foo">
-                    <p id="title">LINK</p><br>
+                    <p id="foo_title">LINK</p><br>
                     <div class="foo_content">
                     <p>Home</p>
                     <p>Aboutus</p>
@@ -64,7 +64,7 @@
                 </div>
  
                 <div class="col-1" id="foo">
-                        <p id="title">SERVICE</p><br>
+                        <p id="foo_title">SERVICE</p><br>
                         <div class="foo_content">
                         <p>Application</p>
                         <p>Website</p>
@@ -72,7 +72,7 @@
                     </div>
  
                     <div class="col-1" id="foo">
-                            <p id="title">CONTACT</p><br>
+                            <p id="foo_title">CONTACT</p><br>
                             <div class="foo_content">
                             <p>Tel</p>
                             <p>Email</p>

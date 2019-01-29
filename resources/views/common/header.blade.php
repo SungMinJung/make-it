@@ -10,7 +10,12 @@
         padding:36px 0px 36px 0px;
         /* font-family: NotoSansCJKkr-Regular; */
         font-size:20px;
-        color:#707070;
+        color:#707070 !important;
+        text-decoration: none;
+    }
+    #menu a{
+        text-decoration: none;
+        color: #707070;
     }
     #logo{
         padding: 10px 0px 20px  24px;
@@ -40,8 +45,8 @@ display: none;
  #navBar1 ul li {
  display: block;
  float: left;
- padding-top: 9px;
- padding-bottom: 9px;
+ /* padding-top: 9px;
+ padding-bottom: 9px; */
 } 
 
 
@@ -51,18 +56,26 @@ display: none;
 
  text-decoration: none;
  font-family: Tahoma, Geneva, sans-serif;
+ text-align:right;
+ padding-left:16px;
  }
  #navBar1 ul li a:hover {
  color: black;
- text-decoration: underline;}
+ /* text-decoration: underline; */
+ text-decoration: none;
+}
+
 
  #navBar1 ul ul {
+
  position: absolute;
- top: 42px;
+ /* top: 42px; */
+ top: 30px;
  /* background:url(menuDropBG.png); */
  background: rgb(255,255,255);
- opacity:0.5;
- width: 310px;
+ opacity:1;
+ width: 487px;
+ height:48px;
  border: thin solid #849c92;
  font-size: 70%;
  display: none;}
@@ -71,10 +84,13 @@ display: none;
  position: absolute;
  display: block;
  border-radius:30px;
+ text-decoration:none;
 }
 
  #navBar1 ul ul li {
-    padding: 11px 11px 11px 11px;
+     /* width:487px; */
+     /* height:48px; */
+    padding: 11px 15px 12px 0px;
  /* padding: 0;
  padding-top: 3px;
  padding-bottom: 2px; */
@@ -82,7 +98,10 @@ display: none;
 
  #navBar1 ul ul li a {
  border: none;
- color: red;}
+ color: #707070;
+ font-size:17px;
+ /* font-weight:bold; */
+}
 
 </style>
 <div class="container">
@@ -101,17 +120,14 @@ display: none;
             <div id="menu" class="col-1">
                     <div id = "navBar1">
                             <ul>
-                            <li class = "headerList1"> <span> <a href="#"> Service </a> </span>
+                            <li class = "headerList1"> <span> <a href="#">Service
+                                <img src="/img/dropdown.png" alt="">  </a> </span>
                             <ul>
-                            <li> <a href="#"> Basics </a> </li>
-                            <li> <a href="#"> Links </a> </li>
-                            <li> <a href="#"> Images </a> </li>
-                           <li> <a href="#"> Lists </a> </li>
-                            <li> <a href="#"> Forms </a> </li>
+                            <li> <a href="{{route('service.web')}}"> WebSite </a> </li>
+                            <li> <a href="{{route('service.mobile')}}"> Mobile Application </a> </li>
+                            <li> <a href="{{route('service.responsive')}}"> Responsive Website </a> </li>
                             </ul>
                             </li>
-            
-
                                 
                             
                             </ul>

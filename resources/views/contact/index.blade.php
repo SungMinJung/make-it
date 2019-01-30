@@ -1,6 +1,6 @@
 @extends('layouts.app')
 <head>
-<script src="https://maps.googleapis.com/maps/api/js?sensor=AIzaSyBYR3HOUCckMRzV1ko1HnAudr2k8WkZXhs"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYR3HOUCckMRzV1ko1HnAudr2k8WkZXhs"></script>
 </head>
 @section('content')
     

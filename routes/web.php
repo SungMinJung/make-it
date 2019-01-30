@@ -35,9 +35,3 @@ Route::get('/Contact_us/{id}','ContactusController@show')->name('contact.show');
 Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.destroy');
 // Route::get('/Portfolio','')
 
-Route::get('/back',function(){
-    return view('prac.back');
-});
-Route::get('/hello',function(){
-    return view('prac.hello');
-});

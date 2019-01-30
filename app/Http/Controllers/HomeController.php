@@ -26,8 +26,8 @@ class HomeController extends Controller
         $portfolio = [
             [
                 'link'=>'//naver.com',
-                'title'=>'재미니',
-                'main_image'=>'http://blogfiles.naver.net/20090722_123/auxxua_1248240560248tfj1y_gif/%BA%B0%B9%E8%B0%E6_auxxua.gif',
+                'title'=>'에어엔비',
+                'main_image'=>'//placehold.it/224x224',
                 'category'=>'app'
             ],
             [
@@ -54,6 +54,43 @@ class HomeController extends Controller
                 'main_image'=>'//placehold.it/224x224',
                 'category'=>'response'
             ],
+            [
+                'link'=>'//naver.com',
+                'title'=>'재미니2',
+                'main_image'=>'//placehold.it/224x224',
+                'category'=>'web'
+            ],
+            [
+                'link'=>'//naver.com',
+                'title'=>'재미니2',
+                'main_image'=>'//placehold.it/224x224',
+                'category'=>'response'
+            ],
+            [
+                'link'=>'//naver.com',
+                'title'=>'재미니재미니재미니재미니재미니재미니',
+                'main_image'=>'//placehold.it/224x224',
+                'category'=>'response'
+            ],
+            [
+                'link'=>'//naver.com',
+                'title'=>'재미니2',
+                'main_image'=>'//placehold.it/224x224',
+                'category'=>'response'
+            ],
+            [
+                'link'=>'//naver.com',
+                'title'=>'재미니2',
+                'main_image'=>'//placehold.it/224x224',
+                'category'=>'response'
+            ],
+            [
+                'link'=>'//naver.com',
+                'title'=>'재미니2',
+                'main_image'=>'//placehold.it/224x224',
+                'category'=>'response'
+            ],
+           
         ];
 
         // b:foreach ($portfolio as $item) {

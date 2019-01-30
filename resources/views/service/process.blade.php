@@ -11,7 +11,6 @@
         font-size:30px;
     }
     #title_ko{
-        margin-top:-2%;
         font-size:43px;
         font-weight:bold;
     }
@@ -78,12 +77,12 @@
         /* margin-top:60px; */
     }
     #sadari{
-        margin-top:99%;
-        margin-left:20%;
+        /* margin-top:99%;*/
+        margin-left:15%;
+        margin-top:7%; 
         z-index:2;
         position:absolute;
-        width:300px;
-        height:300px;
+  
 
     }
     .horizen_div{
@@ -103,7 +102,7 @@ margin: 0; padding: 0; width:100%; font-size: 0;
     <div class="bg">
         <div class="container">
             <div class="process">
-                {{-- <img id="sadari" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AC1C3FDE-C53E-4AFC-9A14-9D68087318A2.png" alt=""> --}}
+                <img id="sadari" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AC1C3FDE-C53E-4AFC-9A14-9D68087318A2.png" alt="">
                  <p id="title_en">Work Process</p>
                  <p id="title_ko">제작 과정</p>
 

@@ -146,6 +146,11 @@
   font-stretch: normal;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -428,10 +433,20 @@ ul.tab li.current {
   color: #3d3d3d;
   font-size: 30px;
   font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  position: relative;
+  right: 10px;
 }
 
-.freeserviceconent {
+.freeservicecontent {
   font-size: 20px;
   color: #3d3d3d;
+  position: relative;
+  right: 10px;
+}
+
+.lineadjust {
+  line-height: 2em;
 }
 

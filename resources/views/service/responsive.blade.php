@@ -104,7 +104,7 @@ $(document).ready(function(){
                         <div class="col-8">
                             <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
                                 기본 반응형 웹으로 내용이 복잡하지 않고 전체 15page 내외로 제작하시는 경우에 적합합니다.<br>
-                                빠른 제작 기간과 저렴한 가격을 원하시는 고객께 추천드리며 프랜차이즈 웹사이트, 회사소개 사이트, 이벤트 웹페이지, <br>
+                                빠른 제작 기간과 저렴한 가격을 원하시는 고객께 추천드리며 프랜차이즈 웹사이트, 회사소개 사이트, 이벤트 웹페이지,
                                 포트폴리오 사이트 등 소개 및 홍보 목적을 가진 사이트에 적합합니다.
                             </span>
                         </div>
@@ -189,24 +189,24 @@ $(document).ready(function(){
 
                 <div class="row" style="padding-top:66px;">
                     <p>
-                        <span class="servicesmall">Free Service</span><br>
-                        <span class="servicebig">웹 사이트 제작 시 7가지의 무료 서비스를 제공합니다.</span>
+                        <p class="servicesmall">Free Service</p><br>
+                        <p class="servicebig">웹사이트 제작 시 7가지의 무료 서비스를 제공합니다.</p>
                     </p>
-                    <div class="col-4">
+                    <div class="col-5">
                         <p class="freeservicetitle">1. 유지보수 1년 무상제공</p><br>
-                        <span class="freeservicecontent" style="position:relative;bottom:25px;">
+                        <p class="freeservicecontent lineadjust" style="bottom:25px;">
                             -간단한 텍스트 수정 및 이미지 교체 작업<br>
                             -홈페이지 최적화 유지<br>
                             -실시간 미러링(Mirroring) 1일 1회 백업 시스템 제공<br>
-                        </span>
+                        </p>
                     </div>
-                    <div class="col-6">
-                        <p class="freeservicetitle">2. 웹호스팅 1년 무상 제공</p>
+                    <div class="col-6" style="position:relative;bottom:15px;">
+                        <p class="freeservicetitle" >2. 웹호스팅 1년 무상 제공</p>
                         <span class="freeservicecontent">
                             -1년간 호스팅 무료지원(HDD 용량 500MB + 트랙픽 800MB 업그레이드 별도)
                         </span>
                     </div>
-                    <div class="col-6">
+                    <div class="col-7">
                         <p class="freeservicetitle">3. 도메인 1년 무료 등록 및 관리</p>
                         <span class="freeservicecontent">
                             -.com, .co.kr, .net, .kr 등 원하는 도메인으로 검색 등록 및 1년간 무료서비스 제공
@@ -221,23 +221,23 @@ $(document).ready(function(){
                     <div class="col-8">
                         <p class="freeservicetitle">5. 검색엔진 등록 지원 서비스</p>
                         <span class="freeservicecontent">
-                            구글, 네이버, 다음 등 포털 사이트에 회사명으로 쉽게 노출이 될 수 있도록 사이트 등록을 도와드립니다.<br>
+                            구글, 네이버, 다음 등 포털 사이트에 회사명으로 쉽게 노출이 될 수 있도록 사이트 등록을 도와드립니다.<br><br>
                             <span style="font-size:15px;font-weight:lighter;">*사이트 등록이란, 회사명을 검색하면 사이트 등록된 업체의 홈페이지 주소와
                             간략한 설명, 지도, 관련 앱문서 등 정보를 볼 수 있어서 고객들이 쉽게 회사 관련 정보를 찾을 수 있도록 하는 것을 말합니다.</span>
                         </span>
                     </div>
                     <div class="col-8">
                         <p class="freeservicetitle">6. 웹 표준 크로스 브라우징 무료 적용</p>
-                        <span class="freeservicecontent">
+                        <p class="freeservicecontent lineadjust">
                             주요 웹 브라우저(익스플로러, 크롬, 사파리, 파이어폭스 등)와 모바일 접속 시 웹 호환성을 고려하여 웹 표준 크로스
                             브라우징 코딩을 무료로 적용해드립니다. 각종 스마트폰(안드로이드, IOS) 및 아이패드, 갤럭시탭 등에서 PC에서 보여지는
                             것과 동일하게 서비스됩니다.
-                        </span>
+                        </p>
                     </div>
                     <div class="col-7" style="margin-bottom:70px;">
                         <p class="freeservicetitle">7. 기업메일 계정 무료 제공</p>
                         <span class="freeservicecontent">
-                            고객의 도메인으로 다음(Daum)의 무료 기업메일 계정을 쓰실 수 있도록 세팅하여 드립니다.<br>
+                            고객의 도메인으로 다음(Daum)의 무료 기업메일 계정을 쓰실 수 있도록 세팅하여 드립니다.<br><br>
                             <span style="font-size:15px;font-weight:lighter;">*네이버/구글은 유료이며 고객님 요청 시 연결 작업 가능</span>
                         </span>
                     </div>

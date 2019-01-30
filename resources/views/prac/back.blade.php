@@ -85,7 +85,7 @@ input {
 }
 
 #notice_table td{
-    /* border-bottom:2px solid #707070; */
+    border-bottom:2px solid #707070;
 }
 #notice_table #notice{
     padding:20px 2px 20px 10px;
@@ -115,7 +115,7 @@ input {
     padding-left:12px;
 }
 #horizen{
-    border:1px solid #3d3d3d;
+    border:2px solid #3d3d3d;
 }
 
     </style>
@@ -146,12 +146,15 @@ input {
           <hr id="horizen">
   
           <table id="notice_table">
-              <tr >
+              {{-- <tr id="title">
+                  <th>전체</th>
+                  <th>공지사항</th>
+                  <th>Q&A</th>
+              </tr> --}}
+              <tr>
                   <td id="notice"><div id="icon">공지</div></td>
                   <td id="content">MAKEIT 업무 휴무 공지. 5월 1일 근로자의 날</td>
               </tr>
-          <hr id="horizen">
-
               <tr>
                   <td id="question"> <img width="24" height="41" src="https://iconsplace.com/wp-content/uploads/_icons/0000ff/256/png/letter-q-icon-2-256.png" alt=""> </td>
                   <td id="content">계약을 체결한 뒤에 어떤 절차로 업무가진행되나요?</td>

@@ -7,12 +7,14 @@
         </div>
     </div>
     <div class="row" style="margin:30px 0 30px 0;">
+        <div class="col-5">
         <ul class="port-li">
             <li class="btn fil-cat" data-rel="all">All</li>
             <li class="btn fil-cat" data-rel="app">App</li>
             <li class="btn fil-cat" data-rel="web">Web</li>
             <li class="btn fil-cat" data-rel="response">Responsive</li>
         </ul>
+    </div>
     </div>
 
     

@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-5"></div>
-            <button type="submit" class="btn blue" style="margin:0px auto;margin-top:20px;" onclick="location.href='{{ url('/main') }}'">Portfolio</button>
+            <button type="submit" class="btn blue" style="margin:0px auto;margin-top:20px;" onclick="location.href='{{ url('/Portfolio') }}'">Portfolio</button>
         </div>
     </div>
 </div>

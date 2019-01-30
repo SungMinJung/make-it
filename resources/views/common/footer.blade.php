@@ -28,7 +28,6 @@
     /* font-family:NotoSans-Light; */
     font-weight:lighter;
     font-size: 15px;
-    margin-top:-40px;
     /* padding-top:-20px; */
     
 

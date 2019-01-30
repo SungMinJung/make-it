@@ -1,3 +1,4 @@
+@extends('layouts.app')
 <style>
 .bluetitle {
     font-weight: 500;
@@ -38,7 +39,7 @@
 }
 </style>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<div class="container" style="height:388px; padding-top:56px;">
+<div class="container">
     <div class="row" >  
         <div class="col-4">        
             <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/FCD5CFD2-1C45-498D-9782-5EE08604DF19.png" class="img">
@@ -49,7 +50,7 @@
             <br>
              Always Successful Partner with Clients.</strong></p></h4><br>
             <br>
-            <button type="submit" class="btn blue" style="margin:0px auto;" onclick="location.href='/Contact_us'">CONTACT US</button>
+            <button type="submit" class="btn blue" style="margin:0px auto;">CONTACT US</button>
         </div>
     </div>
 </div>

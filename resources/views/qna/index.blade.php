@@ -1,31 +1,59 @@
 @extends('layouts.app')
-<head>
+    <style>
+.qa {
+  background: url("https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/87914826-FC99-4754-96FB-EE7AFAAD5041.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 1920px;
+  height: 585px;
+  position: relative;
+  text-align: center;
+}
 
-</head>
-<style>
-    .qa{
-        width:1920px;
-        height:585px;
-        background:url('https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
-        /* margin-top:-70px; */
-        /* background-color */
-    }
-    .qa_content #ask{
-        text-align:center;
-        font-size:70px;
-        color:white;
-        font-weight:bold;
-        padding-top:133px;
-    }
-    .qa_content #it{
-        color: #0066ff;
-    }
-    .qa_form{
+.qa::before {
+  content: "";
+  display: block;
+  -moz-filter: blur(1px) brightness(0.5);
+  -ms-filter: blur(1px) brightness(0.5);
+  -o-filter: blur(1px) brightness(0.5);
+  filter: blur(1px) brightness(0.5);
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  background: inherit;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  padding-top: 50px;
+}
+
+.title {
+  font-family: arial;
+  font-size: 3em;
+  color: white;
+  font-weight: 900;
+  margin: 20px;
+}
+.title #it{
+  color:#0066ff;
+}
+
+.qa_form{
         text-align:center;
         line-height:20px;
     }
 
-    label {
+.qa_form #form1 img{
+    width:21.6px;
+    height:21.6px;
+}
+label {
     width:60px;
     float:left;
     font-size:12px;
@@ -45,25 +73,17 @@ input {
     border:1px solid #CCC;
     background:url('/img/search.jpg');
     background-position:top right; 
-
-background-repeat:no-repeat;
+  background-repeat:no-repeat;
 
 }
-.qa_form #form1 img{
-    width:21.6px;
-    height:21.6px;
-}
+/* 여기서부터는 테이블  */
 #notice_title{
     margin-top:5%;
     font-size:20px;
     text-align:center;
     margin-bottom:13px;
 }
-#notice_table{
 
-}
-#notice_table th{
-}
 #notice_table td{
     border-bottom:2px solid #707070;
 }
@@ -88,66 +108,55 @@ background-repeat:no-repeat;
 
 
 }
-#notice_table #question img{
-    
-}
+
 #notice_table #content{
 
     width:50%;
     padding-left:12px;
 }
 #horizen{
-    border:2px solid #3d3d3d;
+    border:1px solid #3d3d3d;
 }
 
-</style>
+    </style>
 @section('content')
 
-<div class="qa">
-    <div class="qa_content">
-        <p id="ask"> MAKE <span id="it"> IT </span> 에게 물어봐주세요</p>
-    </div>
+<body>
+    <div class='qa'>
+        <div class='content'>
+          <div class='title'><p id="ask"> MAKE <span id="it"> IT </span> 에게 물어봐주세요</p></div>
 
-    <div class="qa_form">
+     <div class="qa_form">
+      
+         <form id="form1" name="form1" method="post" action="">
+           <input name="name" id="name" type="text" style="background:url('/img/search.jpg');" /><br />
+       </form>
+   </div>
 
-            <form id="form1" name="form1" method="post" action="">
-                    <label for="name">Name:</label>
-                    {{-- <img src="https://st2.depositphotos.com/1007566/11948/v/950/depositphotos_119488544-stock-illustration-lupe-magnifying-glass-icon-vector.jpg" alt="">  --}}
-                        <input name="name" id="name" type="text" style="background:url('/img/search.jpg');" /><br />
-                    {{-- <input name="submit" type="button" value="Submit" /> --}}
-                    </form>
-
-    </div>
-</div>
-
-    <div class="container">
-        <div class="row" id="notice_title">
-            <div class="col-1">전체</div>
-            <div class="col-1">공지사항</div>
-            <div  class="col-1">Q&A</div>
         </div>
-        <hr id="horizen">
+      </div>
 
-        <table id="notice_table">
-            {{-- <tr id="title">
-                <th>전체</th>
-                <th>공지사항</th>
-                <th>Q&A</th>
-            </tr> --}}
-            <tr>
-                <td id="notice"><div id="icon">공지</div></td>
-                <td id="content">MAKEIT 업무 휴무 공지. 5월 1일 근로자의 날</td>
-            </tr>
-            <tr>
-                <td id="question"> <img width="24" height="41" src="https://iconsplace.com/wp-content/uploads/_icons/0000ff/256/png/letter-q-icon-2-256.png" alt=""> </td>
-                <td id="content">계약을 체결한 뒤에 어떤 절차로 업무가진행되나요?</td>
-            </tr>
+{{--  --}}
+      <div class="container">
+          <div class="row" id="notice_title">
+              <div class="col-1">전체</div>
+              <div class="col-1">공지사항</div>
+              <div  class="col-1">Q&A</div>
+          </div>
+          <hr id="horizen">
+  
+          <table id="notice_table">
+              <tr >
+                  <td id="notice"><div id="icon">공지</div></td>
+                  <td id="content">MAKEIT 업무 휴무 공지. 5월 1일 근로자의 날</td>
+              </tr>
 
-        </table>
-
-    </div>
-
-
-
-          
+              <tr>
+                  <td id="question"> <img width="24" height="41" src="https://iconsplace.com/wp-content/uploads/_icons/0000ff/256/png/letter-q-icon-2-256.png" alt=""> </td>
+                  <td id="content">계약을 체결한 뒤에 어떤 절차로 업무가진행되나요?</td>
+              </tr>
+  
+          </table>
+  
+      </div>
 @endsection

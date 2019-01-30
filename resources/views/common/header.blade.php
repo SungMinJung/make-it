@@ -14,6 +14,9 @@
         color:#707070 !important;
         text-decoration: none;
     }
+    #menu a:hover{
+        color:#0066ff;
+    }
     #menu a{
         text-decoration: none;
         color: #707070;
@@ -55,7 +58,7 @@ display: none;
  padding-top:-9px;
  }
  #navBar1 ul li a:hover {
- color: black;
+ color: #0066ff;
  text-decoration: none;
 }
 
@@ -98,7 +101,7 @@ display: none;
     
         <div class="row" id="header">
             <div id="logo" class="col-3">
-                        <img id="logo" src="/img/logo.png" alt="">
+                        <a href="home"> <img id="logo" src="/img/logo.png" alt=""></a>
 
             </div>
             <div id="menu" class="col-1" style="color:#0066ff">

@@ -9,17 +9,15 @@
     text-align:left;
     color:white;
     width:1920px;
- 
- 
  }
  #footerlogo{
     margin: 61px 20px 137px 0;
  }
- #foo #title{
+ #foo #foo_title{
     font-size: 20px;
     font-weight:bold;
     padding-top:45px;
-    padding-bottom:-30px;
+    /* padding-bottom:-30px; */
  }
  #foo{
  }
@@ -28,7 +26,7 @@
     /* font-family:NotoSans-Light; */
     font-weight:lighter;
     font-size: 15px;
-    margin-top:-40px;
+    /* margin-top:-36%; */
     /* padding-top:-20px; */
  
  
@@ -36,7 +34,8 @@
  #data{
     /* margin:0px; */
     font-size: 15px;
-    padding:60px 0 156px 0;
+    /* padding:60px 0 156px 0; */
+    padding-top:100px;
     font-weight:lighter;
  }
  /* #sns{

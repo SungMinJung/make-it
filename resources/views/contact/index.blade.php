@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+<head>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYR3HOUCckMRzV1ko1HnAudr2k8WkZXhs"></script>
+</head>
 @section('content')
     
 <style>
@@ -60,8 +62,10 @@ textarea {
 
 </style>
 
-<script src="http://code.jquery.com/jquery-1.7.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+{{-- <script src="http://code.jquery.com/jquery-1.7.js"></script>
+<script src="http://maps.google.com/maps/api/js?sensor=AIzaSyBYR3HOUCckMRzV1ko1HnAudr2k8WkZXhs"></script> --}}
+
+
 <script>
 var myCenter=new google.maps.LatLng(37.482189, 126.996703);
 

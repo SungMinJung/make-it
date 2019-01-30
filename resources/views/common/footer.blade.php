@@ -28,6 +28,7 @@
     /* font-family:NotoSans-Light; */
     font-weight:lighter;
     font-size: 15px;
+    margin-top:-36%;
     /* padding-top:-20px; */
  
  
@@ -35,7 +36,8 @@
  #data{
     /* margin:0px; */
     font-size: 15px;
-    padding:60px 0 156px 0;
+    /* padding:60px 0 156px 0; */
+    padding-top:100px;
     font-weight:lighter;
  }
  /* #sns{

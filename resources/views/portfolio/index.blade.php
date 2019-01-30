@@ -22,7 +22,7 @@
 <div class="container reldiv">
     <div class="row" style="margin-top:50px;">
         
-        <img src="//placehold.it/166x83">
+        <img src="/image/sublogo.png" alt="">
         <div class="reldiv">
             <p class="port-title">포트폴리오</p>
         </div>

@@ -12,7 +12,11 @@
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
     return view('main.index');
+=======
+    return view('about/index');
+>>>>>>> dongwook
 });
 
 Auth::routes();

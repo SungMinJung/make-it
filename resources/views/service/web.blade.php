@@ -97,9 +97,16 @@ ul.tab li.current{
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 $(document).ready(function(){
-    $('.tab li a').first().css('color','#0066ff');
-    // $('.tab li').each(function(index,elem))
-    $('.tab li a').click(function() {
+ 
+    $('.tab li a').each(function(index,elem){
+        $(elem).click(function(){
+            $('.tab li').children().css('color','#3d3d3d');
+            $(elem).css('color',' #0066ff');
+        })
+       
+    })
+
+    $('.tab li').click(function() {
         var activeTab = $(this).attr('data-tab');
         $('.tab li').removeClass('current');
         $('.tabcontent').removeClass('current');

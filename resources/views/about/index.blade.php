@@ -149,11 +149,11 @@ img.img{
         </div>
          <div class="col-1"></div>
          <div class="col-4">
-            <h4><p id="solution"><strong>항상 최고의 솔루션을 제공합니다.<br>
+            <h2><p id="solution"><strong>항상 최고의 솔루션을 제공합니다.<br>
             <br>
-             Always Successful Partner with Clients.</strong></p></h4><br>
+             Always Successful Partner with Clients.</strong></p></h2><br>
             <br>
-            <button type="submit" class="btn blue" style="margin:0px auto;" onclick="location.href='/Contact_us'">CONTACT US</button>
+            <button type="submit" class="btn blue" style="position:relative; left:80px; top:-30px;" onclick="location.href='/Contact_us'">CONTACT US</button>
         </div>
     </div>
 </div>

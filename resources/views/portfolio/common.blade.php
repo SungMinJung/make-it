@@ -1,3 +1,4 @@
+@extends('layouts.app')
 <style>
 .bluetitle {
     font-weight: 500;

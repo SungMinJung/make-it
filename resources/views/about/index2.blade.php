@@ -1,3 +1,4 @@
+@extends('layouts.app')
 <style>
 img.img{
     padding: 20px; 30px; 30px; 40px;
@@ -33,7 +34,8 @@ img.img{
     height: 1500px;
     background-color: var(--white);
 }
-</style>    
+</style>
+@section('content')    
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <div class="row" style="background-image:url('/image/mask36.jpg'); width:1920px; height:695px;">
         <div class="container"> 
@@ -64,3 +66,4 @@ img.img{
             </div>
         </div>
     </div>
+@endsection

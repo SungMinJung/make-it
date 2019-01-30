@@ -57,14 +57,17 @@
 </div>
 <div class="row part" style="height:502px;">
     <div class="container">
-        <div class="row" style="padding-top:35px;">
+        <div class="row" style="padding:35px 0 55px 0; ">
             <img src="/image/sublogo.png" alt="">
             
             <div class="reldiv" style="">
                 <span class="port-title">와 인연이 닿은 파트너</span>
             </div>
         </div>
+        <div class="row">
+            <img src="/image/part-group.png">
+        </div>
     </div>
 </div>
-@include()
+@include('main.6')
 @endsection

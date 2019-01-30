@@ -38,7 +38,7 @@
 }
 </style>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<div class="container">
+<div class="container" >
     <div class="row" >  
         <div class="col-4">        
             <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/FCD5CFD2-1C45-498D-9782-5EE08604DF19.png" class="img">

@@ -41,7 +41,7 @@
         <div class="container"> 
             <h1><p><strong>Mobile Appilcation</h1></strong>
             <h4>모바일 어플리케이션</p></h4><br>
-            <button type="submit" class="btn gray" style="margin:0px auto;">자세히 알아보기</button>
+            <button type="submit" class="btn gray" style="margin:0px auto;" onclick="location.href='{{ route('service.mobile') }}'">자세히 알아보기</button>
         </div>
     </div>
 
@@ -49,7 +49,7 @@
         <div class="container"> 
             <h1><p><strong>Website</p></h1></strong>
             <h4><p>웹사이트</p></h4><br>
-            <button type="submit" class="btn gray" style="margin:0px auto;">자세히 알아보기</button>
+            <button type="submit" class="btn gray" style="margin:0px auto;" onclick="location.href='{{ route('service.web') }}'">자세히 알아보기</button>
         </div>
     </div>
     
@@ -57,6 +57,6 @@
         <div class="container"> 
             <h1><p><strong>Responsive Website</p></h1></strong>
             <h4><p>반응형 웹사이트</p></h4><br>
-            <button type="submit" class="btn gray" style="margin:0px auto;">자세히 알아보기</button>
+            <button type="submit" class="btn gray" style="margin:0px auto;" onclick="location.href='{{ route('service.responsive') }}'">자세히 알아보기</button>
         </div>
     </div>

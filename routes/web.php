@@ -33,4 +33,7 @@ Route::get('/Contact_us','ContactusController@index')->name('contact');
 Route::post('/Contact_us','ContactusController@store')->name('contact.store');
 Route::get('/Contact_us/{id}','ContactusController@show')->name('contact.show');
 Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.destroy');
+Route::get('/hi', function() {
+    return view('contact.aftersend');
+});
 // Route::get('/Portfolio','')

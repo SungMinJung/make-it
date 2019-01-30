@@ -44,6 +44,18 @@ input[type=text] {
     margin:10px 0px 10px 0px;
 }
 
+input[type=email] {
+    border-bottom-color: #ffffff;
+    border-width: 1px;
+    font-size: 20px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffffff;
+    margin:10px 0px 10px 0px;
+}
+
 textarea {
     font-size: 20px;
     width:100%;
@@ -137,7 +149,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
         
                     <div class="row">
                         <div class="col-2">
-                            <input type="text" name="contact_email" placeholder="Email Address">
+                            <input type="email" name="contact_email" placeholder="Email Address">
                         </div>
                         <div class="col-2">
                             <input type="text" name="contact_refsite" placeholder="Reference Site or App">

@@ -37,7 +37,7 @@ class ContactusController extends Controller
         ]);
         $contactus->save();
 
-        return redirect()->route('contact');
+        return view('contact.aftersend');
     }
 
     public function show($id) 

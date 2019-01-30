@@ -117,26 +117,45 @@ $(document).ready(function(){
 });
 </script>
 <div class="row" style="background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/4EDDC055-F8A6-44F9-8923-ADD2729E4BFB.png');width:1920px;height:733px;margin:0px auto;">
-    <div class="row">
-        <div class="col-5"></div>
-        <div class="col-5">
-            <span class="servicesmall" style="color:#ffffff;">Website Development</span><br>
-            <span class="servicebig" style="color:#ffffff;">웹사이트 개발 및 제작</span>
+    <div class="container">
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-5" style="margin-top:200px;">
+                <span class="servicesmall" style="color:#ffffff;">Website Development</span><br>
+                <span class="servicebig" style="color:#ffffff;">웹사이트 개발 및 제작</span>
+            </div>
         </div>
-        <div class="col-5"></div>
-        <div class="col-5">
-            <span class="workprocesscontent" style="color:#ffffff;">
-                비즈니스 목적에 맞는 경쟁력있는 웹사이트를 제작합니다.<br>
-                고객의 니즈를 정확하게 이해하고 최신 트렌드를 반영한 웹사이트 제작을 목표로 합니다.
-            </span>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-5" style="margin:40px 0px 40px 0px;position:relative;left:10px;">
+                <span class="workprocesscontent" style="color:#ffffff; white-space:nowrap">
+                    비즈니스 목적에 맞는 경쟁력있는 웹사이트를 제작합니다.<br>
+                    고객의 니즈를 정확하게 이해하고 최신 트렌드를 반영한 웹사이트 제작을 목표로 합니다.
+                </span>
+            </div>
         </div>
-        <hr class="col-1" style="width:4px;color:#ffffff;" noshade>
-        <span style="color:#ffffff;font-size:17px;font-weight:600">Website Category</span>
-        <span class="workprocesscontent" style="color:#ffffff;">
-            Arts &amp; Entertainment · Community · Education · Events · Health &amp; Fitness ·
-            Hospitality &amp; Tourism · Personal · Property &amp; Construction · E-COMMERCE · 
-            Fashion · Music · Food · Travel · Beauty · Living · Services etc
-        </span>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-1">
+                <hr style="border-width:4px;color:#ffffff;" noshade>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-2" style="margin-top:5px;margin-bottom:15px;">
+                <span style="color:#ffffff;font-size:17px;font-weight:600">Website Category</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-4">
+                <span class="workprocesscontent" style="color:#ffffff;">
+                    Arts &amp; Entertainment · Community · Education · Events · Health &amp; Fitness ·
+                    Hospitality &amp; Tourism · Personal · Property &amp; Construction · E-COMMERCE · 
+                    Fashion · Music · Food · Travel · Beauty · Living · Services etc
+                </span>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -160,7 +179,7 @@ $(document).ready(function(){
             <div id="tab1" class="tabcontent current">
                 <div class="row">
                     <div class="col-1">
-                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;position:relative;top:35px;" noshade>
+                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;" noshade>
                     </div>
                     <div class="col-9" style="position:relative;right:10px;">
                         <p>

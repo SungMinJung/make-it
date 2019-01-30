@@ -73,6 +73,10 @@
   cursor: pointer;
 }
 
+.port-li li:hover {
+  color: #0066FF;
+}
+
 #portfolio {
   margin: 1rem 0;
   -webkit-column-count: 3;

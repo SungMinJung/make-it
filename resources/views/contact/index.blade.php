@@ -44,6 +44,18 @@ input[type=text] {
     margin:10px 0px 10px 0px;
 }
 
+input[type=email] {
+    border-bottom-color: #ffffff;
+    border-width: 1px;
+    font-size: 20px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffffff;
+    margin:10px 0px 10px 0px;
+}
+
 textarea {
     font-size: 20px;
     width:100%;
@@ -108,15 +120,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
                         Email<br><br>
                         Address
                     </div>
-                    <div class="col-2 contactinfo" style="white-space:nowrap;">
+                    <div class="col-1 contactinfo" style="white-space:nowrap;">
                         02 - 6081 - 1933<br><br>
                         contact@make-it.co.kr<br><br>
                         서울시 서초구 방배로89 성지빌딩 402호
                     </div>
                 </div>
                 <div class="row" style="margin-left:100px;">
-                    <img src="/img/insta.png" alt="" style="margin-right:10px;">
-                    <img src="/img/facebook.png" alt="" style="margin-right:10px;">
+                    <img src="/img/insta.png" alt="" style="margin-right:20px;">
+                    <img src="/img/facebook.png" alt="" style="margin-right:20px;">
                     <img src="/img/twitter.png" alt="">
                 </div>
             </div>
@@ -137,7 +149,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
         
                     <div class="row">
                         <div class="col-2">
-                            <input type="text" name="contact_email" placeholder="Email Address">
+                            <input type="email" name="contact_email" placeholder="Email Address">
                         </div>
                         <div class="col-2">
                             <input type="text" name="contact_refsite" placeholder="Reference Site or App">
@@ -151,13 +163,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
                             <textarea name="contact_content" placeholder="Message" style="width:100%"></textarea>
                         </div>
                     </div>
+                    <div class="col-2"></div>
+                    <button type="submit" class="btn blue" style="margin-left:245px;margin-top:50px;">Send</button>
+                </form>
             </div>
         </div>
-        <div class="row"><br></div>
-        <div class="col-9">
-            <button type="submit" class="btn blue" style="float:right">Send</button>
-        </div>
-                </form>
     </div>
 </div>
 

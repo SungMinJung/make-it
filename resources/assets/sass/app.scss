@@ -15,7 +15,7 @@
 
 @import 'portfolio';
 
-// p { margin: 0; padding: 0;}
+p { margin: 0; padding: 0;}
 // *{
 //   outline:1px solid red;
 //   padding:0px;
@@ -75,3 +75,5 @@
 .col-10{ width:1180px; margin:0 20px 0 20px; }
 
 @import 'maintop.scss';
+
+@import 'service.scss';

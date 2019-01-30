@@ -3,11 +3,6 @@
 img.img{
     padding: 20px; 30px; 30px; 40px;
 }
-.bluetitle {
-    font-weight: 500;
-    color: #0066FF;
-    
-}
 
 .btn {
   
@@ -47,17 +42,6 @@ img.img{
     font-weight: bold;
 }
 
-.blue {
-    border-color: #0066FF;
-    background-color: #ffffff;
-    color:#0066FF;
-}
-
-.blue:active {
-    background-color: #0066FF;
-    color: #ffffff;
-}
-
 .gray {
     background-color: #ffffff;
     color: #3d3d3d;
@@ -85,22 +69,22 @@ img.img{
     <div class="row">
         <div class="container">
             <div class="col-4">
-                <img id="" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/E788CFC0-2C6B-4413-978F-FD68FF882C5F.png" style="width:166.5px; height:83px;"><strong>를 이끌어나가는 사람들</strong><br>
+                <img id="" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/E788CFC0-2C6B-4413-978F-FD68FF882C5F.png" style="width:166.5px; height:83px; margin-top:40px;"><strong>를 이끌어나가는 사람들</strong><br>
             </div>
             <div class="row">
-                <div class="col-2" style="text-align:center; font-size:15px;">
+                <div class="col-2" style="text-align:center; font-size:15px;margin-bottom:100px;">
                 <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/7514DEC9-776B-4113-BD77-BE2B6854FFA2.png" style="width:224px; height:224px;" class="img">
                 <strong>KIM JINHYUNG</strong><br>
                 <strong>MAKEIT 대표</strong><br>
                 </div>
                 <div class="col-2"></div>
-                <div class="col-2"style="text-align:center; font-size:15px;">
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
                 <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/B95EFB51-D909-4990-8586-AF88A072F67C.png" style="width:224px; height:224px;" class="img">
                 <strong>KIM SEONGYEOM</strong><br>
                 <strong>MAKEIT 기획/디자인 팀장</strong><br>
                 </div>
                 <div class="col-2"></div>
-                <div class="col-2"style="text-align:center; font-size:15px;">
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
                 <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/2A50D7AA-02B8-4EAF-9663-3BBCC4D6253A.png" style="width:224px; height:224px;" class="img">
                 <strong>KANG</strong><br>
                 <strong>MAKEIT 개발 팀장</strong><br>
@@ -109,15 +93,15 @@ img.img{
         </div>
     </div>
         
-    <div class="row" style="background-color:lightgray">
+    <div class="row" style="background-color:lightgray;">
     <div class="container">
         <div class="col-4">
-            <img id="" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/E788CFC0-2C6B-4413-978F-FD68FF882C5F.png" style="width:166.5px; height:83px;"><strong>작업필드</strong><br>
+            <img id="" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/E788CFC0-2C6B-4413-978F-FD68FF882C5F.png" style="width:166.5px; height:83px;margin-top:40px;"><strong>작업필드</strong><br>
         </div>
     </div>
     <div class="container">
     <div class="row">
-        <div class="col-5" style="margin-bottom:10px; position:relative; background:#707070;">
+        <div class="col-5" style=" margin-top:20px; margin-bottom:10px; position:relative; background:#707070;">
             <img id=""src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/5254EE88-94F6-4492-AC0B-FE14E65C03B1.png">
             <p style="position:absolute; top:20px; left:270px; text-align:center; font-size:25px; color:white;">WEB SERVICE</p><br>
             <p style="position:absolute; top:70px; left:270px;  text-align:center; font-size:20px; color:white;">- 홈페이지 제작</p>
@@ -126,7 +110,7 @@ img.img{
             <p style="position:absolute; top:130px; left:270px; text-align:center; font-size:20px; color:white;">- 프렌차이즈 홈페이지 제작</p>
             <p style="position:absolute; top:150px; left:270px; text-align:center; font-size:20px; color:white;">- 고객 맞춤형 홈페이지 제작</p>
         </div>
-        <div class="col-5" style="margin-left:0px; margin-bottom:10px; position:relative; background:#707070;">
+        <div class="col-5" style="margin-top:20px;margin-left:0px; margin-bottom:10px; position:relative; background:#707070;">
             <img id="" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/4E05FA52-102E-4DAE-B953-F86C514FDD33.png">
             <p style="position:absolute; top:20px; left:270px; text-align:center; font-size:25px; color:white;">MOBILE/APPLICATION</p><br>
             <p style="position:absolute; top:70px; left:270px; text-align:center; font-size:20px; color:white;">- 아이폰,안드로이드 앱 제작</p>
@@ -165,11 +149,11 @@ img.img{
         </div>
          <div class="col-1"></div>
          <div class="col-4">
-            <h4><p id="solution"><strong>항상 최고의 솔루션을 제공합니다.<br>
+            <h2><p id="solution"><strong>항상 최고의 솔루션을 제공합니다.<br>
             <br>
-             Always Successful Partner with Clients.</strong></p></h4><br>
+             Always Successful Partner with Clients.</strong></p></h2><br>
             <br>
-            <button type="submit" class="btn blue" style="margin:0px auto;" onclick="location.href='/Contact_us'">CONTACT US</button>
+            <button type="submit" class="btn blue" style="position:relative; left:80px; top:-30px;" onclick="location.href='/Contact_us'">CONTACT US</button>
         </div>
     </div>
 </div>

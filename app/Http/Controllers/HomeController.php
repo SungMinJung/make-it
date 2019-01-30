@@ -97,6 +97,6 @@ class HomeController extends Controller
         //     {{ $item->name }}
         //     {{ $item['name'] }}
         // }
-        return view('welcome',compact('portfolio'));
+        return view('main.index',compact('portfolio'));
     }
 }

@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('Aboutus/Aboutus');
+    return view('about/index');
 });
 
 Auth::routes();

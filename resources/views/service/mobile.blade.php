@@ -1,97 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
- 
-<style>
 
-.tab {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    /* overflow: hidden; */
-}
-
-.tab li {
-    display: inline;
-    margin-left: 100px;
-
-}
-
-.tab li a {
-    display: inline-block;
-    color: #3d3d3d;
-    text-align: center;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: bold;
-    transition:0.3s;
-}
-
-.tabcontent {
-    display: none;
-    background-color: #ffffff;
-    color: #3d3d3d;
-    border-bottom-color: #0066ff;
-    padding-top: 50px;
-}
-
-.clear {
-    clear: both;
-}
-
-ul.tab li.current{
-    background-color: #ffffff;
-    color: #0066ff;
-    border-bottom-color: #0066ff;
-}
-
-
-
-.tabcontent.current {
-    display: block;
-    color: #3d3d3d;
-}
-
-.servicesmall {
-    font-size: 30px;
-    color: #3d3d3d;
-}
-
-.servicebig {
-    font-size: 43px;
-    color: #3d3d3d;
-    font-weight: bold;
-}
-
-.workprocesstitle {
-    font-size:25px;
-    color: #707070;
-    font-weight: bold;
-}
-
-.workprecesscontent {
-    color: #3d3d3d;
-    font-size: 15px;
-    font-weight: lighter;
-}
-
-.workprocesslist {
-    list-style-type: circle;
-    color: #0066ff;
-}
-
-.freeservicetitle {
-    color: #3d3d3d;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.freeserviceconent {
-    font-size: 20px;
-    color: #3d3d3d;
-}
-
-</style>
 
 {{-- 가로 리스트 생성 jquery --}}
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -210,6 +120,7 @@ $(document).ready(function(){
                     </div>
                 </div>
                 
+                {{-- 삭제필요 --}}
                 <div class="row" style="padding-top:66px;background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/3C72508A-4667-40E8-A6C6-05C388169C6F.png');">
                     <p>
                         <span class="servicesmall">Work Process</span><br>
@@ -274,6 +185,8 @@ $(document).ready(function(){
                         <li>서비스 종료</li>
                     </ul>
                 </div>
+                {{-- 삭제필요 --}}
+
                 <div class="row" style="padding-top:66px;">
                     <p>
                         <span class="servicesmall">Free Service</span><br>

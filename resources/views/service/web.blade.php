@@ -210,70 +210,7 @@ $(document).ready(function(){
                         </div>
                     </div>
                 </div>
-                <div class="row" style="padding-top:66px;background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/3C72508A-4667-40E8-A6C6-05C388169C6F.png');">
-                    <p>
-                        <span class="servicesmall">Work Process</span><br>
-                        <span class="servicebig">제작 과정</span>
-                    </p>
-                    <p class="workprocesstitle">1. 클라이언트와 미팅</p>
-                    <p class="workprocesscontent">
-                        프로젝트를 진행하기 전 고객의 홈페이지의 목적과 요구사항 및 구성을 정의하고 다양한 레퍼런스와 
-                        경쟁사를 분석하여 고객만의 차별성있는 사이트를 제작하기 위해 리서치를 진행합니다. 컨설팅 후, 이를 토대로 기획/디자인/프로그래밍 
-                        등에 대한 작업량과 인력 등 견적을 산출한 후 계약을 진행합니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>고객의 요구사항 정리</li>
-                        <li>견적 및 계약 진행</li>
-                        <li>아이디어 구상 및 레퍼런스 리서치</li>
-                    </ul>
-                    <p class="workprocesstitle">2. 서비스 기획 및 디자인</p>
-                    <p class="workprocesscontent">
-                        고객의 요구사항 분석, 벤치마킹 및 경쟁사 분석 등을 통하여 Site Map, 구체화, 스토리보드, 수행계획서 등 기획 작업이 이루어집니다. 
-                        메인 디자인과 서브디자인에 대해 고객과의 커뮤니케이션을 통한 최고의 디자인을 만듭니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>고객의 니즈 분석</li>
-                        <li>수행 계획서 작성</li>
-                        <li>경쟁사 분석</li>
-                        <li>스토리보드 작성</li>
-                        <li>Site Map 작성</li>
-                        <li>디자인</li>
-                    </ul>
-                    <p class="workprocesstitle">3. 프로그래밍</p>
-                    <p class="workprocesscontent">
-                        기획 및 디자인 내용을 바탕으로 프로그래밍을 진행합니다. 다양한 요구사항을 사용가능한 기능을 재탄생시키는 작업이며 가장 안정적이며, 
-                        빠른 서비스를 만들기 위해 노력합니다. 
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>프로그래밍 진행</li>
-                        <li>ㅍ로그래밍 최적화</li>
-                    </ul>
-                    <p class="workprocesstitle">4. 오픈 및 테스트</p>
-                    <p class="workprocesscontent">
-                        디자인 및 개발이 완료된 후 최종적인 오픈 전 검수 단계를 진행합니다. 최종 검수가 완료된 후 정상적인 오픈을 세팅하여 런칭합니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>오픈 전 최종 검수</li>
-                        <li>서비스 런칭</li>
-                    </ul>
-                    <p class="workprocesstitle">5. 교육 및 유지보수</p>
-                    <p class="workprocesscontent">
-                        고객에게 웹 가이드라인을 제작 및 교육을 진행합니다. 최종 완료 후 보증기간 동안 유지보수합니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>고객 웹 가이드라인 제작</li>
-                        <li>보증기간 동안 유지보수 진행</li>
-                        <li>고객 웹 가이드라인 교육</li>
-                    </ul>
-                    <p class="workprocesstitle">6. 연장 or 서비스 종료</p>
-                    <p class="workprocesscontent">
-                        보증기간 만료 후, 서비스 연장 혹은 서비스 종료를 선택하시면 해당사항에 맞는 절차가 진행됩니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>서비스 연장</li>
-                        <li>서비스 종료</li>
-                    </ul>
-                </div>
+                    {{-- @include('service.process') --}}
                 <div class="row" style="padding-top:66px;">
                     <p>
                         <span class="servicesmall">Free Service</span><br>

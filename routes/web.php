@@ -38,3 +38,10 @@ Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.d
 Route::get('prac',function(){
     return view('prac.process');
 });
+Route::get('divprac',function(){
+    return view('prac.divprac');
+});
+
+Route::get('opacity',function(){
+    return view('prac.opacity');
+});

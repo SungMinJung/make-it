@@ -46,9 +46,9 @@
             <div class="tile col-2 port-box scale-anm {{ $item['category'] }} all" style="background: url('{{$item['main_image'] }}')">
                 <div class="port-hover">
                     <p class="title-p">{{ $item['title'] }}</p>
-                    <div class="reldiv" style="height:100px;">
-                        <p class="link-p"><a href="{{$item['link']}}">링크이동</a></p>
-                    </div>
+                    
+                    <p class="link-p"><a href="{{$item['link']}}">링크이동</a></p>
+                    
                 </div>
             </div>
         </div>

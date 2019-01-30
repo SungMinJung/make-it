@@ -6,13 +6,14 @@
     } */
     #title_en{
         margin-top:0%;
-        padding-top:4%;
+        padding-top:6%;
         line-height:36px;
         font-size:30px;
     }
     #title_ko{
         font-size:43px;
         font-weight:bold;
+        margin-bottom:3%;
     }
      .bg{
         background:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/358BBE00-1F41-4638-AAEC-6F57ACF47018.png') no-repeat;
@@ -79,7 +80,7 @@
     #sadari{
         /* margin-top:99%;*/
         margin-left:15%;
-        margin-top:7%; 
+        margin-top:11%; 
         z-index:2;
         position:absolute;
   

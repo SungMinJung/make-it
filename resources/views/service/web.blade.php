@@ -46,6 +46,7 @@
         margin-bottom:33px;
     }
     #box .box_content p{
+        line-height:30px;
         font-size:14px;
         color: #3d3d3d;
         position:relative;
@@ -56,7 +57,7 @@
         /* height:30px; */
         /* margin:0px 150px 10px 0px; */
         /* margin-right:150px; */
-        /* padding-bottom:30px; */
+        padding-bottom:19px;
         font-size:12px;
         color:#3d3d3d;
         font-weight:bold;
@@ -73,7 +74,7 @@
     #box #icon #content{
         /* width:105px;
         height:18px; */
-        /* padding-top:-10px; */
+        /* padding-top:-20px; */
         /* padding-bottom:-22px; */
         /* margin-top:60px; */
     }
@@ -250,7 +251,7 @@ $(document).ready(function(){
                                                            <span id="content"> 견적 및 계약 진행</span>
                                                 </span>
                         
-                                                <div id="icon" style="margin-top:15px;" >
+                                                <div id="icon"  >
                                                         <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
                                                            <span id="content">아이디어 구상 및 레퍼런스 리서치</span>
                                                 </div> 

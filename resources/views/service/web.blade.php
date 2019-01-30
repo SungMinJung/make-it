@@ -120,7 +120,7 @@ $(document).ready(function(){
     <div class="container">
         <div class="row">
             <div class="col-5"></div>
-            <div class="col-5" style="margin-top:200px;">
+            <div class="col-5" style="margin-top:190px;">
                 <span class="servicesmall" style="color:#ffffff;">Website Development</span><br>
                 <span class="servicebig" style="color:#ffffff;">웹사이트 개발 및 제작</span>
             </div>
@@ -137,7 +137,7 @@ $(document).ready(function(){
         <div class="row">
             <div class="col-5"></div>
             <div class="col-1">
-                <hr style="border-width:4px;color:#ffffff;" noshade>
+                <hr style="border-width:4px;border-color:#ffffff;" noshade>
             </div>
         </div>
         <div class="row">

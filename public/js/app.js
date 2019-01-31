@@ -36334,12 +36334,25 @@ $(document).ready(function () {
     });
 
     var selectedQNA;
-    $('.qna-btn').each(function (index, elem) {
+    $('.qna-btn-down').each(function (index, elem) {
         console.log(index);
 
         $(elem).click(function () {
             selectedQNA = $(elem).attr("data-target");
             $("." + selectedQNA).fadeIn();
+            $(elem).css('display', 'none');
+            $(elem).next().css('display', 'inline');
+        });
+    });
+
+    $('.qna-btn-up').each(function (index, elem) {
+        console.log(index);
+
+        $(elem).click(function () {
+            selectedQNA = $(elem).attr("data-target");
+            $("." + selectedQNA).fadeOut();
+            $(elem).css('display', 'none');
+            $(elem).prev().css('display', 'inline');
         });
     });
 });

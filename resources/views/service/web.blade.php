@@ -25,6 +25,7 @@ $(document).ready(function(){
 
 });
 </script>
+{{--content-header부분--}}
 <div class="row" style="background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/4EDDC055-F8A6-44F9-8923-ADD2729E4BFB.png');width:1920px;height:733px;margin:0px auto;">
     <div class="container">
         <div class="row">
@@ -66,8 +67,9 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
-</div>
+</div>     {{--content-header부분--}}
 
+{{--price부분--}}
 <div class="container">
     <div class="row" style="padding-top:66px;">
         <span class="servicesmall" style="position:relative;left:10px;">Price Information</span>
@@ -122,12 +124,13 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
-</div>
+</div>    {{--price부분--}}
+
 
 {{-- @include('service.process') --}}
 <div class="web">
     <div class="bg" >
-        <div class="container">
+    <div class="container">
                                       <div class="process">
                                         <img id="sadari" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AC1C3FDE-C53E-4AFC-9A14-9D68087318A2.png" alt="">
                                          <p id="title_en">Work Process</p>

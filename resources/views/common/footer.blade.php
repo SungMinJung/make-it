@@ -8,7 +8,9 @@
     height:337px;
     text-align:left;
     color:white;
-    width:1920px;
+    /* width:1920px; */
+    width:100%;
+    margin: 0 auto;
  }
  #footerlogo{
     margin: 61px 20px 137px 0;

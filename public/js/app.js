@@ -36304,6 +36304,7 @@ module.exports = function spread(callback) {
 
 
 $(document).ready(function () {
+
     $('.port-box').each(function (index, elem) {
         $(elem).click(function () {
             console.log(index);

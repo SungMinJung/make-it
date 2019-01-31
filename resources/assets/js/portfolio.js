@@ -1,6 +1,7 @@
 
 
 $(document).ready(function(){
+    
     $('.port-box').each(function(index,elem){
         $(elem).click(function(){
             console.log(index);
@@ -28,6 +29,7 @@ $(document).ready(function(){
                 $("#portfolio").fadeTo(300, 1);
                 console.log('execute setTimeout');
             }, 300); 
+<<<<<<< HEAD
         })
     })
 
@@ -42,10 +44,18 @@ $(document).ready(function(){
             $(elem).next().css('display','inline');
         })
     })
+=======
+        });
+    });
+})
+    // $('#li-click-1').css('opacity','1');
+    // $('#li-click-1').css('z-index','10');
+>>>>>>> sungmin
 
     $('.qna-btn-up').each(function(index,elem){
         console.log(index);
 
+<<<<<<< HEAD
         $(elem).click(function(){
             selectedQNA = $(elem).attr("data-target"); 
             $("."+selectedQNA).fadeOut();
@@ -55,4 +65,7 @@ $(document).ready(function(){
     })
     
 })
+=======
+
+>>>>>>> sungmin
 

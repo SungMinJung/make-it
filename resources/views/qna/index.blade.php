@@ -9,6 +9,7 @@
   height: 585px;
   position: relative;
   text-align: center;
+  margin: 0 auto;
 }
 
 .qa::before {

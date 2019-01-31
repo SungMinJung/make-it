@@ -36301,61 +36301,7 @@ module.exports = function spread(callback) {
 /* 36 */
 /***/ (function(module, exports) {
 
-
-
-$(document).ready(function () {
-    $('.port-box').each(function (index, elem) {
-        $(elem).click(function () {
-            console.log(index);
-        });
-        $(elem).mouseover(function () {
-            $(elem).find('.port-hover').css('display', 'block');
-        });
-        $(elem).mouseleave(function () {
-            $(elem).find('.port-hover').css('display', 'none');
-        });
-    });
-
-    var selectedClass = "";
-    $('.fil-cat').each(function (index, elem) {
-        $(elem).click(function () {
-            selectedClass = $(elem).attr("data-rel");
-            console.log(index);
-            console.log(selectedClass);
-            $("#portfolio").fadeTo(100, 0.1);
-            $("#portfolio .port-box").not("." + selectedClass).fadeOut().removeClass('scale-anm');
-
-            setTimeout(function () {
-                $("." + selectedClass).fadeIn().addClass('scale-anm');
-                $("#portfolio").fadeTo(300, 1);
-                console.log('execute setTimeout');
-            }, 300);
-        });
-    });
-
-    var selectedQNA;
-    $('.qna-btn-down').each(function (index, elem) {
-        console.log(index);
-
-        $(elem).click(function () {
-            selectedQNA = $(elem).attr("data-target");
-            $("." + selectedQNA).fadeIn();
-            $(elem).css('display', 'none');
-            $(elem).next().css('display', 'inline');
-        });
-    });
-
-    $('.qna-btn-up').each(function (index, elem) {
-        console.log(index);
-
-        $(elem).click(function () {
-            selectedQNA = $(elem).attr("data-target");
-            $("." + selectedQNA).fadeOut();
-            $(elem).css('display', 'none');
-            $(elem).prev().css('display', 'inline');
-        });
-    });
-});
+throw new Error("Module build failed: SyntaxError: Unexpected token (32:0)\n\n\u001b[0m \u001b[90m 30 | \u001b[39m                console\u001b[33m.\u001b[39mlog(\u001b[32m'execute setTimeout'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 31 | \u001b[39m            }\u001b[33m,\u001b[39m \u001b[35m300\u001b[39m)\u001b[33m;\u001b[39m \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 32 | \u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 33 | \u001b[39m        })\n \u001b[90m 34 | \u001b[39m    })\n \u001b[90m 35 | \u001b[39m\u001b[0m\n");
 
 /***/ }),
 /* 37 */

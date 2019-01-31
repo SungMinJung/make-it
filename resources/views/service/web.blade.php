@@ -1,5 +1,104 @@
 @extends('layouts.app')
 
+<<<<<<< HEAD
+=======
+    }
+    #title_en{
+        margin-top:0%;
+        padding-top:6%;
+        line-height:36px;
+        font-size:30px;
+    }
+    #title_ko{
+        font-size:43px;
+        font-weight:bold;
+        margin-bottom:3%;
+    }
+     .bg{
+        background:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/358BBE00-1F41-4638-AAEC-6F57ACF47018.png') no-repeat;
+        width:1920px;
+        height:1345px;
+        margin: 0 auto;
+        
+    }
+    .process #box{
+        /* padding : 35px 35px 35px 35px; */
+        z-index:100;
+        width:100%;;
+        margin: 0 auto;
+        /* margin-top:-90px; */
+        padding-left:35px;
+        width:530px;
+        height:278px;
+        border:1px solid #BFBFBF;
+        border-radius:44px;
+        box-shadow: 2px 2px grey;
+        padding-top:54px;
+        background:white;
+        position:relative;
+    }
+    #box .box_title{
+        margin-top:-20px;
+        font-size:25px;
+        font-weight:bold;
+        color: #707070;
+        margin-bottom: 20px;
+    }
+    #box .box_content {
+        margin-bottom:33px;
+    }
+    #box .box_content p{
+        line-height:30px;
+        font-size:14px;
+        color: #3d3d3d;
+        position:relative;
+    }
+    #box #icon{
+        /* width:160; */
+        /* width:50%;         */
+        /* height:30px; */
+        /* margin:0px 150px 10px 0px; */
+        /* margin-right:150px; */
+        padding-bottom:19px;
+        font-size:12px;
+        color:#3d3d3d;
+        font-weight:bold;
+
+        
+    }
+    #box #icon img{
+        weight:19px; 
+        height:19px;
+        /* padding: 7px 7px 7px 7px; */
+        padding-right:6px;
+        /* padding-bottom:5px; */
+    }
+    #box #icon #content{
+        /* width:105px;
+        height:18px; */
+        /* padding-top:-20px; */
+        /* padding-bottom:-22px; */
+        /* margin-top:60px; */
+    }
+    #sadari{
+        /* margin-top:99%;*/
+        margin-left:15%;
+        margin-top:11%; 
+        z-index:2;
+        position:absolute;
+  
+
+    }
+    .horizen_div{
+/* display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px; */
+margin: 0; padding: 0; width:100%; font-size: 0;
+
+    }
+    .horizen_div #icon{
+        width:45%; display: inline-block; *display: inline; zoom: 1;  font-size: 12px; 
+    }
+</style>
+>>>>>>> sungmin
 @section('content')
 
 {{-- 가로 리스트 생성 jquery --}}
@@ -25,6 +124,7 @@ $(document).ready(function(){
 
 });
 </script>
+{{--content-header부분--}}
 <div class="row" style="background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/4EDDC055-F8A6-44F9-8923-ADD2729E4BFB.png');width:1920px;height:733px;margin:0px auto;">
     <div class="container">
         <div class="row">
@@ -66,8 +166,9 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
-</div>
+</div>     {{--content-header부분--}}
 
+{{--price부분--}}
 <div class="container">
     <div class="row" style="padding-top:66px;">
         <span class="servicesmall" style="position:relative;left:10px;">Price Information</span>
@@ -122,12 +223,13 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
-</div>
+</div>    {{--price부분--}}
+
 
 {{-- @include('service.process') --}}
 <div class="web">
     <div class="bg" >
-        <div class="container">
+    <div class="container">
                                       <div class="process">
                                         <img id="sadari" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AC1C3FDE-C53E-4AFC-9A14-9D68087318A2.png" alt="">
                                          <p id="title_en">Work Process</p>

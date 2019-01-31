@@ -122,7 +122,7 @@
 
                 </div>
                 <div id="menu" class="col-1" style="color:#0066ff;">
-                    <a style="padding-left:44%;" href="home">Home</a> 
+                        <a style="padding-left:44%;" href="{{route('home')}}">Home</a> 
                 </div>
                 <div id="menu" class="col-1">
                         <a style="padding-left:15%;" href="{{route('about')}}">About us </a> 

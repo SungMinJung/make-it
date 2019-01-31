@@ -1,6 +1,7 @@
 
 
 $(document).ready(function(){
+    
     $('.port-box').each(function(index,elem){
         $(elem).click(function(){
             console.log(index);
@@ -30,6 +31,7 @@ $(document).ready(function(){
             }, 300); 
         });
     });
+})
     // $('#li-click-1').css('opacity','1');
     // $('#li-click-1').css('z-index','10');
 
@@ -76,5 +78,5 @@ $(document).ready(function(){
     //     $('#li-click-4').css('opacity','1');
     // })
 
-})
+
 

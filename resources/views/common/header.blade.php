@@ -96,9 +96,22 @@ display: none;
  font-size:17px;
 
 }
+.active{
+  background-color:#d90000;
+  color:#fff;
 
+}
 </style>
-    
+    <script>
+        $(document).ready(function(){
+  $('ul li a').click(function()
+  {
+    $('li a').removeClass("active");
+    $(this).addClass("active");
+});
+});
+
+    </script>
         <div class="row" id="header">
             <div id="logo" class="col-3">
                         <a href="home"> <img id="logo" src="/img/logo.png" alt=""></a>
@@ -116,9 +129,9 @@ display: none;
                             <li class = "headerList1"> <span> <a href="#">Service
                                 <img src="/img/dropdown.png" alt="">  </a> </span>
                             <ul>
-                            <li> <a href="{{route('service.web')}}"> WebSite </a> </li>
-                            <li> <a href="{{route('service.mobile')}}"> Mobile Application </a> </li>
-                            <li> <a href="{{route('service.responsive')}}"> Responsive Website </a> </li>
+                            <li> <a class="menunav active"href="{{route('service.web')}}"> WebSite </a> </li>
+                            <li> <a class="menunav" href="{{route('service.mobile')}}"> Mobile Application </a> </li>
+                            <li> <a class="menunav" href="{{route('service.responsive')}}"> Responsive Website </a> </li>
                             </ul>
                             </li>
                                 
@@ -127,12 +140,12 @@ display: none;
                         </div>
            </div>
            <div id="menu" class="col-1">
-                   <a href="{{route('portfolio')}}"> Portfolio </a>
+                   <a class="menunav" href="{{route('portfolio')}}"> Portfolio </a>
            </div>
            <div  id="menu" class="col-1">
-                 <a href="{{route('qna')}}"> Q&A</a>
+                 <a class="menunav" href="{{route('qna')}}"> Q&A</a>
            </div>
             <div id="menu" class="col-2" style="text-align:center;">
-                   <a href="{{route('contact')}}">Contact us</a>  
+                   <a class="menunav" href="{{route('contact')}}">Contact us</a>  
             </div>
         </div>

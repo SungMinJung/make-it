@@ -15,7 +15,7 @@
 
             <div class="col-5">
                 <img id="choice" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/E788CFC0-2C6B-4413-978F-FD68FF882C5F.png" style="width:166.5px; height:83px;"><strong>을 선택해야하는 이유</strong><br>
-                <p style="font-size:27px; color:#0066ff; font-weight:bold;">
+                <p style="font-size:27px; color:#0066ff; font-weight:bold; margin-top:30px;">
                 다양성<span style="font-size:20px; font-family: NotoSansCJKkr; color:#3d3d3d">Variety</span></p>
                 <h4>공장에서 찍어내는 듯한 웹/앱 서비스를 제공하지않습니다.</h4>
                 <p style="font-size:27px; color:#0066ff; font-weight:bold;">

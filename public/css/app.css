@@ -452,7 +452,7 @@ ul.tab li.current {
 }
 
 .bg {
-  background-image: url("https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/358BBE00-1F41-4638-AAEC-6F57ACF47018.png") no-repeat;
+  background: url("https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/358BBE00-1F41-4638-AAEC-6F57ACF47018.png") no-repeat;
   width: 1920px;
   height: 1345px;
   margin: 0 auto;

@@ -3,64 +3,6 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYR3HOUCckMRzV1ko1HnAudr2k8WkZXhs"></script>
 </head>
 @section('content')
-    
-<style>
-
-.contacttitle {
-    font-weight: bold;
-    font-size: 70px;
-    margin: 0px auto;
-    color: #ffffff;
-}
-
-.contactcontent {
-    font-size: 35px;
-    margin: 0px auto;
-    color: #ffffff;
-}
-
-.contactneed {
-    font-weight: bold;
-    font-size: 15px;
-    text-align: left;
-    color: #ffffff;
-}
-
-.contactinfo {
-    font-size: 15px;
-    text-align: left;
-    color: #ffffff;
-}
-
-input[type=text] {
-    border-bottom-color: #ffffff;
-    border-width: 1px;
-    font-size: 20px;
-    background: transparent;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    color: #ffffff;
-    margin:10px 0px 10px 0px;
-}
-
-textarea {
-    font-size: 20px;
-    width:100%;
-    height: 226px;
-    background: transparent;
-    border-color: #ffffff;
-    color: #ffffff;
-    border-width: 1px;
-    margin-top: 10px;
-}
-
-#googleMap {
-    widows: 1920px;
-    height: 1023px;
-}
-
-</style>
 
 {{-- <script src="http://code.jquery.com/jquery-1.7.js"></script>
 <script src="http://maps.google.com/maps/api/js?sensor=AIzaSyBYR3HOUCckMRzV1ko1HnAudr2k8WkZXhs"></script> --}}

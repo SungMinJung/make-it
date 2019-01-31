@@ -4,26 +4,34 @@
         height:1345px;
         width:100%;
     } */
+    .process{
+        margin: 0 auto;
+
+    }
     #title_en{
         margin-top:0%;
-        padding-top:4%;
+        padding-top:6%;
         line-height:36px;
         font-size:30px;
     }
     #title_ko{
         font-size:43px;
         font-weight:bold;
+        margin-bottom:3%;
     }
      .bg{
-        background:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/358BBE00-1F41-4638-AAEC-6F57ACF47018.png') no-repeat;
+        background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/358BBE00-1F41-4638-AAEC-6F57ACF47018.png') no-repeat;
         width:1920px;
         height:1345px;
+        margin: 0 auto;
+        
     }
     .process #box{
         /* padding : 35px 35px 35px 35px; */
         z-index:100;
+        width:100%;;
+        margin: 0 auto;
         /* margin-top:-90px; */
-
         padding-left:35px;
         width:530px;
         height:278px;
@@ -45,6 +53,7 @@
         margin-bottom:33px;
     }
     #box .box_content p{
+        line-height:30px;
         font-size:14px;
         color: #3d3d3d;
         position:relative;
@@ -55,7 +64,7 @@
         /* height:30px; */
         /* margin:0px 150px 10px 0px; */
         /* margin-right:150px; */
-        /* padding-bottom:30px; */
+        padding-bottom:19px;
         font-size:12px;
         color:#3d3d3d;
         font-weight:bold;
@@ -72,14 +81,14 @@
     #box #icon #content{
         /* width:105px;
         height:18px; */
-        /* padding-top:-10px; */
+        /* padding-top:-20px; */
         /* padding-bottom:-22px; */
         /* margin-top:60px; */
     }
     #sadari{
         /* margin-top:99%;*/
-        margin-left:15%;
-        margin-top:7%; 
+        margin-left:16%;
+        margin-top:12%; 
         z-index:2;
         position:absolute;
   
@@ -218,11 +227,11 @@ $(document).ready(function(){
     </div>
 </div>
 
-                    {{-- @include('service.process') --}}
-                    <div class="web">
-                            <div class="bg">
-                                <div class="container">
-                                    <div class="process">
+{{-- @include('service.process') --}}
+<div class="web">
+    <div class="bg" >
+        <div class="container">
+                                      <div class="process">
                                         <img id="sadari" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AC1C3FDE-C53E-4AFC-9A14-9D68087318A2.png" alt="">
                                          <p id="title_en">Work Process</p>
                                          <p id="title_ko">제작 과정</p>
@@ -249,7 +258,7 @@ $(document).ready(function(){
                                                            <span id="content"> 견적 및 계약 진행</span>
                                                 </span>
                         
-                                                <div id="icon" style="margin-top:15px;" >
+                                                <div id="icon"  >
                                                         <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
                                                            <span id="content">아이디어 구상 및 레퍼런스 리서치</span>
                                                 </div> 
@@ -410,7 +419,7 @@ $(document).ready(function(){
                 
                 <div class="row" style="padding-top:66px;">
                     <p>
-                        <p class="servicesmall">Free Service</p><br>
+                        <p class="servicesmall" style="width:100%;">Free Service</p><br>
                         <p class="servicebig">웹사이트 제작 시 7가지의 무료 서비스를 제공합니다.</p>
                     </p>
                     <div class="col-5">

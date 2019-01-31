@@ -13,6 +13,7 @@ $(document).ready(function(){
             $(elem).css('color',' #0066ff');
         })
        
+
     })
 
     $('.tab li').click(function() {
@@ -21,8 +22,15 @@ $(document).ready(function(){
         $('.tabcontent').removeClass('current');
         $(this).addClass('current');
         $('#' + activeTab).addClass('current');
+        
     })
 
+    // $('#bar1').click(function() {   consonle.log('zz'); $('#bar').css('margin-left','0px'); }
+    // $('#bar1').click(function() {   consonle.log('zz'); $('#bar').css('margin-left','0px'); }
+    // $('#bar2').click(function() {   $('#bar').css('margin-left','232px'); }
+    // $('.tab3').click(function() {   $('#bar').css('margin-left','464px'); }
+    // $('.tab4').click(function() {   $('#bar').css('margin-left','696px'); }
+    // $('.tab5').click(function() {   $('#bar').css('margin-right','0px'); }
 });
 </script>
 {{--content-header부분--}}
@@ -81,12 +89,16 @@ $(document).ready(function(){
     <div class="row" style="padding-top:60px;">
         <div class="col-10">
             <ul class="tab">
-                <li data-tab="tab1"><a href="#">BASIC</a></li>
-                <li data-tab="tab2"><a href="#">GENERAL</a></li>
-                <li data-tab="tab3"><a href="#">SHOPPING MALL</a></li>
-                <li data-tab="tab4"><a href="#">CUSTOM</a></li>
-                <li data-tab="tab5"><a href="#">PREMIUM</a></li>
+                <li id="bar1" data-tab="tab1">BASIC</li>
+                <li id="bar2" data-tab="tab2">GENERAL</li>
+                <li data-tab="tab3">SHOPPING MALL</li>
+                <li data-tab="tab4">CUSTOM</li>
+                <li data-tab="tab5">PREMIUM</li>
             </ul>
+            <br>
+            <div class="row" style="height:10px; background:#000">
+                <div id="bar" style="width:20%; height:100%; background:#0066ff;"></div>
+            </div>
             <div id="tab1" class="tabcontent current">
                 <div class="row">
                     <div class="col-1">

@@ -117,7 +117,7 @@ input {
 #horizen{
     border:1px solid #3d3d3d;
 }
-.qna-btn-down .qna-btn-up{
+.qna-btn{
     float:right;
 }
 .qna-btn-up{
@@ -165,8 +165,10 @@ input {
                 <td id="notice"><div id="icon">공지</div></td>
                 <td id="content">MAKEIT 업무 휴무 공지. 5월 1일 근로자의 날</td>
                 <td>
+                    <div class="qna-btn">
                     <button class="qna-btn-down" data-target="board-1">▽</button>
                     <button class="qna-btn-up" data-target="board-1">△</button>
+                    <div>
                 </td>
             </tr>
 
@@ -182,4 +184,5 @@ input {
 
         </table>
       </div>
+    @include('main.6');
 @endsection

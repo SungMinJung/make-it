@@ -36342,6 +36342,8 @@ $(document).ready(function () {
             $("." + selectedQNA).fadeIn();
             $(elem).css('display', 'none');
             $(elem).next().css('display', 'inline');
+            $(elem).parents('tr').css('background', '#0066FF').css('color', '#fff');
+            $(elem).parents('tr').find('#icon').css('background', "#fff").css('color', '#0066ff');
         });
     });
 
@@ -36353,6 +36355,8 @@ $(document).ready(function () {
             $("." + selectedQNA).fadeOut();
             $(elem).css('display', 'none');
             $(elem).prev().css('display', 'inline');
+            $(elem).parents('tr').css('background', '#fff').css('color', '#000');
+            $(elem).parents('tr').find('#icon').css('background', "#0066FF").css('color', '#fff');
         });
     });
 });

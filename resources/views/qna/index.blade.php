@@ -126,6 +126,7 @@ input {
 }
 .qna-btn-up{
     display: none;
+    background-color: rgba(0,0,0,0);
 }
 .ans-content{
     padding:20px 2px 20px 10px;
@@ -163,28 +164,35 @@ input {
             <div class="col-1">Q&A</div>
         </div>
         <hr id="horizen">
+    
 
         <table id="notice_table">
-            <tr>
-                <td id="notice"><div id="icon">공지</div></td>
-                <td id="content">MAKEIT 업무 휴무 공지. 5월 1일 근로자의 날</td>
-                <td>
-                    <div class="qna-btn">
-                    <button class="qna-btn-down" data-target="board-1">▽</button>
-                    <button class="qna-btn-up" data-target="board-1">△</button>
-                    <div>
-                </td>
-            </tr>
-
-            <tr class="ans-tr board-1">
-            <td></td>
-            <td class="ans-content" colspan="2">5월 1일은 근로자의 날이므로 휴무입니다.<br>감사합니다</td>
-            </tr>
-
-            <tr>
-                <td id="question"> <img width="24" height="41" src="https://iconsplace.com/wp-content/uploads/_icons/0000ff/256/png/letter-q-icon-2-256.png" alt=""> </td>
-                <td id="content" colspan="2">계약을 체결한 뒤에 어떤 절차로 업무가진행되나요?</td>
-            </tr>
+            @foreach ($qnaList as $item)
+                <tr>    
+                    <td id="notice">
+                        @if ( $item['category'] == "notice")
+                            <div id="icon">공지</div>
+                        @else 
+                            <img src="/image/q.png">
+                        @endif
+                    </td>
+                    <td id="content">{{ $item['title'] }}</td>
+                    <td>
+                        <div class="qna-btn">
+                            <span class="qna-btn-down" data-target={{ $item['id'] }}><img src="/image/qnadown.png"></span>
+                            <span class="qna-btn-up" data-target={{ $item['id'] }}><img src="/image/qnaup.png"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="ans-tr {{ $item['id'] }}">
+                    <td style="text-align: center;">
+                        @if ( $item['category'] == "qna")
+                            <img src="/image/A.png">
+                        @endif
+                    </td>
+                    <td class="ans-content" colspan="2">{{ $item['content'] }}</td>
+                </tr>
+            @endforeach
 
         </table>
       </div>

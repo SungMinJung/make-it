@@ -27,7 +27,7 @@
   z-index: 0;
 }
 
-.content {
+.content-td {
   position: relative;
   z-index: 10;
   padding-top: 50px;
@@ -83,11 +83,13 @@ input {
     text-align:center;
     margin-bottom:13px;
 }
-
+#notice_title>.col-1{
+    cursor: pointer;
+}
 #notice_table td{
     border-bottom:2px solid #707070;
 }
-#notice_table #notice{
+#notice_table #notice-td{
     padding:20px 2px 20px 10px;
     text-align:center;
     width:2%;
@@ -136,6 +138,9 @@ input {
 .ans-tr{
     display: none;
 }
+.notice_table{
+    transition: all 350ms ease;
+}
     </style>
 
 
@@ -159,24 +164,24 @@ input {
 {{--  --}}
     <div class="container">
         <div class="row" id="notice_title">
-            <div class="col-1">전체</div>
-            <div class="col-1">공지사항</div>
-            <div class="col-1">Q&A</div>
+            <div class="col-1" data-rel="all">전체</div>
+            <div class="col-1" data-rel="notice">공지사항</div>
+            <div class="col-1" data-rel="qna">Q&A</div>
         </div>
         <hr id="horizen">
     
 
         <table id="notice_table">
             @foreach ($qnaList as $item)
-                <tr>    
-                    <td id="notice">
+                <tr class=" {{$item['category']}} all">    
+                    <td id="notice-td">
                         @if ( $item['category'] == "notice")
                             <div id="icon">공지</div>
                         @else 
                             <img src="/image/q.png">
                         @endif
                     </td>
-                    <td id="content">{{ $item['title'] }}</td>
+                    <td id="content-td">{{ $item['title'] }}</td>
                     <td>
                         <div class="qna-btn">
                             <span class="qna-btn-down" data-target={{ $item['id'] }}><img src="/image/qnadown.png"></span>

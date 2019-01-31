@@ -36333,13 +36333,28 @@ $(document).ready(function () {
         });
     });
 
+    $('#notice_title>.col-1').each(function (index, elem) {
+        $(elem).click(function () {
+            selectedClass = $(elem).attr("data-rel");
+            console.log(index);
+            console.log(selectedClass);
+            $("." + selectedClass).fadeIn();
+            $('.all').not("." + selectedClass).fadeOut();
+
+            // setTimeout(function() {
+            //     $("."+selectedClass).fadeIn();
+            //     $("#notice_table").fadeTo(300, 1);
+            //     console.log('execute setTimeout');
+            // }, 300); 
+        });
+    });
     var selectedQNA;
     $('.qna-btn-down').each(function (index, elem) {
         console.log(index);
 
         $(elem).click(function () {
             selectedQNA = $(elem).attr("data-target");
-            $("." + selectedQNA).fadeIn();
+            $("." + selectedQNA).fadeIn('slow');
             $(elem).css('display', 'none');
             $(elem).next().css('display', 'inline');
             $(elem).parents('tr').css('background', '#0066FF').css('color', '#fff');
@@ -36352,7 +36367,7 @@ $(document).ready(function () {
 
         $(elem).click(function () {
             selectedQNA = $(elem).attr("data-target");
-            $("." + selectedQNA).fadeOut();
+            $("." + selectedQNA).fadeOut('slow');
             $(elem).css('display', 'none');
             $(elem).prev().css('display', 'inline');
             $(elem).parents('tr').css('background', '#fff').css('color', '#000');

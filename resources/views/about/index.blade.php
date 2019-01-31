@@ -54,13 +54,35 @@ img.img{
 #solution{
     padding-top:30px;
 }
+.img1{
+    padding:0px;
+}
+
+
 </style>
 @section('content')    
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <div class="row" style="background-image:url('/image/mask36.jpg'); width:1920px; height:695px;">
+    <div class="row" style="background-image:url('/image/mask36.jpg'); height:695px;">
         <div class="container"> 
             <div clss="col-5">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/A6DF6D13-F136-47B6-BBDA-EC3ACD303339.png" style="width:595.4px; height:473px;" class="img">
+            <div class="row">
+                <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/B6031020-1D93-47A6-8D84-2ADD39161DAA.png" style="width:523px; height:169px; margin-left:-4px;" class="img1">
+            </div>
+            <div class="row">
+            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/3F1FAB42-ACD8-431F-BEE1-0ADA9BD6BB18.png" style="width:305px; height:78px;" class="img1">
+            </div>
+            <div class="row">
+            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/EECDB92A-B267-491F-9B23-91788035B464.png" style="width:435px; height:78px;" class="img1">
+            </div>
+            <div class="row">
+            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/22ED4F4A-308E-49B8-BDE3-F572C2CECF99.png" style="width:405px; height:78px;" class="img1">
+            </div>
+            <div class="row">
+            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/F19640BD-4246-4D54-AD52-E4E03F3D613F.png" style="width:422px; height:78px;" class="img1">
+            </div>
+            <div class="row">
+            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/7A455BA3-E044-435B-86D4-BDFCCE04B98E.png" style="width:508px; height:78px;" class="img1">
+            </div>
             <button type="submit" class="btn blue" style="position:relative; left:-450px; top:100px;" onclick="location.href='{{ url('/Portfolio') }}'">Portfolio</button>
         </div>
     </div>

@@ -120,6 +120,10 @@ input {
 .qna-btn{
     float:right;
 }
+.qna-btn-up, .qna-btn-down{
+    border:0px;
+    background: #fff;
+}
 .qna-btn-up{
     display: none;
 }

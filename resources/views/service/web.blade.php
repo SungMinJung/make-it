@@ -4,6 +4,10 @@
         height:1345px;
         width:100%;
     } */
+    .process{
+        margin: 0 auto;
+
+    }
     #title_en{
         margin-top:0%;
         padding-top:6%;
@@ -16,15 +20,18 @@
         margin-bottom:3%;
     }
      .bg{
-        background:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/358BBE00-1F41-4638-AAEC-6F57ACF47018.png') no-repeat;
+        background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/358BBE00-1F41-4638-AAEC-6F57ACF47018.png') no-repeat;
         width:1920px;
         height:1345px;
+        margin: 0 auto;
+        
     }
     .process #box{
         /* padding : 35px 35px 35px 35px; */
         z-index:100;
+        width:100%;;
+        margin: 0 auto;
         /* margin-top:-90px; */
-
         padding-left:35px;
         width:530px;
         height:278px;
@@ -220,11 +227,11 @@ $(document).ready(function(){
     </div>
 </div>
 
-                    {{-- @include('service.process') --}}
-                    <div class="web">
-                            <div class="bg">
-                                <div class="container">
-                                    <div class="process">
+{{-- @include('service.process') --}}
+<div class="web">
+    <div class="bg" >
+        <div class="container">
+                                      <div class="process">
                                         <img id="sadari" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AC1C3FDE-C53E-4AFC-9A14-9D68087318A2.png" alt="">
                                          <p id="title_en">Work Process</p>
                                          <p id="title_ko">제작 과정</p>
@@ -412,7 +419,7 @@ $(document).ready(function(){
                 
                 <div class="row" style="padding-top:66px;">
                     <p>
-                        <p class="servicesmall">Free Service</p><br>
+                        <p class="servicesmall" style="width:100%;">Free Service</p><br>
                         <p class="servicebig">웹사이트 제작 시 7가지의 무료 서비스를 제공합니다.</p>
                     </p>
                     <div class="col-5">

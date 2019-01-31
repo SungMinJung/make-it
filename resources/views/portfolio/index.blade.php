@@ -24,7 +24,7 @@
         
         <img src="/image/sublogo.png" alt="">
         <div class="reldiv">
-            <p class="port-title">포트폴리오</p>
+            <strong class="port-title">포트폴리오</strong>
         </div>
     </div>
     <div class="row" style="margin:30px 0 30px 0;">

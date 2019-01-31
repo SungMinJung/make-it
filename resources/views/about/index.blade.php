@@ -61,7 +61,7 @@ img.img{
         <div class="container"> 
             <div clss="col-5">
             <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/A6DF6D13-F136-47B6-BBDA-EC3ACD303339.png" style="width:595.4px; height:473px;" class="img">
-            <button type="submit" class="btn blue" style="position:relative; left:-450px; top:100px;" onclick="location.href='{{ url('/main') }}'">Portfolio</button>
+            <button type="submit" class="btn blue" style="position:relative; left:-450px; top:100px;" onclick="location.href='{{ url('/Portfolio') }}'">Portfolio</button>
         </div>
     </div>
 </div>

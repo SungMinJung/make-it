@@ -28,53 +28,18 @@ $(document).ready(function(){
                 $("#portfolio").fadeTo(300, 1);
                 console.log('execute setTimeout');
             }, 300); 
-        });
-    });
-    // $('#li-click-1').css('opacity','1');
-    // $('#li-click-1').css('z-index','10');
+        })
+    })
 
-    // $('#li-1').click(function(){
-    //     $('#li-click-1').css('z-index','10');
-    //     $('#li-click-1').css('opacity','1');
-    //     $('#li-click-2').css('z-index','0');
-    //     $('#li-click-2').css('opacity','0');
-    //     $('#li-click-3').css('z-index','0');
-    //     $('#li-click-3').css('opacity','0');
-    //     $('#li-click-4').css('z-index','0');
-    //     $('#li-click-4').css('opacity','0');
-        
-    // })
-    // $('#li-2').click(function(){
-    //     $('#li-click-1').css('z-index','0');
-    //     $('#li-click-1').css('opacity','0');
-    //     $('#li-click-2').css('z-index','10');
-    //     $('#li-click-2').css('opacity','1');
-    //     $('#li-click-3').css('z-index','0');
-    //     $('#li-click-3').css('opacity','0');
-    //     $('#li-click-4').css('z-index','0');
-    //     $('#li-click-4').css('opacity','0');
-        
-    // })
-    // $('#li-3').click(function(){
-    //     $('#li-click-1').css('z-index','0');
-    //     $('#li-click-1').css('opacity','0');
-    //     $('#li-click-2').css('z-index','0');
-    //     $('#li-click-2').css('opacity','0');
-    //     $('#li-click-3').css('z-index','10');
-    //     $('#li-click-3').css('opacity','1');
-    //     $('#li-click-4').css('z-index','0');
-    //     $('#li-click-4').css('opacity','0');
-    // })
-    // $('#li-4').click(function(){
-    //     $('#li-click-1').css('z-index','0');
-    //     $('#li-click-1').css('opacity','0');
-    //     $('#li-click-2').css('z-index','0');
-    //     $('#li-click-2').css('opacity','0');
-    //     $('#li-click-3').css('z-index','0');
-    //     $('#li-click-3').css('opacity','0');
-    //     $('#li-click-4').css('z-index','10');
-    //     $('#li-click-4').css('opacity','1');
-    // })
+    var selectedQNA
+    $('.qna-btn').each(function(index,elem){
+        console.log(index);
 
+        $(elem).click(function(){
+            selectedQNA = $(elem).attr("data-target"); 
+            $("."+selectedQNA).fadeIn();
+        })
+    })
+    
 })
 

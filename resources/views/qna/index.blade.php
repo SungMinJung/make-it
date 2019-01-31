@@ -117,8 +117,20 @@ input {
 #horizen{
     border:1px solid #3d3d3d;
 }
-
+.qna-btn{
+    float:right;
+}
+.ans-content{
+    padding:20px 2px 20px 10px;
+    width:50%;
+    padding-left:12px;
+}
+.ans-tr{
+    display: none;
+}
     </style>
+
+
 @section('content')
 
 <body>
@@ -141,19 +153,27 @@ input {
           <div class="row" id="notice_title">
               <div class="col-1">전체</div>
               <div class="col-1">공지사항</div>
-              <div  class="col-1">Q&A</div>
+              <div class="col-1">Q&A</div>
           </div>
           <hr id="horizen">
   
           <table id="notice_table">
-              <tr >
+              <tr>
                   <td id="notice"><div id="icon">공지</div></td>
                   <td id="content">MAKEIT 업무 휴무 공지. 5월 1일 근로자의 날</td>
+                  <td>
+                      <button class="qna-btn" data-target="board-1">▽</button>
+                </td>
+              </tr>
+
+              <tr class="ans-tr board-1">
+                  <td></td>
+                  <td class="ans-content" colspan="2">5월 1일은 근로자의 날이므로 휴무입니다.<br>감사합니다</td>
               </tr>
 
               <tr>
                   <td id="question"> <img width="24" height="41" src="https://iconsplace.com/wp-content/uploads/_icons/0000ff/256/png/letter-q-icon-2-256.png" alt=""> </td>
-                  <td id="content">계약을 체결한 뒤에 어떤 절차로 업무가진행되나요?</td>
+                  <td id="content" colspan="2">계약을 체결한 뒤에 어떤 절차로 업무가진행되나요?</td>
               </tr>
   
           </table>

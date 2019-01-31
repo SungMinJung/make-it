@@ -25,6 +25,7 @@ $(document).ready(function(){
     })
 
 });
+
 </script>
 <div class="row" style="background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/4BADC6D3-CA1C-4078-AD7E-37C380A885BE.png');width:1920px;height:733px;margin:0px auto;">
     <div class="container">

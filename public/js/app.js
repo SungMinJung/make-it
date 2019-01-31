@@ -36304,6 +36304,19 @@ module.exports = function spread(callback) {
 
 
 $(document).ready(function () {
+    $('#aimg2').css('opacity', '1');
+    setTimeout(function () {
+        $('#aimg3').css('opacity', '1');
+        setTimeout(function () {
+            $('#aimg4').css('opacity', '1');
+            setTimeout(function () {
+                $('#aimg5').css('opacity', '1');
+                setTimeout(function () {
+                    $('#aimg6').css('opacity', '1');
+                }, 300);
+            }, 300);
+        }, 300);
+    }, 300);
 
     $('.port-box').each(function (index, elem) {
         $(elem).click(function () {

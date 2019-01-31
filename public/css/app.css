@@ -168,6 +168,10 @@ p {
   width: 100%;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 .col-1 {
   width: 102px;
   margin: 0 10px 0 10px;

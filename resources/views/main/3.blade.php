@@ -11,6 +11,7 @@
     font-size: 15px;
     font-family: inherit;
     font-weight: bold;
+    
 }
 
 .blue {

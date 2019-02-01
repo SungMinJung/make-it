@@ -3,28 +3,8 @@
 @section('content')
 
 {{-- 가로 리스트 생성 jquery --}}
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script>
-$(document).ready(function(){
- 
-    $('.tab li a').each(function(index,elem){
-        $(elem).click(function(){
-            $('.tab li').children().css('color','#3d3d3d');
-            $(elem).css('color',' #0066ff');
-        })
-       
-    })
 
-    $('.tab li').click(function() {
-        var activeTab = $(this).attr('data-tab');
-        $('.tab li').removeClass('current');
-        $('.tabcontent').removeClass('current');
-        $(this).addClass('current');
-        $('#' + activeTab).addClass('current');
-    })
 
-});
-</script>
 <div class="row" style="background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/FF9FF129-E6E2-4783-910D-5B889A007DCD.png');width:1920px;height:733px;margin:0px auto;">
     <div class="container">
         <div class="row">

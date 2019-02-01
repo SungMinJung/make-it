@@ -118,7 +118,7 @@
         </script>
             <div class="row" id="header">
                 <div id="logo" class="col-2">
-                            <a href="home"> <img id="logo" src="/img/logo.png" alt=""></a>
+                    <a href="{{route('home')}}"> <img id="logo" src="/img/logo.png" alt=""></a>
 
                 </div>
                 <div id="menu" class="col-1" style="color:#0066ff;">

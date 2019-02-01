@@ -4,28 +4,7 @@
 
 {{-- 가로 리스트 생성 jquery --}}
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script>
-$(document).ready(function(){
 
-    $('.tab li').each(function(index,elem){
-        $(elem).click(function(){
-            $('.tab li').css('color','#3d3d3d');
-            $(elem).css('color',' #0066ff');
-        })
-    })
-
-    $('.tab li').click(function() {
-        var activeTab = $(this).attr('data-tab');
-        $('.tab li').removeClass('current');
-        $('.tabcontent').removeClass('current');
-        $(this).addClass('current');
-        $('#' + activeTab).addClass('current');
-        
-    })
-
-
-});
-</script>
 {{--content-header부분--}}
 <div class="row" style="background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/4EDDC055-F8A6-44F9-8923-ADD2729E4BFB.png');width:1920px;height:733px;margin:0px auto;">
     <div class="container">

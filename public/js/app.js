@@ -36391,6 +36391,21 @@ $(document).ready(function () {
 
     // service
     $('.tab li').first().css('color', '#0066ff');
+    $('.tab li').each(function (index, elem) {
+        $(elem).click(function () {
+            $('.tab li').css('color', '#3d3d3d');
+            $(elem).css('color', ' #0066ff');
+        });
+    });
+
+    $('.tab li').click(function () {
+        var activeTab = $(this).attr('data-tab');
+        $('.tab li').removeClass('current');
+        $('.tabcontent').removeClass('current');
+        $(this).addClass('current');
+        $('#' + activeTab).addClass('current');
+    });
+
     $('#bar1').click(function () {
         $('#bar').css('transform', 'translate(0px, 0px)');
     });

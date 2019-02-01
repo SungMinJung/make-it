@@ -20,7 +20,6 @@ class CreateContactusesTable extends Migration
             $table->string('contact_email');
             $table->string('contact_refsite');
             $table->text('contact_content');
-            $table->string('contact_agree');
             $table->timestamps();
         });
     }

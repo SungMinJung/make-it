@@ -1,6 +1,7 @@
 @extends('layouts.app')
 <head>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYR3HOUCckMRzV1ko1HnAudr2k8WkZXhs"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 @section('content')
 
@@ -57,6 +58,17 @@ marker.setMap(map);
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
+// recaptcha관련코드
+function FormSubmit() { 
+        if (grecaptcha.getResponse() == "") { 
+            alert("리캡챠를 체크해야 합니다."); 
+            return false; 
+        } 
+        else { 
+            return true; 
+        } 
+    } 
+
 </script>
 
 <div class="row" style="background-image:url(https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/7BAA5789-D65E-4606-8293-13F748184125.png);padding-top:100px;width:1920px;height:820px;background-repeat:no-repeat;margin:0px auto;">
@@ -92,7 +104,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
             </div>
             <div class="col-2"></div>
             <div class="col-5">
-                <form action="{{ route('contact.store') }}" method="post">
+                <form action="{{ route('contact.store') }}" method="post" onsubmit="return FormSubmit();">
                     @csrf
                     <div class="row">
                         <div class="col-2">
@@ -122,11 +134,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
                         </div>
                     </div>
                     <div class="col-2"></div>
-                    <label class="checkContainer"><span style="position:relative;left:55px;top:15px;">로봇이 아닙니다.</span>
-                        <input type="checkbox" name="contact_agree" value="agree">
-                        <span class="checkmark"></span>
-                    </label>
-                    <button type="submit" class="btn blue" style="position:relative;left:245px;">Send</button>
+                    <div class="g-recaptcha" data-sitekey="6LcgXIsUAAAAANsy3IcfLJyBMgGLT74uoj73WaiQ" style="position:relative;top:38px;"></div>
+                    <button type="submit" class="btn blue" style="position:relative;left:245px;bottom:40px;">Send</button>
                 </form>
             </div>
         </div>

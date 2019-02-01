@@ -1,10 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);p {
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  /* outline: 1px solid red; */
+@import url(https://fonts.googleapis.com/css?family=Nunito);* {
   padding: 0px;
   margin: 0px;
 }
@@ -246,19 +240,12 @@
 }
 
 .tab li {
-  display: inline;
-  margin-left: 100px;
-}
-
-.tab li a {
-  display: inline-block;
-  color: #3d3d3d;
+  float: left;
+  width: 20%;
   text-align: center;
-  text-decoration: none;
-  font-size: 22px;
   font-weight: bold;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  font-family: NotoSansCJKkr;
+  font-size: 22px;
 }
 
 .tabcontent {

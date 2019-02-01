@@ -36375,6 +36375,23 @@ $(document).ready(function () {
             $(elem).parents('tr').find('#icon').css('background', "#0066FF").css('color', '#fff');
         });
     });
+
+    // service
+    $('#bar1').click(function () {
+        $('#bar').css('transform', 'translate(0px, 0px)');
+    });
+    $('#bar2').click(function () {
+        $('#bar').css('transform', 'translate(232px, 0px)');
+    });
+    $('#bar3').click(function () {
+        $('#bar').css('transform', 'translate(464px, 0px)');
+    });
+    $('#bar4').click(function () {
+        $('#bar').css('transform', 'translate(696px, 0px)');
+    });
+    $('#bar5').click(function () {
+        $('#bar').css('transform', 'translate(928px, 0px)');
+    });
 });
 
 /***/ }),

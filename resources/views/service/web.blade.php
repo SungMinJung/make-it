@@ -7,13 +7,13 @@
 <script>
 $(document).ready(function(){
  
-    $('.tab li a').each(function(index,elem){
+    $('.tab li').first().css('color','#0066ff');
+
+    $('.tab li').each(function(index,elem){
         $(elem).click(function(){
-            $('.tab li').children().css('color','#3d3d3d');
+            $('.tab li').css('color','#3d3d3d');
             $(elem).css('color',' #0066ff');
         })
-       
-
     })
 
     $('.tab li').click(function() {
@@ -25,12 +25,7 @@ $(document).ready(function(){
         
     })
 
-    // $('#bar1').click(function() {   consonle.log('zz'); $('#bar').css('margin-left','0px'); }
-    // $('#bar1').click(function() {   consonle.log('zz'); $('#bar').css('margin-left','0px'); }
-    // $('#bar2').click(function() {   $('#bar').css('margin-left','232px'); }
-    // $('.tab3').click(function() {   $('#bar').css('margin-left','464px'); }
-    // $('.tab4').click(function() {   $('#bar').css('margin-left','696px'); }
-    // $('.tab5').click(function() {   $('#bar').css('margin-right','0px'); }
+
 });
 </script>
 {{--content-header부분--}}
@@ -91,13 +86,13 @@ $(document).ready(function(){
             <ul class="tab">
                 <li id="bar1" data-tab="tab1">BASIC</li>
                 <li id="bar2" data-tab="tab2">GENERAL</li>
-                <li data-tab="tab3">SHOPPING MALL</li>
-                <li data-tab="tab4">CUSTOM</li>
-                <li data-tab="tab5">PREMIUM</li>
+                <li id="bar3" data-tab="tab3">SHOPPING MALL</li>
+                <li id="bar4" data-tab="tab4">CUSTOM</li>
+                <li id="bar5" data-tab="tab5">PREMIUM</li>
             </ul>
             <br>
-            <div class="row" style="height:10px; background:#000">
-                <div id="bar" style="width:20%; height:100%; background:#0066ff;"></div>
+            <div class="row" style="height:5px; background:#f2f2f2; margin:20px 0 50px 0;">
+                <div id="bar" style="width:20%; height:100%; background:#0066ff; transform: translate(0, 0); transition: transform 500ms;"></div>
             </div>
             <div id="tab1" class="tabcontent current">
                 <div class="row">

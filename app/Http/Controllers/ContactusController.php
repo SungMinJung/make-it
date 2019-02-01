@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Contactus;
+use App\Notifications\Makeit;
 
 class ContactusController extends Controller
 {
@@ -28,14 +29,22 @@ class ContactusController extends Controller
 
     public function store(Request $request) 
     {
+        $request->validate([
+            'contact_agree' => 'required'
+        ]);
+
         $contactus = new Contactus([
             'contact_name' => $request->get('contact_name'),
             'contact_tel' => $request->get('contact_tel'),
             'contact_email' => $request->get('contact_email'),
             'contact_refsite' => $request->get('contact_refsite'),
             'contact_content' => $request->get('contact_content'),
+            'contact_agree' => $request->get('contact_agree'),
         ]);
         $contactus->save();
+
+        $contactus = Contactus::first();
+        // $contactus->notify(new Makeit());
 
         return view('contact.aftersend');
     }

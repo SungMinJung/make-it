@@ -80,12 +80,16 @@ $(document).ready(function(){
     <div class="row" style="padding-top:60px;">
         <div class="col-10">
             <ul class="tab">
-                <li data-tab="tab1"><a href="#">BASIC</a></li>
-                <li data-tab="tab2"><a href="#">GENERAL</a></li>
-                <li data-tab="tab3"><a href="#">SHOPPING MALL</a></li>
-                <li data-tab="tab4"><a href="#">CUSTOM</a></li>
-                <li data-tab="tab5"><a href="#">PREMIUM</a></li>
+                <li id="bar1" data-tab="tab1">BASIC</li>
+                <li id="bar2" data-tab="tab2">GENERAL</li>
+                <li id="bar3" data-tab="tab3">SHOPPING MALL</li>
+                <li id="bar4" data-tab="tab4">CUSTOM</li>
+                <li id="bar5" data-tab="tab5">PREMIUM</li>
             </ul>
+            <br>
+            <div class="row" style="height:5px; background:#f2f2f2; margin:20px 0 50px 0;">
+                <div id="bar" style="width:20%; height:100%; background:#0066ff; transform: translate(0, 0); transition: transform 500ms;"></div>
+            </div>
             <div id="tab1" class="tabcontent current">
                 <div class="row">
                     <div class="col-1">

@@ -24,7 +24,7 @@ input {
 
 textarea {
     font-size: 20px;
-    width:100%;
+    width: 509px;
     height: 226px;
     background: transparent;
     border-color: #ffffff;
@@ -110,7 +110,7 @@ function FormSubmit() {
                         <div class="col-2">
                             <input type="text" name="contact_name" placeholder="Name">
                         </div>
-                        <div class="col-2">
+                        <div class="col-2" style="position:relative;left:21px;">
                             <input type="tel" name="contact_tel" placeholder="Telephone Number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ function FormSubmit() {
                         <div class="col-2">
                             <input type="email" name="contact_email" placeholder="Email Address">
                         </div>
-                        <div class="col-2">
+                        <div class="col-2" style="position:relative;left:21px;">
                             <input type="text" name="contact_refsite" placeholder="Reference Site or App">
                         </div>
                     </div>
@@ -130,12 +130,12 @@ function FormSubmit() {
         
                     <div class="row">
                         <div class="col-4">
-                            <textarea name="contact_content" placeholder="Message" style="width:100%;"></textarea>
+                            <textarea name="contact_content" placeholder="Message"></textarea>
                         </div>
                     </div>
                     <div class="col-2"></div>
                     <div class="g-recaptcha" data-sitekey="6LcgXIsUAAAAANsy3IcfLJyBMgGLT74uoj73WaiQ" style="position:relative;top:38px;"></div>
-                    <button type="submit" class="btn blue" style="position:relative;left:245px;bottom:40px;">Send</button>
+                    <button type="submit" class="btn blue" style="position:relative;left:288px;bottom:40px;">Send</button>
                 </form>
             </div>
         </div>

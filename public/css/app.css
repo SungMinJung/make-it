@@ -246,6 +246,7 @@
   font-weight: bold;
   font-family: NotoSansCJKkr;
   font-size: 22px;
+  cursor: pointer;
 }
 
 .tabcontent {

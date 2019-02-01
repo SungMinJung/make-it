@@ -36390,6 +36390,7 @@ $(document).ready(function () {
     });
 
     // service
+    $('.tab li').first().css('color', '#0066ff');
     $('#bar1').click(function () {
         $('#bar').css('transform', 'translate(0px, 0px)');
     });

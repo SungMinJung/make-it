@@ -88,6 +88,7 @@ $(document).ready(function(){
     })
     
     // service
+    $('.tab li').first().css('color','#0066ff');
     $('#bar1').click(function() {  $('#bar').css('transform','translate(0px, 0px)'); })
     $('#bar2').click(function() {  $('#bar').css('transform','translate(232px, 0px)'); })
     $('#bar3').click(function() {  $('#bar').css('transform','translate(464px, 0px)'); })

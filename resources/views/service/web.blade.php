@@ -6,8 +6,6 @@
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 $(document).ready(function(){
- 
-    $('.tab li').first().css('color','#0066ff');
 
     $('.tab li').each(function(index,elem){
         $(elem).click(function(){

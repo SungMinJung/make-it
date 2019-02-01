@@ -43,8 +43,8 @@ class ContactusController extends Controller
         if(intval($responseKeys["success"]) !== 1) { 
             echo '검증을 통과하지 못했습니다.'; 
         } 
-        else { echo '검증을 통과 했습니다.'; 
-        }
+        // else { echo '검증을 통과 했습니다.'; 
+        // }
         
         $contactus = new Contactus([
             'contact_name' => $request->get('contact_name'),

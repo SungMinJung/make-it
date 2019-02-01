@@ -28,6 +28,12 @@
   z-index: 0;
 }
 
+.content{
+    position: relative;
+  z-index: 10;
+  padding-top: 50px;
+
+}
 .content-td {
   position: relative;
   z-index: 10;

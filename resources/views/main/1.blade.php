@@ -5,7 +5,7 @@
 </style>
 
 
-<div class="row" style="background:no-repeat;margin: 0 auto; background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/8956A192-3EB4-4D06-91EE-C23ABC4F62C9.png');width:1920px;height:480px;padding-top:150px;background-position:center">
+<div class="row" style="margin: 0 auto; background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/8956A192-3EB4-4D06-91EE-C23ABC4F62C9.png');width:1920px;height:480px;padding-top:150px;background-repeat:no-repeat;">
     <div class="container">
         <div class="row" >
             <div class="col-5"></div>

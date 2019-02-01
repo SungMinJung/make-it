@@ -80,9 +80,9 @@
                             <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Basic Responsive Web</span>
                         </p>
                     </div>
-                    <div class="col-3" style="position:relative;right:10px;padding-top:30px;">
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
                         <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">3,500,000원</span><br>
-                        <span style="font-size:20px;color:#0066ff;">모바일웹 제작 추가시 800,000원 추가</span>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
                     </div>
                     <div class="row">
                         <div class="col-8">
@@ -103,6 +103,144 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div id="tab2" class="tabcontent">
+                <div class="row">
+                    <div class="col-1">
+                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;" noshade>
+                    </div>
+                    <div class="col-9" style="position:relative;right:10px;">
+                        <p>
+                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">일반 반응형 웹 제작</span><br>
+                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">General Responsive Web</span>
+                        </p>
+                    </div>
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
+                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">10,000,000원</span><br>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                                일반 반응형 웹으로 내용이 복잡하지 않고 전체 15~40page 내외로 제작하시는 경우에 해당됩니다.<br>
+                                빠른 제작 기간과 저렴한 가격을 원하시는 고객께 추천드리며 병원, 미술관, 갤러리,<br>
+                                피트니스 웹사이트 등 소개 및 홍보 목적을 가진 사이트에 적합합니다.
+                            </span>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                            - 메인화면 1 page<br>
+                            - 서브화면 15 ~ 30 page<br>
+                            - 게시판 10 page<br>
+                            - 제작기간 3 ~ 6주<br>
+                        </div>
+                    </div>
+                </div> {{--row클래스--}}
+            </div>
+
+            <div id="tab3" class="tabcontent">
+                <div class="row">
+                    <div class="col-1">
+                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;" noshade>
+                    </div>
+                    <div class="col-9" style="position:relative;right:10px;">
+                        <p>
+                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">쇼핑몰 제작</span><br>
+                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Shopping Mall Responsive Web</span>
+                        </p>
+                    </div>
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
+                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">10,000,000원</span><br>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                                독립형 쇼핑몰로 저렴한 비용과 간편한 기능을 갖춘 쇼핑몰을 원하시는 고객에게 추천드립니다.<br>
+                                경제적이고 간편한 기능으로 제공하는 기본 구성의 쇼핑몰로 약 4~5주 기간의 맞춤 제작으로 진행됩니다.<br>
+                                자신의 상품에 맞는 쇼핑몰을 제작하세요.
+                            </span>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                            - 화면 10 ~ 30 page<br>
+                            - 제작기간 4 ~ 5주<br>
+                        </div>
+                    </div>
+                </div> {{--row클래스--}}
+            </div>
+
+            <div id="tab4" class="tabcontent">
+                <div class="row">
+                    <div class="col-1">
+                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;" noshade>
+                    </div>
+                    <div class="col-9" style="position:relative;right:10px;">
+                        <p>
+                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">맞춤형 반응형 웹 제작</span><br>
+                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Custom Responsive Web</span>
+                        </p>
+                    </div>
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
+                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">견적문의</span><br>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;right:20px">
+                                비즈니스가 복잡하고 디자인보다 다양한 기능성이 필요시되는 사이트 구축 및 쇼핑몰을 원하시는 고객에게 추천드립니다.<br>
+                                스타트업 웹 서비스, 고객관리시스템(CRM), 웹하드, 구인구직 웹사이트, 부동산 사이트 등<br>
+                                독립된 판매 프로세스와 고객이 기획한 맞춤기능 제작이 필요한 경우에 해당됩니다.
+                            </span>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                            - 개발화면 50 page 이상<br>
+                            - 제작기간 협의 필요<br>
+                        </div>
+                    </div>
+                </div> {{--row클래스--}}
+            </div>
+
+            <div id="tab5" class="tabcontent">
+                <div class="row">
+                    <div class="col-1">
+                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;" noshade>
+                    </div>
+                    <div class="col-9" style="position:relative;right:10px;">
+                        <p>
+                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">프리미엄 반응형 웹 제작</span><br>
+                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Premium Responsive</span>
+                        </p>
+                    </div>
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
+                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">20,000,000원</span><br>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                                해당 사이트에 대한 구상이 막연하고 페이지의 수가 가늠이 가지 않는 고객에게 추천드립니다.<br>
+                                프리미엄 상품은 기존 80page를 잡고 필요 시 계속해서 추가할 수 있습니다.<br>
+                                그때그때 필요할 때 페이지를 빠르게 추가해보세요.
+                            </span>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                            - 개발화면 80 page 이상<br>
+                            - 제작기간 협의 필요<br>
+                        </div>
+                    </div>
+                </div> {{--row클래스--}}
             </div>
         </div>
     </div>
@@ -349,21 +487,6 @@
                     </div>
                 </div>
                 @include('main.6')
-            </div>
-
-            <div id="tab2" class="tabcontent">
-                <h3>Portfolio</h3>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-            </div>
-
-            <div id="tab3" class="tabcontent">
-                <h3>Contact</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-            </div>
-
-            <div id="tab4" class="tabcontent">
-                <h3>Travel</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </div>
     </div>

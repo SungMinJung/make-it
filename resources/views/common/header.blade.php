@@ -101,11 +101,11 @@ display: none;
     
         <div class="row" id="header">
             <div id="logo" class="col-3">
-                        <a href="home"> <img id="logo" src="/img/logo.png" alt=""></a>
+                <a href="{{ route('home') }}"> <img id="logo" src="/img/logo.png" alt=""></a>
 
             </div>
             <div id="menu" class="col-1" style="color:#0066ff">
-                <a href="home">Home</a> 
+                <a href="{{ route('home') }}">Home</a> 
             </div>
             <div id="menu" class="col-1">
                     <a href="{{route('about')}}">About us </a> 

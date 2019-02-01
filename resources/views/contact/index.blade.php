@@ -7,6 +7,33 @@
 {{-- <script src="http://code.jquery.com/jquery-1.7.js"></script>
 <script src="http://maps.google.com/maps/api/js?sensor=AIzaSyBYR3HOUCckMRzV1ko1HnAudr2k8WkZXhs"></script> --}}
 
+<style>
+
+input {
+    border-bottom-color: #ffffff;
+    border-width: 1px;
+    font-size: 20px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #ffffff;
+    margin:10px 0px 10px 0px;
+}
+
+textarea {
+    font-size: 20px;
+    width:100%;
+    height: 226px;
+    background: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-width: 1px;
+    margin-top: 10px;
+}
+
+</style>
+
 
 <script>
 var myCenter=new google.maps.LatLng(37.482189, 126.996703);
@@ -29,6 +56,7 @@ marker.setMap(map);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
 </script>
 
 <div class="row" style="background-image:url(https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/7BAA5789-D65E-4606-8293-13F748184125.png);padding-top:100px;width:1920px;height:820px;background-repeat:no-repeat;margin:0px auto;">
@@ -71,7 +99,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
                             <input type="text" name="contact_name" placeholder="Name">
                         </div>
                         <div class="col-2">
-                            <input type="text" name="contact_tel" placeholder="Telephone Number">
+                            <input type="tel" name="contact_tel" placeholder="Telephone Number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
                         </div>
                     </div>
         
@@ -90,11 +118,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
         
                     <div class="row">
                         <div class="col-4">
-                            <textarea name="contact_content" placeholder="Message" style="width:100%"></textarea>
+                            <textarea name="contact_content" placeholder="Message" style="width:100%;"></textarea>
                         </div>
                     </div>
                     <div class="col-2"></div>
-                    <button type="submit" class="btn blue" style="margin-left:245px;margin-top:50px;">Send</button>
+                    <label class="checkContainer"><span style="position:relative;left:55px;top:15px;">로봇이 아닙니다.</span>
+                        <input type="checkbox" name="contact_agree" value="agree">
+                        <span class="checkmark"></span>
+                    </label>
+                    <button type="submit" class="btn blue" style="position:relative;left:245px;">Send</button>
                 </form>
             </div>
         </div>

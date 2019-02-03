@@ -29,6 +29,25 @@ marker.setMap(map);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+// 새로고침 방지 버튼은 제외
+function noEvent() {
+    if (event.keyCode == 116) {
+        event.keyCode= 2;
+        return false;
+    }
+    else if(event.ctrlKey && (event.keyCode==78 || event.keyCode == 82))
+    {
+    return false;
+    }
+}
+document.onkeydown = noEvent;
+
+// 뒤로가기 방지
+history.pushState(null, null, location.href);
+window.onpopstate = function () {
+    history.go(1);
+};
 </script>
 
 <div class="row" style="background-image:url(https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/7BAA5789-D65E-4606-8293-13F748184125.png);padding-top:100px;width:1920px;height:820px;background-repeat:no-repeat;margin:0px auto;">

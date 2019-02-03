@@ -3,28 +3,8 @@
 @section('content')
 
 {{-- 가로 리스트 생성 jquery --}}
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<script>
-$(document).ready(function(){
- 
-    $('.tab li a').each(function(index,elem){
-        $(elem).click(function(){
-            $('.tab li').children().css('color','#3d3d3d');
-            $(elem).css('color',' #0066ff');
-        })
-       
-    })
 
-    $('.tab li').click(function() {
-        var activeTab = $(this).attr('data-tab');
-        $('.tab li').removeClass('current');
-        $('.tabcontent').removeClass('current');
-        $(this).addClass('current');
-        $('#' + activeTab).addClass('current');
-    })
 
-});
-</script>
 <div class="row" style="background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/FF9FF129-E6E2-4783-910D-5B889A007DCD.png');width:1920px;height:733px;margin:0px auto;">
     <div class="container">
         <div class="row">
@@ -79,12 +59,16 @@ $(document).ready(function(){
     <div class="row" style="padding-top:60px;">
         <div class="col-10">
             <ul class="tab">
-                <li data-tab="tab1"><a href="#">BASIC</a></li>
-                <li data-tab="tab2"><a href="#">GENERAL</a></li>
-                <li data-tab="tab3"><a href="#">SHOPPING MALL</a></li>
-                <li data-tab="tab4"><a href="#">CUSTOM</a></li>
-                <li data-tab="tab5"><a href="#">PREMIUM</a></li>
+                <li id="bar1" data-tab="tab1">BASIC</li>
+                <li id="bar2" data-tab="tab2">GENERAL</li>
+                <li id="bar3" data-tab="tab3">SHOPPING MALL</li>
+                <li id="bar4" data-tab="tab4">CUSTOM</li>
+                <li id="bar5" data-tab="tab5">PREMIUM</li>
             </ul>
+            <br>
+            <div class="row" style="height:5px; background:#f2f2f2; margin:20px 0 50px 0;">
+                <div id="bar" style="width:20%; height:100%; background:#0066ff; transform: translate(0, 0); transition: transform 500ms;"></div>
+            </div>
             <div id="tab1" class="tabcontent current">
                 <div class="row">
                     <div class="col-1">
@@ -96,9 +80,9 @@ $(document).ready(function(){
                             <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Basic Responsive Web</span>
                         </p>
                     </div>
-                    <div class="col-3" style="position:relative;right:10px;padding-top:30px;">
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
                         <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">3,500,000원</span><br>
-                        <span style="font-size:20px;color:#0066ff;">모바일웹 제작 추가시 800,000원 추가</span>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
                     </div>
                     <div class="row">
                         <div class="col-8">
@@ -119,77 +103,337 @@ $(document).ready(function(){
                         </div>
                     </div>
                 </div>
+            </div>
 
-                {{-- 삭제필요 --}}
-                <div class="row" style="padding-top:66px;background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/3C72508A-4667-40E8-A6C6-05C388169C6F.png');">
-                    <p>
-                        <span class="servicesmall">Work Process</span><br>
-                        <span class="servicebig">제작 과정</span>
-                    </p>
-                    <p class="workprocesstitle">1. 클라이언트와 미팅</p>
-                    <p class="workprocesscontent">
-                        프로젝트를 진행하기 전 고객의 홈페이지의 목적과 요구사항 및 구성을 정의하고 다양한 레퍼런스와 
-                        경쟁사를 분석하여 고객만의 차별성있는 사이트를 제작하기 위해 리서치를 진행합니다. 컨설팅 후, 이를 토대로 기획/디자인/프로그래밍 
-                        등에 대한 작업량과 인력 등 견적을 산출한 후 계약을 진행합니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>고객의 요구사항 정리</li>
-                        <li>견적 및 계약 진행</li>
-                        <li>아이디어 구상 및 레퍼런스 리서치</li>
-                    </ul>
-                    <p class="workprocesstitle">2. 서비스 기획 및 디자인</p>
-                    <p class="workprocesscontent">
-                        고객의 요구사항 분석, 벤치마킹 및 경쟁사 분석 등을 통하여 Site Map, 구체화, 스토리보드, 수행계획서 등 기획 작업이 이루어집니다. 
-                        메인 디자인과 서브디자인에 대해 고객과의 커뮤니케이션을 통한 최고의 디자인을 만듭니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>고객의 니즈 분석</li>
-                        <li>수행 계획서 작성</li>
-                        <li>경쟁사 분석</li>
-                        <li>스토리보드 작성</li>
-                        <li>Site Map 작성</li>
-                        <li>디자인</li>
-                    </ul>
-                    <p class="workprocesstitle">3. 프로그래밍</p>
-                    <p class="workprocesscontent">
-                        기획 및 디자인 내용을 바탕으로 프로그래밍을 진행합니다. 다양한 요구사항을 사용가능한 기능을 재탄생시키는 작업이며 가장 안정적이며, 
-                        빠른 서비스를 만들기 위해 노력합니다. 
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>프로그래밍 진행</li>
-                        <li>ㅍ로그래밍 최적화</li>
-                    </ul>
-                    <p class="workprocesstitle">4. 오픈 및 테스트</p>
-                    <p class="workprocesscontent">
-                        디자인 및 개발이 완료된 후 최종적인 오픈 전 검수 단계를 진행합니다. 최종 검수가 완료된 후 정상적인 오픈을 세팅하여 런칭합니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>오픈 전 최종 검수</li>
-                        <li>서비스 런칭</li>
-                    </ul>
-                    <p class="workprocesstitle">5. 교육 및 유지보수</p>
-                    <p class="workprocesscontent">
-                        고객에게 웹 가이드라인을 제작 및 교육을 진행합니다. 최종 완료 후 보증기간 동안 유지보수합니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>고객 웹 가이드라인 제작</li>
-                        <li>보증기간 동안 유지보수 진행</li>
-                        <li>고객 웹 가이드라인 교육</li>
-                    </ul>
-                    <p class="workprocesstitle">6. 연장 or 서비스 종료</p>
-                    <p class="workprocesscontent">
-                        보증기간 만료 후, 서비스 연장 혹은 서비스 종료를 선택하시면 해당사항에 맞는 절차가 진행됩니다.
-                    </p>
-                    <ul style="workprocesslist">
-                        <li>서비스 연장</li>
-                        <li>서비스 종료</li>
-                    </ul>
-                </div>
-                {{-- 삭제필요 --}}
+            <div id="tab2" class="tabcontent">
+                <div class="row">
+                    <div class="col-1">
+                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;" noshade>
+                    </div>
+                    <div class="col-9" style="position:relative;right:10px;">
+                        <p>
+                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">일반 반응형 웹 제작</span><br>
+                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">General Responsive Web</span>
+                        </p>
+                    </div>
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
+                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">10,000,000원</span><br>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                                일반 반응형 웹으로 내용이 복잡하지 않고 전체 15~40page 내외로 제작하시는 경우에 해당됩니다.<br>
+                                빠른 제작 기간과 저렴한 가격을 원하시는 고객께 추천드리며 병원, 미술관, 갤러리,<br>
+                                피트니스 웹사이트 등 소개 및 홍보 목적을 가진 사이트에 적합합니다.
+                            </span>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                            - 메인화면 1 page<br>
+                            - 서브화면 15 ~ 30 page<br>
+                            - 게시판 10 page<br>
+                            - 제작기간 3 ~ 6주<br>
+                        </div>
+                    </div>
+                </div> {{--row클래스--}}
+            </div>
 
+            <div id="tab3" class="tabcontent">
+                <div class="row">
+                    <div class="col-1">
+                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;" noshade>
+                    </div>
+                    <div class="col-9" style="position:relative;right:10px;">
+                        <p>
+                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">쇼핑몰 제작</span><br>
+                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Shopping Mall Responsive Web</span>
+                        </p>
+                    </div>
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
+                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">10,000,000원</span><br>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                                독립형 쇼핑몰로 저렴한 비용과 간편한 기능을 갖춘 쇼핑몰을 원하시는 고객에게 추천드립니다.<br>
+                                경제적이고 간편한 기능으로 제공하는 기본 구성의 쇼핑몰로 약 4~5주 기간의 맞춤 제작으로 진행됩니다.<br>
+                                자신의 상품에 맞는 쇼핑몰을 제작하세요.
+                            </span>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                            - 화면 10 ~ 30 page<br>
+                            - 제작기간 4 ~ 5주<br>
+                        </div>
+                    </div>
+                </div> {{--row클래스--}}
+            </div>
+
+            <div id="tab4" class="tabcontent">
+                <div class="row">
+                    <div class="col-1">
+                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;" noshade>
+                    </div>
+                    <div class="col-9" style="position:relative;right:10px;">
+                        <p>
+                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">맞춤형 반응형 웹 제작</span><br>
+                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Custom Responsive Web</span>
+                        </p>
+                    </div>
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
+                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">견적문의</span><br>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;right:20px">
+                                비즈니스가 복잡하고 디자인보다 다양한 기능성이 필요시되는 사이트 구축 및 쇼핑몰을 원하시는 고객에게 추천드립니다.<br>
+                                스타트업 웹 서비스, 고객관리시스템(CRM), 웹하드, 구인구직 웹사이트, 부동산 사이트 등<br>
+                                독립된 판매 프로세스와 고객이 기획한 맞춤기능 제작이 필요한 경우에 해당됩니다.
+                            </span>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                            - 개발화면 50 page 이상<br>
+                            - 제작기간 협의 필요<br>
+                        </div>
+                    </div>
+                </div> {{--row클래스--}}
+            </div>
+
+            <div id="tab5" class="tabcontent">
+                <div class="row">
+                    <div class="col-1">
+                        <hr style="border-width:9px;border-bottom-color:#3d3d3d;" noshade>
+                    </div>
+                    <div class="col-9" style="position:relative;right:10px;">
+                        <p>
+                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">프리미엄 반응형 웹 제작</span><br>
+                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Premium Responsive</span>
+                        </p>
+                    </div>
+                    <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
+                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">20,000,000원</span><br>
+                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-8">
+                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                                해당 사이트에 대한 구상이 막연하고 페이지의 수가 가늠이 가지 않는 고객에게 추천드립니다.<br>
+                                프리미엄 상품은 기존 80page를 잡고 필요 시 계속해서 추가할 수 있습니다.<br>
+                                그때그때 필요할 때 페이지를 빠르게 추가해보세요.
+                            </span>
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                            - 개발화면 80 page 이상<br>
+                            - 제작기간 협의 필요<br>
+                        </div>
+                    </div>
+                </div> {{--row클래스--}}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- @include('service.process') --}}
+<div class="web">
+    <div class="bg" >
+        <div class="container">
+                                      <div class="process">
+                                        <img id="sadari" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AC1C3FDE-C53E-4AFC-9A14-9D68087318A2.png" alt="">
+                                         <p id="title_en">Work Process</p>
+                                         <p id="title_ko">제작 과정</p>
+                        
+                                         {{-- <img id="box" style="padding-top:54px;" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/A87629E7-B532-445A-AAD4-DB4BB1483AF2.png" alt=""> --}}
+                                         <div class="row">
+                                             <div class="col-5">
+                                             <div id="box" style="">
+                                                <div class="box_title"> 1. 클라이언트와 미팅</div>
+                                                <div class="box_content"><p> 프로젝트를 진행하기 전 고객의 홈페이지의 목적과 요구사항 및 구성을 정의하고</p>
+                                                    <p> 다양한 레퍼런스와 경쟁사를 분석하여 고객만의 차별성있는 사이트를 제작하기</p>
+                                                    <p>위해 리서치를 진행합니다. 컨설팅 후, 이를 토대로 기획/디자인/프로그래밍 등에</p>
+                                                    <p>대한 작업량과 인력 등 견적을 산출한 후 계약을 진행합니다.</p>
+                        
+                                                </div>
+                                                <div class="horizen_div">
+                        
+                                                <span id="icon">
+                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                       <span id="content"> 요구사항 정의</span>
+                                                </span>
+                                                <span id="icon">
+                                                        <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                           <span id="content"> 견적 및 계약 진행</span>
+                                                </span>
+                        
+                                                <div id="icon"  >
+                                                        <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                           <span id="content">아이디어 구상 및 레퍼런스 리서치</span>
+                                                </div> 
+                                            </div>           
+                                            </div>{{-- 여기가 박스    --}}
+                                        </div>
+                        
+                                        <div class="col-5">
+                                                <div id="box" style="margin-top:27%; height:200px;">
+                                                        <div class="box_title"> 6. 연장 or 서비스 종료</div>
+                                                        <div class="box_content"><p> 보증기간 만료 후, 서비스 연장 혹은 서비스 종료를 선택하시면 해당사항에 맞는</p>
+                                                            <p> 절차가 진행됩니다.</p>
+                                                        </div>
+                                                        <div class="horizen_div">
+                        
+                                                        <div id="icon">
+                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                               <span id="content"> 서비스 연장</span>
+                                                        </div>
+                                                        <div id="icon">
+                                                                <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                   <span id="content"> 서비스 종료</span>
+                                                        </div>
+                                                    </div>
+                                                    </div>{{-- 여기가 박스    --}}
+                        
+                                        </div>
+                                    </div>
+                                        
+                        
+                                        <div class="row">
+                                            <div class="col-5">
+                                             <div id="box"  style="margin-top:-10%; height:275px;">
+                                                     <div class="box_title"> 2. 서비스 기획 및 디자인</div>
+                                                     <div class="box_content"><p> 고객의 요구사항 분석, 벤치마킹 및 경재사 등을 통하여 Site Map, 구체화,</p>
+                                                         <p>스토리보드, 수행계획서 등 기획 작업이 이루어집니다. 메인 디자인과 서브디자인</p>
+                                                         <p>에 대해 고객과의 커뮤니케이션을 통한 최고의 디자인을 만듭니다.</p>
+                        
+                                                             </div>
+                                                             <div class="horizen_div">
+                        
+                                                                     <div id="icon"  style="" >
+                                                                         <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                            <span id="content"> 고객의 니즈 분석</span>
+                                                                     </div>
+                                                                     <div id="icon"  >
+                                                                             <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                                <span id="content"> 수행 계획서 작성</span>
+                                                                     </div>
+                                                                    
+                                                                    <div id="icon"   >
+                                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                                <span id="content">경쟁사 분석</span>
+                                                                    </div>  
+                                                                    <div id="icon" >
+                                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                                <span id="content">스토리보드 작성</span>
+                                                                    </div>   
+                        
+                                                             <div id="icon">
+                                                             <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                <span id="content">Site Map 작성</span>
+                                                             </div>
+                        
+                                                             <div id="icon" >  
+                                                             <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                <span id="content">디자인</span>
+                                                             </span>
+                                                            </div>
+                                                    </div>
+                        
+                                                 </div>{{-- 여기가 박스    --}}
+                                                </div>
+                        
+                                            <div class="col-5">
+                                                    <div id="box" style="margin-top:32px; height:222">
+                                                            <div class="box_title"> 5. 교육 및 유지보수</div>
+                                                            <div class="box_content"><p>고객에게 웹 가이드라인을 제작 및 교육을 진행합니다. 최종 완료 후 보증기간</p>
+                                                                <p>동안 유지보수 합니다.</p>
+                                                            </div>
+                                                            <div class="horizen_div">
+                        
+                                                            <div id="icon">
+                                                                <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                    <span id="content"> 고객 웹 가이드라인 제작</span>
+                                                            </div>
+                                                            <div id="icon">
+                                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                        <span id="content">보증기간 동안 유지보수 진행</span>
+                                                            </div>
+                                                            <div id="icon">
+                                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                       <span id="content">고객 웹 가이드라인 교육</span>
+                                                            </div>
+                                                        </div>  
+                                                </div>{{-- 여기가 박스    --}}
+                                            </div>
+                                        </div>
+                        
+                        
+                                        <div class="row">
+                                                <div class="col-5">
+                                                <div id="box" style="margin-top:-1%; height:222px;">
+                                                        <div class="box_title"> 3. 프로그래밍</div>
+                                                        <div class="box_content"><p>기획 및 디자인 내용을 바탕으로 프로그래밍을 진행합니다. 다양한 요구사항을 사</p>
+                                                            <p>용가능한 기능을 재탄생시키는 작업이며 가장 안정적이며,빠른 서비스를 만들기</p>
+                                                            <p>위해 노력합니다.</p>
+                                                        </div>
+                                                        
+                                                            <div class="horizen_div">
+                        
+                                                                    <div id="icon">
+                                                                        <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                            <span id="content"> 요구사항 정의</span>
+                                                                    </div>
+                                                                    <div id="icon">
+                                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                                <span id="content"> 견적 및 계약 진행</span>
+                                                                    </div>
+                                                            </div>
+                                            
+                                            </div>{{-- 여기가 박스    --}}
+                                            </div>
+                                            <div class="col-5">
+                                                <div class="right_box">
+                                                    <div id="box" style="height:210px;margin-top:25px;">
+                                                            <div class="box_title"> 4. 오픈 및 테스트</div>
+                                                            <div class="box_content"><p>디자인 및 개발이 완료된 후 최종적인 오픈 전 검수 단계를 진행합니다. 최정 검수</p>
+                                                                <p>가 완료된 후 정상적인 오픈을 세팅하여 런칭합니다.</p>
+                                        
+                                                            </div>
+                                                            <div class="horizen_div">
+                                                            <span id="icon">
+                                                                <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                    <span id="content"> 요구사항 정의</span>
+                                                            </span>
+                                                            <span id="icon">
+                                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                        <span id="content"> 견적 및 계약 진행</span>
+                                                            </span>
+                                                        </div>
+                                               </div>{{-- 여기가 박스    --}}
+                                            </div>
+                                          </div>
+                                        </div>  {{--row끝--}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+            <div class="container">
                 <div class="row" style="padding-top:66px;">
                     <p>
-                        <p class="servicesmall">Free Service</p><br>
+                        <p class="servicesmall" style="width:100%;">Free Service</p><br>
                         <p class="servicebig">웹사이트 제작 시 7가지의 무료 서비스를 제공합니다.</p>
                     </p>
                     <div class="col-5">
@@ -243,21 +487,6 @@ $(document).ready(function(){
                     </div>
                 </div>
                 @include('main.6')
-            </div>
-
-            <div id="tab2" class="tabcontent">
-                <h3>Portfolio</h3>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-            </div>
-
-            <div id="tab3" class="tabcontent">
-                <h3>Contact</h3>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-            </div>
-
-            <div id="tab4" class="tabcontent">
-                <h3>Travel</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </div>
     </div>

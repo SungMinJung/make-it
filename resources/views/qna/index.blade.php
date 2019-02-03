@@ -28,7 +28,13 @@
   z-index: 0;
 }
 
-.content {
+.content{
+    position: relative;
+  z-index: 10;
+  padding-top: 50px;
+
+}
+.content-td {
   position: relative;
   z-index: 10;
   padding-top: 50px;
@@ -84,11 +90,13 @@ input {
     text-align:center;
     margin-bottom:13px;
 }
-
+#notice_title>.col-1{
+    cursor: pointer;
+}
 #notice_table td{
     border-bottom:2px solid #707070;
 }
-#notice_table #notice{
+#notice_table #notice-td{
     padding:20px 2px 20px 10px;
     text-align:center;
     width:2%;
@@ -118,8 +126,31 @@ input {
 #horizen{
     border:1px solid #3d3d3d;
 }
-
+.qna-btn{
+    float:right;
+}
+.qna-btn-up, .qna-btn-down{
+    border:0px;
+    background: #fff;
+}
+.qna-btn-up{
+    display: none;
+    background-color: rgba(0,0,0,0);
+}
+.ans-content{
+    padding:20px 2px 20px 10px;
+    width:50%;
+    padding-left:12px;
+}
+.ans-tr{
+    display: none;
+}
+.notice_table{
+    transition: all 350ms ease;
+}
     </style>
+
+
 @section('content')
 
 <body>
@@ -138,26 +169,44 @@ input {
       </div>
 
 {{--  --}}
-      <div class="container">
-          <div class="row" id="notice_title">
-              <div class="col-1">전체</div>
-              <div class="col-1">공지사항</div>
-              <div  class="col-1">Q&A</div>
-          </div>
-          <hr id="horizen">
-  
-          <table id="notice_table">
-              <tr >
-                  <td id="notice"><div id="icon">공지</div></td>
-                  <td id="content">MAKEIT 업무 휴무 공지. 5월 1일 근로자의 날</td>
-              </tr>
+    <div class="container">
+        <div class="row" id="notice_title">
+            <div class="col-1" data-rel="all">전체</div>
+            <div class="col-1" data-rel="notice">공지사항</div>
+            <div class="col-1" data-rel="qna">Q&A</div>
+        </div>
+        <hr id="horizen">
+    
 
-              <tr>
-                  <td id="question"> <img width="24" height="41" src="https://iconsplace.com/wp-content/uploads/_icons/0000ff/256/png/letter-q-icon-2-256.png" alt=""> </td>
-                  <td id="content">계약을 체결한 뒤에 어떤 절차로 업무가진행되나요?</td>
-              </tr>
-  
-          </table>
-  
+        <table id="notice_table">
+            @foreach ($qnaList as $item)
+                <tr class=" {{$item['category']}} all">    
+                    <td id="notice-td">
+                        @if ( $item['category'] == "notice")
+                            <div id="icon">공지</div>
+                        @else 
+                            <img src="/image/q.png">
+                        @endif
+                    </td>
+                    <td id="content-td">{{ $item['title'] }}</td>
+                    <td>
+                        <div class="qna-btn">
+                            <span class="qna-btn-down" data-target={{ $item['id'] }}><img src="/image/qnadown.png"></span>
+                            <span class="qna-btn-up" data-target={{ $item['id'] }}><img src="/image/qnaup.png"></span>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="ans-tr {{ $item['id'] }}">
+                    <td style="text-align: center;">
+                        @if ( $item['category'] == "qna")
+                            <img src="/image/A.png">
+                        @endif
+                    </td>
+                    <td class="ans-content" colspan="2">{{ $item['content'] }}</td>
+                </tr>
+            @endforeach
+
+        </table>
       </div>
+    @include('main.6');
 @endsection

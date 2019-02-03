@@ -11,6 +11,7 @@
     font-size: 15px;
     font-family: inherit;
     font-weight: bold;
+    
 }
 
 .blue {
@@ -38,7 +39,7 @@
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <div class="row" style="background-image:url('/image/mask17.png'); width:1920px; height:330px;">
-        <div class="container"> 
+        <div class="container"style="margin-top:30px;"> 
             <h1><p><strong>Mobile Appilcation</h1></strong>
             <h2>모바일 어플리케이션</p></h2><br>
             <button type="submit" class="btn gray" style="margin:0px auto;" onclick="location.href='{{ route('service.mobile') }}'">자세히 알아보기</button>
@@ -46,7 +47,7 @@
     </div>
 
     <div class="row" style="background-image:url('/image/mask18.jpg'); width:1920px; height:330px;">
-        <div class="container"> 
+        <div class="container"style="margin-top:30px;"> 
             <h1><p><strong>Website</p></h1></strong>
             <h2><p>웹사이트</p></h2><br>
             <button type="submit" class="btn gray" style="margin:0px auto;" onclick="location.href='{{ route('service.web') }}'">자세히 알아보기</button>
@@ -54,7 +55,7 @@
     </div>
     
     <div class="row" style="background-image:url('/image/mask19.jpg'); width:1920px; height:330px;">
-        <div class="container"> 
+        <div class="container"style="margin-top:30px;"> 
             <h1><p><strong>Responsive Website</p></h1></strong>
             <h2><p>반응형 웹사이트</p></h2><br>
             <button type="submit" class="btn gray" style="margin:0px auto;" onclick="location.href='{{ route('service.responsive') }}'">자세히 알아보기</button>

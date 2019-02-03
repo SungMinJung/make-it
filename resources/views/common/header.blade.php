@@ -29,6 +29,7 @@
         padding-top:1%;
         padding-left:5%;
     }
+<<<<<<< HEAD
 
 
     /*  */
@@ -138,6 +139,42 @@ display: none;
                             <li> <a class="menunav" href="{{route('service.responsive')}}"> Responsive Website </a> </li>
                             </ul>
                             </li>
+=======
+    </style>
+        <script>
+            $(document).ready(function(){
+      $('ul li a').click(function()
+      {
+        $('li a').removeClass("active");
+        $(this).addClass("active");
+    });
+    });
+    
+        </script>
+            <div class="row" id="header">
+                <div id="logo" class="col-2">
+                    <a href="{{route('home')}}"> <img id="logo" src="/img/logo.png" alt=""></a>
+
+                </div>
+                <div id="menu" class="col-1" style="color:#0066ff;">
+                        <a style="padding-left:44%;" href="{{route('home')}}">Home</a> 
+                </div>
+                <div id="menu" class="col-1">
+                        <a style="padding-left:15%;" href="{{route('about')}}">About us </a> 
+                </div>
+                <div id="menu" class="col-1">
+                        <div id = "navBar1">
+                                <ul>
+                                <li class = "headerList1"> <span> <a href="#">Service
+                                    <img src="/img/dropdown.png" alt="">  </a> </span>
+                                <ul>
+                                <li> <a class="menunav "href="{{route('service.web')}}"> WebSite </a> </li>
+                                <li> <a class="menunav" href="{{route('service.mobile')}}"> Mobile Application </a> </li>
+                                <li> <a class="menunav" href="{{route('service.responsive')}}"> Responsive Website </a> </li>
+                                </ul>
+                                </li>
+                                    
+>>>>>>> dev
                                 
                             
                             </ul>

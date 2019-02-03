@@ -34,6 +34,7 @@ Route::post('/Contact_us','ContactusController@store')->name('contact.store');
 Route::get('/Contact_us/{id}','ContactusController@show')->name('contact.show');
 Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.destroy');
 // Route::get('/Portfolio','')
+<<<<<<< HEAD
 
 Route::get('/prac',function(){
     return view('prac.prac');
@@ -48,3 +49,5 @@ Route::get('/activeprac',function(){
 Route::get('/slidedown',function(){
     return view('prac.slide_down');
 });
+=======
+>>>>>>> dev

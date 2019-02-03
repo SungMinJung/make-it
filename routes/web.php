@@ -36,5 +36,15 @@ Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.d
 // Route::get('/Portfolio','')
 
 Route::get('/prac',function(){
-    return view('prac');
+    return view('prac.prac');
+});
+Route::get('/headerprac',function(){
+    return view('prac.header');
+});
+Route::get('/activeprac',function(){
+    return view('prac.active');
+});
+
+Route::get('/slidedown',function(){
+    return view('prac.slide_down');
 });

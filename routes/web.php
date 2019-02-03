@@ -34,20 +34,3 @@ Route::post('/Contact_us','ContactusController@store')->name('contact.store');
 Route::get('/Contact_us/{id}','ContactusController@show')->name('contact.show');
 Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.destroy');
 // Route::get('/Portfolio','')
-<<<<<<< HEAD
-
-Route::get('/prac',function(){
-    return view('prac.prac');
-});
-Route::get('/headerprac',function(){
-    return view('prac.header');
-});
-Route::get('/activeprac',function(){
-    return view('prac.active');
-});
-
-Route::get('/slidedown',function(){
-    return view('prac.slide_down');
-});
-=======
->>>>>>> dev

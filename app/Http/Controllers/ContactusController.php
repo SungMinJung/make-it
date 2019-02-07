@@ -41,7 +41,7 @@ class ContactusController extends Controller
         $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip); 
         $responseKeys = json_decode($response, true); 
         if(intval($responseKeys["success"]) !== 1) { 
-            echo '검증을 통과하지 못했습니다.'; 
+            // echo '검증을 통과하지 못했습니다.';
         } 
         // else { echo '검증을 통과 했습니다.'; 
         // }

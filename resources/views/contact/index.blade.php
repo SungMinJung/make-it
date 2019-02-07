@@ -41,33 +41,30 @@ var myCenter=new google.maps.LatLng(37.482189, 126.996703);
 
 function initialize() {
 
-var mapProp = {
-    center:myCenter,
-    zoom:16,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-};
-
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker=new google.maps.Marker({
-    position:myCenter,
-});
-
-marker.setMap(map);
+    var mapProp = {
+        center:myCenter,
+        zoom:16,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var marker=new google.maps.Marker({
+        position:myCenter,
+    });
+    marker.setMap(map);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
 // recaptcha관련코드
 function FormSubmit() { 
-        if (grecaptcha.getResponse() == "") { 
-            alert("리캡챠를 체크해야 합니다."); 
-            return false; 
-        } 
-        else { 
-            return true; 
-        } 
+    if (grecaptcha.getResponse() == "") { 
+        alert("리캡챠를 체크해야 합니다."); 
+        return false; 
     } 
+    else { 
+        return true; 
+    } 
+} 
 
 </script>
 

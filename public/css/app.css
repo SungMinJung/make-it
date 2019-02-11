@@ -3,6 +3,14 @@
   margin: 0px;
 }
 
+.font-noto-eng {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.font-noto-kr {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -244,7 +252,7 @@
   width: 232px;
   text-align: center;
   font-weight: bold;
-  font-family: NotoSansCJKkr;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 22px;
   cursor: pointer;
 }
@@ -416,6 +424,10 @@ ul.tab li.current {
 
 .lineadjust {
   line-height: 2em;
+}
+
+.font-noto {
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .contacttitle {

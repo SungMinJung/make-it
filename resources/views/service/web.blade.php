@@ -10,14 +10,14 @@
         <div class="row">
             <div class="col-5"></div>
             <div class="col-5" style="margin-top:190px;">
-                <span class="servicesmall" style="color:#ffffff;">Website Development</span><br>
-                <span class="servicebig" style="color:#ffffff;">웹사이트 개발 및 제작</span>
+                <span class="servicesmall font-noto-eng" style="color:#ffffff;">Website Development</span><br>
+                <span class="servicebig font-noto-kr" style="color:#ffffff;">웹사이트 개발 및 제작</span>
             </div>
         </div>
         <div class="row">
             <div class="col-5"></div>
             <div class="col-5" style="margin:40px 0px 40px 0px;position:relative;left:10px;">
-                <span class="workprocesscontent" style="color:#ffffff; white-space:nowrap">
+                <span class="workprocesscontent font-noto-kr" style="color:#ffffff; white-space:nowrap; line-height: 30px;">
                     비즈니스 목적에 맞는 경쟁력있는 웹사이트를 제작합니다.<br>
                     고객의 니즈를 정확하게 이해하고 최신 트렌드를 반영한 웹사이트 제작을 목표로 합니다.
                 </span>
@@ -32,13 +32,13 @@
         <div class="row">
             <div class="col-5"></div>
             <div class="col-2" style="margin-top:5px;margin-bottom:15px;">
-                <span style="color:#ffffff;font-size:17px;font-weight:600">Website Category</span>
+                <span class="font-noto-eng"style="color:#ffffff;font-size:17px;font-weight:600">Website Category</span>
             </div>
         </div>
         <div class="row">
             <div class="col-5"></div>
             <div class="col-4">
-                <span class="workprocesscontent" style="color:#ffffff;">
+                <span class="workprocesscontent font-noto-eng" style="color:#ffffff; line-height: 30px;">
                     Arts &amp; Entertainment · Community · Education · Events · Health &amp; Fitness ·
                     Hospitality &amp; Tourism · Personal · Property &amp; Construction · E-COMMERCE · 
                     Fashion · Music · Food · Travel · Beauty · Living · Services etc

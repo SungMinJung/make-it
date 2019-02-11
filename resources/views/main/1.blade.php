@@ -17,7 +17,7 @@
             <div class="col-5"></div>
             <div class="row">
                 <div class="col-4">
-                    <p class="title1" style="margin-top:20px;margin-bottom:20px">
+                    <p class="title1" style="margin-top:20px;margin-bottom:20px; font-family: 'Noto Sans KR', sans-serif;">
                         메이크아이티는 고객의 목적에 맞는 웹과 어플리케이션을
                         효율적이고 합리적으로 제작하는 전문업체입니다.
                     </p>
@@ -26,7 +26,7 @@
             <div class="col-5"></div>
             <div class="row">
                 <div class="col-5">
-                    <p class="content1">
+                    <p class="content1" style="font-family: 'Noto Sans KR', sans-serif;">
                         MAKE IT는<br>
                         고객의 이상적인 웹과 앱을 구현하는 <span class="bluetitle">고객맞춤형(Clinent customized)</span> 제작 서비스입니다. 
                         아울러, <span class="bluetitle">사용자 중심(UX:User experience)</span>의 홈페이지부터 쇼핑몰, 웹 서비스, 어플리케이션 등 사용자가 보다 나은 경험을 할 수 있도록 합니다.

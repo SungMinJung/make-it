@@ -50,7 +50,7 @@
         <div class="container"style="margin-top:30px;"> 
             <h1><p><strong>Website</p></h1></strong>
             <h2><p style="margin-top:30px;">웹사이트</p></h2><br>
-            <button type="submit" class="btn gray" style="margin:0px auto margin-top:30px;;" onclick="location.href='{{ route('service.web') }}'">자세히 알아보기</button>
+            <button type="submit" class="btn gray" style="margin:0px auto; margin-top:30px;" onclick="location.href='{{ route('service.web') }}'">자세히 알아보기</button>
         </div>
     </div>
     
@@ -58,6 +58,6 @@
         <div class="container"style="margin-top:30px;"> 
             <h1><p><strong>Responsive Website</p></h1></strong>
             <h2><p style="margin-top:30px;">반응형 웹사이트</p></h2><br>
-            <button type="submit" class="btn gray" style="margin:0px auto margin-top:30px;" onclick="location.href='{{ route('service.responsive') }}'">자세히 알아보기</button>
+            <button type="submit" class="btn gray" style="margin:0px auto; margin-top:30px;" onclick="location.href='{{ route('service.responsive') }}'">자세히 알아보기</button>
         </div>
     </div>

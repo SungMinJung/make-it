@@ -6,7 +6,7 @@
         <div class="row ptpage" >
             <div class="col-7" style="padding-top:55px;">
                 <span class="title-font ">
-                    Enjoys MAKEIT<span class="blue">IT</span>'s<br>
+                    Enjoys MAKE<span class="blue">IT</span>'s<br>
                     Portfolio
                 </span>
             </div>        

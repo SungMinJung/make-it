@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);* {
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+KR);* {
   padding: 0px;
   margin: 0px;
 }
@@ -457,7 +457,7 @@ ul.tab li.current {
 .port-title {
   position: absolute;
   display: inline;
-  font-family: NotoSansCJKkr;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 27px;
   bottom: -5px;
   width: 150px;
@@ -478,7 +478,7 @@ ul.tab li.current {
 }
 
 .port-box .title-p {
-  font-family: NotoSansCJKkr;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 24px;
   padding-top: 50px;
   font-weight: bold;
@@ -517,7 +517,7 @@ ul.tab li.current {
   float: left;
   text-align: center;
   list-style: none;
-  font-family: NotoSans;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 20px;
   font-weight: bold;
   font-style: normal;
@@ -558,7 +558,7 @@ ul.tab li.current {
 }
 
 .ptpage .title-font {
-  font-family: NotoSansCJKkr;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
   font-size: 80px;
   line-height: 1.49;
@@ -566,7 +566,7 @@ ul.tab li.current {
 }
 
 .ptpage .subtitle-font {
-  font-family: NotoSansCJKkr;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 20px;
   font-weight: 300;
   font-style: normal;

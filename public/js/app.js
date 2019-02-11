@@ -36347,6 +36347,16 @@ $(document).ready(function () {
         });
     });
 
+    //Q&A
+
+    $('#QA .col-1').first().css('color', '#0066ff');
+    $('#QA .col-1').each(function (index, elem) {
+        $(elem).click(function () {
+            $('#QA .col-1').css('color', '#3d3d3d');
+            $(elem).css('color', ' #0066ff');
+        });
+    });
+
     $('#notice_title>.col-1').each(function (index, elem) {
         $(elem).click(function () {
             selectedClass = $(elem).attr("data-rel");
@@ -36362,15 +36372,16 @@ $(document).ready(function () {
             // }, 300); 
         });
     });
+
     var selectedQNA;
     $('.qna-btn-down').each(function (index, elem) {
         console.log(index);
 
         $(elem).click(function () {
             selectedQNA = $(elem).attr("data-target");
-            $("." + selectedQNA).fadeIn('slow');
+            $("." + selectedQNA).show();
             $(elem).css('display', 'none');
-            $(elem).next().css('display', 'inline');
+            $(elem).next().css('display', 'block');
             $(elem).parents('tr').css('background', '#0066FF').css('color', '#fff');
             $(elem).parents('tr').find('#icon').css('background', "#fff").css('color', '#0066ff');
         });
@@ -36381,9 +36392,9 @@ $(document).ready(function () {
 
         $(elem).click(function () {
             selectedQNA = $(elem).attr("data-target");
-            $("." + selectedQNA).fadeOut('slow');
+            $("." + selectedQNA).hide();
             $(elem).css('display', 'none');
-            $(elem).prev().css('display', 'inline');
+            $(elem).prev().css('display', 'block');
             $(elem).parents('tr').css('background', '#fff').css('color', '#000');
             $(elem).parents('tr').find('#icon').css('background', "#0066FF").css('color', '#fff');
         });

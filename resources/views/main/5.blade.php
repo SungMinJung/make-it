@@ -18,14 +18,14 @@
                 <p style="font-size:27px; color:#0066ff; font-weight:bold; margin-top:30px;">
                 다양성<span style="font-size:20px; font-family: NotoSansCJKkr; color:#3d3d3d">Variety</span></p>
                 <h4>공장에서 찍어내는 듯한 웹/앱 서비스를 제공하지않습니다.</h4>
-                <p style="font-size:27px; color:#0066ff; font-weight:bold;">
+                <p style="font-size:27px; color:#0066ff; font-weight:bold; margin-top:30px;">
                 신뢰성<span style="font-size:20px; font-family: NotoSansCJKkr; color:#3d3d3d">Reliability</span></p>
                 <h4>고객과 끊임없이 커뮤니케이션하며 고객이 가장 원하는 웹/앱서비스를</h4>
                 <h4>제공합니다</h4>
-                <p style="font-size:27px; color:#0066ff; font-weight:bold;">
+                <p style="font-size:27px; color:#0066ff; font-weight:bold; margin-top:30px;">
                 효율성<span style="font-size:20px; font-family: NotoSansCJKkr; color:#3d3d3d">Efficiency</span></p>
                 <h4>가장 합리적인 비용으로 최대의 서비스를 만들어냅니다.</h4>
-                <p style="font-size:27px; color:#0066ff; font-weight:bold;">
+                <p style="font-size:27px; color:#0066ff; font-weight:bold; margin-top:30px;">
                 보안성<span style="font-size:20px; font-family: NotoSansCJKkr; color:#3d3d3d">Security</span> </p>
                 <h4>정보 보호를 위한 엄격한 보안을 준수합니다.</h4>
             </div>

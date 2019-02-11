@@ -165,20 +165,7 @@ img.img{
 </div>
   
 
-    <div class="container">
-        <div class="row" >  
-            <div class="col-4">        
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/FCD5CFD2-1C45-498D-9782-5EE08604DF19.png" class="img">
-        </div>
-         <div class="col-1"></div>
-         <div class="col-4">
-            <h2><p id="solution"><strong>항상 최고의 솔루션을 제공합니다.<br>
-            <br>
-             Always Successful Partner with Clients.</strong></p></h2><br>
-            <br>
-            <button type="submit" class="btn blue" style="position:relative; left:80px; top:-30px;" onclick="location.href='/Contact_us'">CONTACT US</button>
-        </div>
-    </div>
+    @include('main.6')
 </div>
 
 

@@ -35,6 +35,6 @@ class Contactus extends Authenticatable
     
     public function routeNotificationForSlack()
     {
-        return 'https://hooks.slack.com/services/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';
+        return 'https://hooks.slack.com/services/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';
     }
 }

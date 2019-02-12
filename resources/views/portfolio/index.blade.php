@@ -47,7 +47,7 @@
                 <div class="port-hover">
                     <p class="title-p">{{ $item['title'] }}</p>
                     
-                    <p class="link-p">이동</p>
+                    <p class="link-p"><a href="{{ route('port',['seq'=>$item['title']]) }}">이동</a></p>
                     
                 </div>
             </div>

@@ -64,12 +64,12 @@ window.onpopstate = function () {
             <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/B2DCFDBB-FE7F-4F5C-8BDB-E7DF088B1235.png" alt="" style="width:368px;height:184;margin-bottom:40px;">
         </div>
         <div class="row">
-            <p style="font-size:60px;font-weight:600;color:#ffffff;margin:0px auto">
+            <p style="font-size:60px;font-weight:600;color:#ffffff;margin:0px auto;font-family:'Noto Sans',sans-serif;">
                 Thank you for contacting us!
             </p>
         </div>
         <div class="row">
-            <p style="font-size:40px;font-weight:lighter;color:#ffffff;margin:0px auto;padding-top:20px;">
+            <p style="font-size:40px;font-weight:lighter;color:#ffffff;margin:0px auto;padding-top:20px;font-family:'Noto Sans',sans-serif;">
                 We will soon answering the message.
             </p>
         </div>

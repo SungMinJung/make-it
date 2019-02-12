@@ -36357,8 +36357,9 @@ $(document).ready(function () {
             $("body").addClass('layer-open');
             $("#portpop").css({
                 "position": "fixed",
-                "top": -scrollHeight
+                "top": "30px"
             });
+
             $('#portpop').modal("show");
         });
     });

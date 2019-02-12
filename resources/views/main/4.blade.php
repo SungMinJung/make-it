@@ -38,6 +38,24 @@
 <div id="portpop">
     팝업<br>
     <br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
+    테스트<br><br><br><br><br>
     테스트
-    <span id="pop_close" style="position:absolute; right:0; top:0;">X</span>
 </div>

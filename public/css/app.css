@@ -479,7 +479,13 @@ ul.tab li.current {
   display: none;
   width: 1000px;
   background-color: #fff;
-  height: 2000px;
+  height: 900px;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .port-title {

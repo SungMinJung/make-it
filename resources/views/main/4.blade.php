@@ -26,11 +26,18 @@
                 <div class="port-hover">
                     <p class="title-p">{{ $item['title'] }}</p>
                     
-                    <p class="link-p"><a href="{{$item['link']}}">링크이동</a></p>
+                    <p class="link-p">이동</p>
                     
                 </div>
             </div>
         </div>
         @endforeach
     </div>
+    
+</div>
+<div id="portpop">
+    팝업<br>
+    <br><br><br><br><br>
+    테스트
+    <span id="pop_close" style="position:absolute; right:0; top:0;">X</span>
 </div>

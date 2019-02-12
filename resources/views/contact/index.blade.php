@@ -20,6 +20,7 @@ input {
     border-right: none;
     color: #ffffff;
     margin:10px 0px 10px 0px;
+    width: 248px;
 }
 
 textarea {
@@ -41,33 +42,30 @@ var myCenter=new google.maps.LatLng(37.482189, 126.996703);
 
 function initialize() {
 
-var mapProp = {
-    center:myCenter,
-    zoom:16,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-};
-
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker=new google.maps.Marker({
-    position:myCenter,
-});
-
-marker.setMap(map);
+    var mapProp = {
+        center:myCenter,
+        zoom:16,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+    };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var marker=new google.maps.Marker({
+        position:myCenter,
+    });
+    marker.setMap(map);
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
 // recaptcha관련코드
 function FormSubmit() { 
-        if (grecaptcha.getResponse() == "") { 
-            alert("리캡챠를 체크해야 합니다."); 
-            return false; 
-        } 
-        else { 
-            return true; 
-        } 
+    if (grecaptcha.getResponse() == "") { 
+        alert("리캡챠를 체크해야 합니다."); 
+        return false; 
     } 
+    else { 
+        return true; 
+    } 
+} 
 
 </script>
 
@@ -110,7 +108,7 @@ function FormSubmit() {
                         <div class="col-2">
                             <input type="text" name="contact_name" placeholder="Name">
                         </div>
-                        <div class="col-2" style="position:relative;left:21px;">
+                        <div class="col-2" style="position:relative;left:16px;">
                             <input type="tel" name="contact_tel" placeholder="Telephone Number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
                         </div>
                     </div>
@@ -121,7 +119,7 @@ function FormSubmit() {
                         <div class="col-2">
                             <input type="email" name="contact_email" placeholder="Email Address">
                         </div>
-                        <div class="col-2" style="position:relative;left:21px;">
+                        <div class="col-2" style="position:relative;left:16px;">
                             <input type="text" name="contact_refsite" placeholder="Reference Site or App">
                         </div>
                     </div>

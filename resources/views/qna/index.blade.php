@@ -200,7 +200,7 @@ td img {
                         @if ( $item['category'] == "notice")
                             <div id="icon">공지</div>
                         @else 
-                            <img src="/image/q.png">
+                            <img src="/image/Q.png">
                         @endif
                     </td>
                     <td id="content-td">{{ $item['title'] }}</td>

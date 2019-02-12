@@ -11,14 +11,14 @@
         <div class="row">
             <div class="col-5"></div>
             <div class="col-5" style="margin-top:190px;">
-                <span class="servicesmall" style="color:#3d3d3d ;">Mobile Application Development</span><br>
-                <span class="servicebig" style="color:#3d3d3d;white-space:nowrap;">모바일 어플리케이션 개발 및 제작</span>
+                <span class="servicesmall font-noto-eng" style="color:#3d3d3d ;">Mobile Application Development</span><br>
+                <span class="servicebig font-noto-kr" style="color:#3d3d3d;white-space:nowrap;">모바일 어플리케이션 개발 및 제작</span>
             </div>
         </div>
         <div class="row">
             <div class="col-5"></div>
             <div class="col-5" style="margin:60px 0px 60px 0px;position:relative;left:10px;">
-                <span class="workprocesscontent" style="color:#3d3d3d; white-space:nowrap">
+                <span class="workprocesscontent font-noto-kr" style="color:#3d3d3d; white-space:nowrap; line-height: 30px;">
                     비즈니스 목적에 맞는 경쟁력있는 모바일 어플리케이션을 제작합니다.<br>
                     고객의 니즈를 정확하게 이해하고 최신 트렌드를 반영한 앱 제작을 목표로 합니다.
                 </span>
@@ -33,13 +33,13 @@
         <div class="row">
             <div class="col-5"></div>
             <div class="col-3" style="margin-top:5px;margin-bottom:15px;">
-                <span style="color:#3d3d3d;font-size:17px;font-weight:600;">Mobile Application Category</span>
+                <span class="font-noto-eng" style="color:#3d3d3d;font-size:17px;font-weight:600;">Mobile Application Category</span>
             </div>
         </div>
         <div class="row">
             <div class="col-5"></div>
             <div class="col-5">
-                <span class="workprocesscontent" style="color:#3d3d3d;">
+                <span class="workprocesscontent font-noto-eng" style="color:#3d3d3d; line-height: 30px;">
                     Arts &amp; Entertainment · Community · Education · Events · Health &amp; Fitness ·
                     Hospitality &amp; Tourism · Personal · Property &amp; Construction · E-COMMERCE · 
                     Fashion · Music · Food · Travel · Beauty · Living · Services etc

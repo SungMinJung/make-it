@@ -128,18 +128,18 @@ img.img{
             <img id=""src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/5254EE88-94F6-4492-AC0B-FE14E65C03B1.png">
             <p style="position:absolute; top:20px; left:270px; text-align:center; font-size:25px; color:white;">WEB SERVICE</p><br>
             <p style="position:absolute; top:70px; left:270px;  text-align:center; font-size:20px; color:white;">- 홈페이지 제작</p>
-            <p style="position:absolute; top:90px; left:270px; text-align:center; font-size:20px; color:white;">- 쇼핑몰 제작</p>
-            <p style="position:absolute; top:110px; left:270px; text-align:center; font-size:20px; color:white;">- 반응형 웹 서비스 제작</p>
-            <p style="position:absolute; top:130px; left:270px; text-align:center; font-size:20px; color:white;">- 프렌차이즈 홈페이지 제작</p>
-            <p style="position:absolute; top:150px; left:270px; text-align:center; font-size:20px; color:white;">- 고객 맞춤형 홈페이지 제작</p>
+            <p style="position:absolute; top:100px; left:270px; text-align:center; font-size:20px; color:white;">- 쇼핑몰 제작</p>
+            <p style="position:absolute; top:130px; left:270px; text-align:center; font-size:20px; color:white;">- 반응형 웹 서비스 제작</p>
+            <p style="position:absolute; top:160px; left:270px; text-align:center; font-size:20px; color:white;">- 프렌차이즈 홈페이지 제작</p>
+            <p style="position:absolute; top:190px; left:270px; text-align:center; font-size:20px; color:white;">- 고객 맞춤형 홈페이지 제작</p>
         </div>
         <div class="col-5" style="margin-top:20px;margin-left:0px; margin-bottom:10px; position:relative; background:#707070;">
             <img id="" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/4E05FA52-102E-4DAE-B953-F86C514FDD33.png">
             <p style="position:absolute; top:20px; left:270px; text-align:center; font-size:25px; color:white;">MOBILE/APPLICATION</p><br>
             <p style="position:absolute; top:70px; left:270px; text-align:center; font-size:20px; color:white;">- 아이폰,안드로이드 앱 제작</p>
-            <p style="position:absolute; top:90px; left:270px; text-align:center; font-size:20px; color:white;">- 모바일 웹 제작</p>
-            <p style="position:absolute; top:110px; left:270px; text-align:center; font-size:20px; color:white;">- 하이브리드 앱 제작</p>
-            <p style="position:absolute; top:130px; left:270px; text-align:center; font-size:20px; color:white;">- 다양한 모바일 플랫폼 제작</p>
+            <p style="position:absolute; top:100px; left:270px; text-align:center; font-size:20px; color:white;">- 모바일 웹 제작</p>
+            <p style="position:absolute; top:130px; left:270px; text-align:center; font-size:20px; color:white;">- 하이브리드 앱 제작</p>
+            <p style="position:absolute; top:160px; left:270px; text-align:center; font-size:20px; color:white;">- 다양한 모바일 플랫폼 제작</p>
         </div>
     </div>
     <div class="row">
@@ -147,17 +147,17 @@ img.img{
             <img id=""src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/F9E6AE40-C6B8-4959-B9A0-4269C7D01C62.png">
             <p style="position:absolute; top:20px; left:270px; text-align:center; font-size:25px; color:white;">PLANNING & DESIGN</p><br>
             <p style="position:absolute; top:70px; left:270px;  text-align:center; font-size:20px; color:white;">- 웹 서비스 기획</p>
-            <p style="position:absolute; top:90px; left:270px; text-align:center; font-size:20px; color:white;">- 고객 요구사항 분석</p>
-            <p style="position:absolute; top:110px; left:270px; text-align:center; font-size:20px; color:white;">- Web,App 디자인</p>
-            <p style="position:absolute; top:130px; left:270px; text-align:center; font-size:20px; color:white;">- UI & UX</p>
+            <p style="position:absolute; top:100px; left:270px; text-align:center; font-size:20px; color:white;">- 고객 요구사항 분석</p>
+            <p style="position:absolute; top:130px; left:270px; text-align:center; font-size:20px; color:white;">- Web,App 디자인</p>
+            <p style="position:absolute; top:160px; left:270px; text-align:center; font-size:20px; color:white;">- UI & UX</p>
         </div>
         <div class="col-5" style="margin-bottom:100px;margin-left:0px; position:relative; background:#707070;">
             <img id="" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/7800432E-45FB-41CA-AC3E-9BC0F2B7AB5F.png">
             <p style="position:absolute; top:20px; left:270px; text-align:center; font-size:25px; color:white;">MANAGEMENT</p><br>
             <p style="position:absolute; top:70px; left:270px; text-align:center; font-size:20px; color:white;">- 디자인 유지보수</p>
-            <p style="position:absolute; top:90px; left:270px; text-align:center; font-size:20px; color:white;">- 프로그램 유지보수</p>
-            <p style="position:absolute; top:110px; left:270px; text-align:center; font-size:20px; color:white;">- 정기점검</p>
-            <p style="position:absolute; top:130px; left:270px; text-align:center; font-size:20px; color:white;">- 하자보수</p>
+            <p style="position:absolute; top:100px; left:270px; text-align:center; font-size:20px; color:white;">- 프로그램 유지보수</p>
+            <p style="position:absolute; top:130px; left:270px; text-align:center; font-size:20px; color:white;">- 정기점검</p>
+            <p style="position:absolute; top:160px; left:270px; text-align:center; font-size:20px; color:white;">- 하자보수</p>
         </div>
     </div>
 </div>
@@ -165,20 +165,7 @@ img.img{
 </div>
   
 
-    <div class="container">
-        <div class="row" >  
-            <div class="col-4">        
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/FCD5CFD2-1C45-498D-9782-5EE08604DF19.png" class="img">
-        </div>
-         <div class="col-1"></div>
-         <div class="col-4">
-            <h2><p id="solution"><strong>항상 최고의 솔루션을 제공합니다.<br>
-            <br>
-             Always Successful Partner with Clients.</strong></p></h2><br>
-            <br>
-            <button type="submit" class="btn blue" style="position:relative; left:80px; top:-30px;" onclick="location.href='/Contact_us'">CONTACT US</button>
-        </div>
-    </div>
+    @include('main.6')
 </div>
 
 

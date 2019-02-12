@@ -35,6 +35,7 @@
 }
 #solution{
     padding-top:30px;
+    padding-bottom:30px;
 }
 </style>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">

@@ -1,7 +1,7 @@
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Sans+KR');
 // Variables
 @import 'variables';
 
@@ -20,9 +20,11 @@
   padding:0px;
   margin:0px;
 }
-p{
-  padding: 0px;
-  margin:0px;
+.font-noto-eng{
+  font-family: 'Noto Sans', sans-serif;
+}
+.font-noto-kr{
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .container{
   width:1200px;

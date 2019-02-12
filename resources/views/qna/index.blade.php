@@ -97,7 +97,7 @@ input {
     border-bottom:2px solid #707070;
 }
 #notice_table #notice-td{
-    padding:20px 2px 20px 10px;
+    padding:20px 20px 20px 20px;
     text-align:center;
     width:2%;
 }
@@ -139,7 +139,7 @@ input {
 }
 .ans-content{
     padding:20px 2px 20px 10px;
-    width:50%;
+    
     padding-left:12px;
 }
 .ans-tr{
@@ -147,6 +147,21 @@ input {
 }
 .notice_table{
     transition: all 350ms ease;
+}
+table { 
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+td {
+    padding:20px 20px 20px 20px;
+
+}
+td img {
+    display:block;
+    margin:0px auto;
+}
+#QA .col-1{
+    font-weight: bold;
 }
     </style>
 
@@ -169,7 +184,7 @@ input {
       </div>
 
 {{--  --}}
-    <div class="container">
+    <div id="QA" class="container">
         <div class="row" id="notice_title">
             <div class="col-1" data-rel="all">전체</div>
             <div class="col-1" data-rel="notice">공지사항</div>

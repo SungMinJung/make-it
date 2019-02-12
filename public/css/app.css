@@ -470,24 +470,6 @@ ul.tab li.current {
   overflow: hidden;
 }
 
-#portpop {
-  left: 50%;
-  top: 10px;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  z-index: 9000;
-  display: none;
-  width: 1000px;
-  background-color: #fff;
-  height: 900px;
-  overflow-y: auto;
-  -ms-overflow-style: none;
-}
-
-::-webkit-scrollbar {
-  display: none;
-}
-
 .port-title {
   position: absolute;
   display: inline;

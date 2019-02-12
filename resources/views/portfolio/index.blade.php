@@ -69,16 +69,5 @@
         </div>
     </div>
 </div>
-<div id="portpop">
-        팝업<br>
-        <br><br><br><br><br>
-        테스트<br><br><br><br>
-        테스트<br><br><br><br>
-        테스트<br><br><br><br>
-        테스트<br><br><br><br>
-        테스트<br><br><br><br>
-        테스트<br><br><br><br>
-       
-    </div>
 @include('main.6')
 @endsection

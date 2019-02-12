@@ -36348,26 +36348,24 @@ $(document).ready(function () {
     });
 
     //modal
-    var scrollHeight = 0;
-    $('.link-p').each(function (index, elem) {
-        $(elem).click(function () {
-            // $('html, body').css({'overflow': 'hidden', 'height': '100%'});
-            console.log('modal');
-            scrollHeight = $("body").scrollTop();
-            $("body").addClass('layer-open');
-            $("#portpop").css({
-                "position": "fixed",
-                "top": "30px"
-            });
+    // var scrollHeight = 0;
+    // $('.link-p').each(function(index, elem){
+    //     $(elem).click(function(){
+    //         scrollHeight = $("body").scrollTop();  
+    //         $("body").addClass('layer-open');
+    //         $("#portpop").css({
+    //             "position" : "fixed",
+    //             "top" : "30px"
+    //         });
 
-            $('#portpop').modal("show");
-        });
-    });
-    $('#portpop').click(function () {
-        $("body").removeClass("layer-open");
-        $("body").scrollTop(scrollHeight);
-        $('#portpop').modal("hide");
-    });
+    //         $('#portpop').modal("show");
+    //     })
+    // })
+    // $('#portpop').click(function(){
+    //     $("body").removeClass("layer-open");
+    //     $("body").scrollTop(scrollHeight);
+    //     $('#portpop').modal("hide");
+    // })
 
     //Q&A
 

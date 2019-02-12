@@ -248,7 +248,7 @@
     <div class="bg" >
         <div class="container">
                                       <div class="process">
-                                        <img id="sadari" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AC1C3FDE-C53E-4AFC-9A14-9D68087318A2.png" alt="">
+                                        <img id="sadari" src="/img/sadari.svg" alt="">
                                          <p id="title_en">Work Process</p>
                                          <p id="title_ko">제작 과정</p>
                         
@@ -266,16 +266,16 @@
                                                 <div class="horizen_div">
                         
                                                 <span id="icon">
-                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                    <img  src="/img/servicecircle.svg" alt="">
                                                        <span id="content"> 요구사항 정의</span>
                                                 </span>
                                                 <span id="icon">
-                                                        <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                        <img  src="/img/servicecircle.svg" alt="">
                                                            <span id="content"> 견적 및 계약 진행</span>
                                                 </span>
                         
                                                 <div id="icon"  >
-                                                        <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                        <img  src="/img/servicecircle.svg" alt="">
                                                            <span id="content">아이디어 구상 및 레퍼런스 리서치</span>
                                                 </div> 
                                             </div>           
@@ -291,11 +291,11 @@
                                                         <div class="horizen_div">
                         
                                                         <div id="icon">
-                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                            <img  src="/img/servicecircle.svg" alt="">
                                                                <span id="content"> 서비스 연장</span>
                                                         </div>
                                                         <div id="icon">
-                                                                <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                <img  src="/img/servicecircle.svg" alt="">
                                                                    <span id="content"> 서비스 종료</span>
                                                         </div>
                                                     </div>
@@ -317,30 +317,30 @@
                                                              <div class="horizen_div">
                         
                                                                      <div id="icon"  style="" >
-                                                                         <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                         <img  src="/img/servicecircle.svg" alt="">
                                                                             <span id="content"> 고객의 니즈 분석</span>
                                                                      </div>
                                                                      <div id="icon"  >
-                                                                             <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                             <img  src="/img/servicecircle.svg" alt="">
                                                                                 <span id="content"> 수행 계획서 작성</span>
                                                                      </div>
                                                                     
                                                                     <div id="icon"   >
-                                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                            <img  src="/img/servicecircle.svg" alt="">
                                                                                 <span id="content">경쟁사 분석</span>
                                                                     </div>  
                                                                     <div id="icon" >
-                                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                            <img  src="/img/servicecircle.svg" alt="">
                                                                                 <span id="content">스토리보드 작성</span>
                                                                     </div>   
                         
                                                              <div id="icon">
-                                                             <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                             <img src="/img/servicecircle.svg" alt="">
                                                                 <span id="content">Site Map 작성</span>
                                                              </div>
                         
                                                              <div id="icon" >  
-                                                             <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                             <img  src="/img/servicecircle.svg" alt="">
                                                                 <span id="content">디자인</span>
                                                              </span>
                                                             </div>
@@ -358,15 +358,15 @@
                                                             <div class="horizen_div">
                         
                                                             <div id="icon">
-                                                                <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                <img  src="/img/servicecircle.svg" alt="">
                                                                     <span id="content"> 고객 웹 가이드라인 제작</span>
                                                             </div>
                                                             <div id="icon">
-                                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                    <img  src="/img/servicecircle.svg" alt="">
                                                                         <span id="content">보증기간 동안 유지보수 진행</span>
                                                             </div>
                                                             <div id="icon">
-                                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                    <img  src="/img/servicecircle.svg" alt="">
                                                                        <span id="content">고객 웹 가이드라인 교육</span>
                                                             </div>
                                                         </div>  
@@ -387,11 +387,11 @@
                                                             <div class="horizen_div">
                         
                                                                     <div id="icon">
-                                                                        <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                        <img  src="/img/servicecircle.svg" alt="">
                                                                             <span id="content"> 요구사항 정의</span>
                                                                     </div>
                                                                     <div id="icon">
-                                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                            <img  src="/img/servicecircle.svg" alt="">
                                                                                 <span id="content"> 견적 및 계약 진행</span>
                                                                     </div>
                                                             </div>
@@ -408,11 +408,11 @@
                                                             </div>
                                                             <div class="horizen_div">
                                                             <span id="icon">
-                                                                <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                <img  src="/img/servicecircle.svg" alt="">
                                                                     <span id="content"> 요구사항 정의</span>
                                                             </span>
                                                             <span id="icon">
-                                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                    <img  src="/img/servicecircle.svg" alt="">
                                                                         <span id="content"> 견적 및 계약 진행</span>
                                                             </span>
                                                         </div>

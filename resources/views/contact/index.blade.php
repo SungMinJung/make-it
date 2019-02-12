@@ -83,7 +83,7 @@ function FormSubmit() {
         <div class="row"><br><br><br><br></div>
         <div class="row">
             <div class="col-3">
-                <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/B2DCFDBB-FE7F-4F5C-8BDB-E7DF088B1235.png" alt="" style="width:368px;height:184;margin-bottom:40px;">
+                <img src="img/contactmakeit.svg" alt="" style="width:368px;height:184;margin-bottom:40px;">
                 <div class="row" style="margin-bottom:60px;">
                     <div class="col-1 contactneed font-noto-eng">
                         Tel<br><br>

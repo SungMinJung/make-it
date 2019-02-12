@@ -77,17 +77,17 @@
                     </div>
                     <div class="col-9" style="position:relative;right:10px;">
                         <p>
-                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">기본 웹사이트 제작</span><br>
-                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Basic Website</span>
+                            <span class="sertop">기본 웹사이트 제작</span><br>
+                            <span class="sertopbot">Basic Website</span>
                         </p>
                     </div>
                     <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
-                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">1,200,000원</span><br>
-                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                        <span class="sermid">1,200,000원</span><br>
+                        <span class="sermidblue">*모바일웹 제작 추가시 800,000원 추가</span>
                     </div>
                     <div class="row">
                         <div class="col-8">
-                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                            <span class="sermidbot">
                                 기본 웹사이트로 내용이 복잡하지 않고 전체 15page 내외로 제작하시는 경우에 적합합니다.<br>
                                 빠른 제작 기간과 저렴한 가격을 원하시는 고객께 추천드리며 프랜차이즈 웹사이트, 회사소개 사이트, 이벤트 웹페이지,
                                 포트폴리오 사이트 등 소개 및 홍보 목적을 가진 사이트에 적합합니다.
@@ -96,7 +96,7 @@
                         <div class="col-2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                        <div class="col-2 serbot">
                             - 메인화면 1 page<br>
                             - 서브화면 10 page<br>
                             - 게시판 4 page<br>
@@ -113,17 +113,17 @@
                     </div>
                     <div class="col-9" style="position:relative;right:10px;">
                         <p>
-                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">일반 웹사이트 제작</span><br>
-                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">General Website</span>
+                            <span class="sertop">일반 웹사이트 제작</span><br>
+                            <span class="sertopbot">General Website</span>
                         </p>
                     </div>
                     <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
-                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">2,000,000원</span><br>
-                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                        <span class="sermid">2,000,000원</span><br>
+                        <span class="sermidblue">*모바일웹 제작 추가시 800,000원 추가</span>
                     </div>
                     <div class="row">
                         <div class="col-8">
-                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                            <span class="sermidbot">
                                 일반 웹사이트로 내용이 복잡하지 않고 전체 15~40page 내외로 제작하시는 경우에 해당됩니다.<br>
                                 빠른 제작 기간과 저렴한 가격을 원하시는 고객께 추천드리며 병원, 미술관, 갤러리,<br>
                                 피트니스 웹사이트 등 소개 및 홍보 목적을 가진 사이트에 적합합니다.
@@ -132,7 +132,7 @@
                         <div class="col-2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                        <div class="col-2 serbot">
                             - 메인화면 1 page<br>
                             - 서브화면 15 ~ 30 page<br>
                             - 게시판 10 page<br>
@@ -149,17 +149,17 @@
                     </div>
                     <div class="col-9" style="position:relative;right:10px;">
                         <p>
-                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">쇼핑몰 제작</span><br>
-                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Shopping Mall Website</span>
+                            <span class="sertop">쇼핑몰 제작</span><br>
+                            <span class="sertopbot">Shopping Mall Website</span>
                         </p>
                     </div>
                     <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
-                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">2,000,000원</span><br>
-                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                        <span class="sermid">2,000,000원</span><br>
+                        <span class="sermidblue">*모바일웹 제작 추가시 800,000원 추가</span>
                     </div>
                     <div class="row">
                         <div class="col-9">
-                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                            <span class="sermidbot">
                                 독립형 쇼핑몰로 저렴한 비용과 간편한 기능을 갖춘 쇼핑몰을 원하시는 고객에게 추천드립니다.<br>
                                 경제적이고 간편한 기능으로 제공하는 기본 구성의 쇼핑몰로 약 4~5주 기간의 맞춤 제작으로 진행됩니다.<br>
                                 자신의 상품에 맞는 쇼핑몰을 제작하세요.
@@ -168,7 +168,7 @@
                         <div class="col-2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                        <div class="col-2 serbot">
                             - 화면 10 ~ 30 page<br>
                             - 제작기간 4 ~ 5주<br>
                         </div>
@@ -183,17 +183,17 @@
                     </div>
                     <div class="col-9" style="position:relative;right:10px;">
                         <p>
-                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">맞춤형 웹사이트 제작</span><br>
-                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Custom Website</span>
+                            <span class="sertop">맞춤형 웹사이트 제작</span><br>
+                            <span class="sertopbot">Custom Website</span>
                         </p>
                     </div>
                     <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
-                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">견적문의</span><br>
-                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                        <span class="sermid">견적문의</span><br>
+                        <span class="sermidblue">*모바일웹 제작 추가시 800,000원 추가</span>
                     </div>
                     <div class="row">
                         <div class="col-10">
-                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;right:20px">
+                            <span class="sermidbot" style="position:relative;right:18px;">
                                 비즈니스가 복잡하고 디자인보다 다양한 기능성이 필요시되는 사이트 구축 및 쇼핑몰을 원하시는 고객에게 추천드립니다.<br>
                                 스타트업 웹 서비스, 고객관리시스템(CRM), 웹하드, 구인구직 웹사이트, 부동산 사이트 등<br>
                                 독립된 판매 프로세스와 고객이 기획한 맞춤기능 제작이 필요한 경우에 해당됩니다.
@@ -202,7 +202,7 @@
                         <div class="col-2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                        <div class="col-2 serbot">
                             - 개발화면 50 page 이상<br>
                             - 제작기간 협의 필요<br>
                         </div>
@@ -217,17 +217,17 @@
                     </div>
                     <div class="col-9" style="position:relative;right:10px;">
                         <p>
-                            <span style="font-size:25px;color:#3d3d3d;font-weight:lighter;">프리미엄 웹사이트 제작</span><br>
-                            <span style="font-size:40px;font-weight:bold;color:#3d3d3d;">Premium Website</span>
+                            <span class="sertop">프리미엄 웹사이트 제작</span><br>
+                            <span class="sertopbot">Premium Website</span>
                         </p>
                     </div>
                     <div class="col-4" style="position:relative;right:10px;padding-top:30px;">
-                        <span style="font-size:30px;font-weight:bold;color:#3d3d3d;">4,000,000원</span><br>
-                        <span style="font-size:20px;color:#0066ff;">*모바일웹 제작 추가시 800,000원 추가</span>
+                        <span class="sermid">4,000,000원</span><br>
+                        <span class="sermidblue">*모바일웹 제작 추가시 800,000원 추가</span>
                     </div>
                     <div class="row">
                         <div class="col-8">
-                            <span style="font-size:21px;color:#3d3d3d;position:relative;top:40px;">
+                            <span class="sermidbot">
                                 해당 사이트에 대한 구상이 막연하고 페이지의 수가 가늠이 가지 않는 고객에게 추천드립니다.<br>
                                 프리미엄 상품은 기존 80page를 잡고 필요 시 계속해서 추가할 수 있습니다.<br>
                                 그때그때 필요할 때 페이지를 빠르게 추가해보세요.
@@ -236,7 +236,7 @@
                         <div class="col-2"></div>
                     </div>
                     <div class="row">
-                        <div class="col-2" style="margin:86px 0px 40px 0px;">
+                        <div class="col-2 serbot">
                             - 개발화면 80 page 이상<br>
                             - 제작기간 협의 필요<br>
                         </div>
@@ -254,9 +254,9 @@
     <div class="bg" >
     <div class="container">
                                       <div class="process">
-                                        <img id="sadari" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AC1C3FDE-C53E-4AFC-9A14-9D68087318A2.png" alt="">
-                                         <p id="title_en">Work Process</p>
-                                         <p id="title_ko">제작 과정</p>
+                                        <img id="sadari" src="/img/sadari.svg" alt="">
+                                         <p id="title_en" class="font-noto-eng">Work Process</p>
+                                         <p id="title_ko" class="font-noto-kr">제작 과정</p>
                         
                                          {{-- <img id="box" style="padding-top:54px;" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/A87629E7-B532-445A-AAD4-DB4BB1483AF2.png" alt=""> --}}
                                          <div class="row">
@@ -272,16 +272,16 @@
                                                 <div class="horizen_div">
                         
                                                 <span id="icon">
-                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
-                                                       <span id="content"> 요구사항 정의</span>
+                                                    <img src="/img/servicecircle.svg" alt="">
+                                                       <span id="content">고객의 요구사항 정의</span>
                                                 </span>
                                                 <span id="icon">
-                                                        <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                        <img  src="/img/servicecircle.svg" alt="">
                                                            <span id="content"> 견적 및 계약 진행</span>
                                                 </span>
                         
                                                 <div id="icon"  >
-                                                        <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                        <img  src="/img/servicecircle.svg" alt="">
                                                            <span id="content">아이디어 구상 및 레퍼런스 리서치</span>
                                                 </div> 
                                             </div>           
@@ -297,11 +297,11 @@
                                                         <div class="horizen_div">
                         
                                                         <div id="icon">
-                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                            <img  src="/img/servicecircle.svg" alt="">
                                                                <span id="content"> 서비스 연장</span>
                                                         </div>
                                                         <div id="icon">
-                                                                <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                <img  src="/img/servicecircle.svg" alt="">
                                                                    <span id="content"> 서비스 종료</span>
                                                         </div>
                                                     </div>
@@ -315,7 +315,7 @@
                                             <div class="col-5">
                                              <div id="box"  style="margin-top:-10%; height:275px;">
                                                      <div class="box_title"> 2. 서비스 기획 및 디자인</div>
-                                                     <div class="box_content"><p> 고객의 요구사항 분석, 벤치마킹 및 경재사 등을 통하여 Site Map, 구체화,</p>
+                                                     <div class="box_content"><p> 고객의 요구사항 분석, 벤치마킹 및 경쟁사 등을 통하여 Site Map, 구체화,</p>
                                                          <p>스토리보드, 수행계획서 등 기획 작업이 이루어집니다. 메인 디자인과 서브디자인</p>
                                                          <p>에 대해 고객과의 커뮤니케이션을 통한 최고의 디자인을 만듭니다.</p>
                         
@@ -323,30 +323,30 @@
                                                              <div class="horizen_div">
                         
                                                                      <div id="icon"  style="" >
-                                                                         <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                         <img  src="/img/servicecircle.svg" alt="">
                                                                             <span id="content"> 고객의 니즈 분석</span>
                                                                      </div>
                                                                      <div id="icon"  >
-                                                                             <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                             <img  src="/img/servicecircle.svg" alt="">
                                                                                 <span id="content"> 수행 계획서 작성</span>
                                                                      </div>
                                                                     
                                                                     <div id="icon"   >
-                                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                            <img  src="/img/servicecircle.svg" alt="">
                                                                                 <span id="content">경쟁사 분석</span>
                                                                     </div>  
                                                                     <div id="icon" >
-                                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                            <img  src="/img/servicecircle.svg" alt="">
                                                                                 <span id="content">스토리보드 작성</span>
                                                                     </div>   
                         
                                                              <div id="icon">
-                                                             <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                             <img src="/img/servicecircle.svg" alt="">
                                                                 <span id="content">Site Map 작성</span>
                                                              </div>
                         
                                                              <div id="icon" >  
-                                                             <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                             <img  src="/img/servicecircle.svg" alt="">
                                                                 <span id="content">디자인</span>
                                                              </span>
                                                             </div>
@@ -364,15 +364,15 @@
                                                             <div class="horizen_div">
                         
                                                             <div id="icon">
-                                                                <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                <img  src="/img/servicecircle.svg" alt="">
                                                                     <span id="content"> 고객 웹 가이드라인 제작</span>
                                                             </div>
                                                             <div id="icon">
-                                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                    <img  src="/img/servicecircle.svg" alt="">
                                                                         <span id="content">보증기간 동안 유지보수 진행</span>
                                                             </div>
                                                             <div id="icon">
-                                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
+                                                                    <img  src="/img/servicecircle.svg" alt="">
                                                                        <span id="content">고객 웹 가이드라인 교육</span>
                                                             </div>
                                                         </div>  
@@ -393,12 +393,12 @@
                                                             <div class="horizen_div">
                         
                                                                     <div id="icon">
-                                                                        <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
-                                                                            <span id="content"> 요구사항 정의</span>
+                                                                        <img  src="/img/servicecircle.svg" alt="">
+                                                                            <span id="content">프로그래밍 진행</span>
                                                                     </div>
                                                                     <div id="icon">
-                                                                            <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
-                                                                                <span id="content"> 견적 및 계약 진행</span>
+                                                                            <img  src="/img/servicecircle.svg" alt="">
+                                                                                <span id="content">프로그래밍 최적화</span>
                                                                     </div>
                                                             </div>
                                             
@@ -414,12 +414,12 @@
                                                             </div>
                                                             <div class="horizen_div">
                                                             <span id="icon">
-                                                                <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
-                                                                    <span id="content"> 요구사항 정의</span>
+                                                                <img  src="/img/servicecircle.svg" alt="">
+                                                                    <span id="content">오픈 전 최종 검수</span>
                                                             </span>
                                                             <span id="icon">
-                                                                    <img  src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/28ABF346-F659-42A7-B7B9-6489F6864A68.png" alt="">
-                                                                        <span id="content"> 견적 및 계약 진행</span>
+                                                                    <img  src="/img/servicecircle.svg" alt="">
+                                                                        <span id="content">서비스 런칭</span>
                                                             </span>
                                                         </div>
                                                </div>{{-- 여기가 박스    --}}

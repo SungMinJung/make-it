@@ -11,7 +11,7 @@
             <div class="col-5"></div>
             <div class="row">
                 <div class="col-3">
-                    <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/745BD7F0-6CA2-4B82-AC3A-23D57AA2896A.png" alt="" style="width:346px;height:162px;">
+                    <img src="img/main1makeit1.svg" alt="" style="width:346px;height:162px;">
                 </div>
             </div>
             <div class="col-5"></div>
@@ -43,33 +43,33 @@
 
 <div class="container">
     <div class="row">
-        <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/AD0A3A9F-381E-47A3-9B0C-E72C5E88FEFC.png" alt="" style="width:167px;height:83px;"><span class="needbot">를 필요로 하는 고객</span>
+        <img src="img/MAKEIT1.svg" alt="" style="width:167px;height:83px;"><span class="needbot">를 필요로 하는 고객</span>
     </div>
     <div class="row"><br></div>
     <div class="row">
         <div class="col-2 bluebox">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/14FE0C7B-12D9-46AE-9379-D71170AD89E6.png" alt="" style="" class="topnumber">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/3AB56375-B514-4ABF-8336-04A011BE346A.png" alt="" class="topimage">
+            <img src="/img/num1.svg" alt="" style="" class="topnumber">
+            <img src="/img/blue1.svg" alt="" class="topimage">
             <p class="bluecontent">자신만의 웹/앱이 없는 분</p>
         </div>
         <div class="col-2 bluebox">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/B939B456-03A9-4410-949B-DCBA9CC622EA.png" alt="" class="topnumber">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/7789E0B9-70EA-4846-85E4-23F0AF869D02.png" alt="" class="topimage">
+            <img src="/img/num2.svg" alt="" class="topnumber">
+            <img src="/img/blue2.svg" alt="" class="topimage">
             <p class="bluecontent">웹/앱을 수정하고 싶으신 분</p>
         </div>
         <div class="col-2 bluebox">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/6A1B89E6-04CF-4BA0-9C60-28160F45B684.png" alt="" class="topnumber">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/87957854-D2FC-4ED4-AD9E-7BB9126D1E84.png" alt="" class="topimage">
+            <img src="/img/num3.svg" alt="" class="topnumber">
+            <img src="/img/blue3.svg" alt="" class="topimage">
             <p class="bluecontent">웹/앱에 대한 유지보수가<br> 힘드신 분</p>
         </div>
         <div class="col-2 bluebox">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/B9D76526-14EA-4A6B-B2BD-C662DE9F0A41.png" alt="" class="topnumber">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/ACF479F9-4138-4F2C-BDC2-77400162529B.png" alt="" class="topimage">
+            <img src="/img/num4.svg" alt="" class="topnumber">
+            <img src="/img/blue4.svg" alt="" class="topimage">
             <p class="bluecontent">웹/앱 제작에 비용적 부담을<br> 느끼시는 분</p>
         </div>
         <div class="col-2 bluebox">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/04BCE232-4AB2-4975-95E9-C47A6DAFF786.png" alt="" class="topnumber">
-            <img src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/8E6BFA8A-3179-4948-B014-185CF9F84594.png" alt="" class="topimage" style="width:108px">
+            <img src="/img/num5.svg" alt="" class="topnumber">
+            <img src="/img/blue5.svg" alt="" class="topimage" style="width:108px">
             <p class="bluecontent">감각적인 웹/앱을 원하시는 분</p>
         </div>
     </div>

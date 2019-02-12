@@ -253,7 +253,7 @@
   width: 232px;
   text-align: center;
   font-weight: bold;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 22px;
   cursor: pointer;
 }
@@ -280,12 +280,54 @@ ul.tab li.current {
 .servicesmall {
   font-size: 30px;
   color: #3d3d3d;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .servicebig {
   font-size: 43px;
   color: #3d3d3d;
   font-weight: bold;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.sertop {
+  font-size: 25px;
+  color: #3d3d3d;
+  font-weight: lighter;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.sertopbot {
+  font-size: 40px;
+  font-weight: bold;
+  color: #3d3d3d;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.sermid {
+  font-size: 30px;
+  font-weight: bold;
+  color: #3d3d3d;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.sermidblue {
+  font-size: 20px;
+  color: #0066ff;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.sermidbot {
+  font-size: 21px;
+  color: #3d3d3d;
+  position: relative;
+  top: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.serbot {
+  margin: 86px 0px 40px 0px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* .process img{
@@ -341,6 +383,7 @@ ul.tab li.current {
   font-weight: bold;
   color: #707070;
   margin-bottom: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #box .box_content {
@@ -352,6 +395,7 @@ ul.tab li.current {
   font-size: 14px;
   color: #3d3d3d;
   position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #box #icon {
@@ -404,12 +448,20 @@ ul.tab li.current {
   *display: inline;
   zoom: 1;
   font-size: 12px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.horizen_div #icon #content {
+  position: relative;
+  bottom: 6px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .freeservicetitle {
   color: #3d3d3d;
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Noto Sans KR', sans-serif;
   margin-top: 60px;
   margin-bottom: 40px;
   position: relative;
@@ -418,6 +470,7 @@ ul.tab li.current {
 
 .freeservicecontent {
   font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #3d3d3d;
   position: relative;
   right: 10px;

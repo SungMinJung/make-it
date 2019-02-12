@@ -20,6 +20,7 @@ input {
     border-right: none;
     color: #ffffff;
     margin:10px 0px 10px 0px;
+    width: 248px;
 }
 
 textarea {
@@ -107,7 +108,7 @@ function FormSubmit() {
                         <div class="col-2">
                             <input type="text" name="contact_name" placeholder="Name">
                         </div>
-                        <div class="col-2" style="position:relative;left:21px;">
+                        <div class="col-2" style="position:relative;left:16px;">
                             <input type="tel" name="contact_tel" placeholder="Telephone Number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required>
                         </div>
                     </div>
@@ -118,7 +119,7 @@ function FormSubmit() {
                         <div class="col-2">
                             <input type="email" name="contact_email" placeholder="Email Address">
                         </div>
-                        <div class="col-2" style="position:relative;left:21px;">
+                        <div class="col-2" style="position:relative;left:16px;">
                             <input type="text" name="contact_refsite" placeholder="Reference Site or App">
                         </div>
                     </div>

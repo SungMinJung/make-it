@@ -7,7 +7,7 @@
 
 </style>
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-<div class="row" style="background-image:url('/image/acril.jpg'); width:1921px; height:803px;">
+<div class="row" style="background-image:url('/image/acril.jpg'); width:1921px; height:803px; margin:0 auto;">
 <div class="container">
         <div class="row">
             <div class="col-5">

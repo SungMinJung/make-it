@@ -12,7 +12,7 @@ class ContactusController extends Controller
     public function index() 
     {
         $contacts = Contactus::all();
-        $contacts = DB::table('contactuses')->orderBy('id', 'desc')->paginate(20);
+        $contacts = DB::table('contactuses')->orderBy('id', 'desc')->paginate(10);
 
         return view('admin.contact.index', compact('contacts'));
     }

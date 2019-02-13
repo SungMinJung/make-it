@@ -11,12 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('main/index');
-});
+
 
 Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::group(['prefix'=>'Service','as'=>'service.'],function(){
     Route::get('/website','ServiceController@web')->name('web');
@@ -39,4 +37,6 @@ Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.d
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function()
 {
     Route::get('/', 'Admin\HomeController@index')->name('home');
+    Route::resource('notice','Admin\NoticeController');
+
 });

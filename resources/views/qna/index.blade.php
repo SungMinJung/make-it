@@ -10,6 +10,7 @@
   position: relative;
   text-align: center;
   margin: 0 auto;
+  z-index: -1;
 }
 
 .qa::before {

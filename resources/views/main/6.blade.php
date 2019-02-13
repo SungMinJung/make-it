@@ -46,9 +46,9 @@
         </div>
          <div class="col-1"></div>
          <div class="col-4">
-            <h2><p id="solution"><strong>항상 최고의 솔루션을 제공합니다.<br>
+            <h2><p id="solution"><strong><span style="font-size:25px;color:#3d3d3d;font-weight:bold;font-family:'Noto Sans KR',sans-serif;">항상 최고의 솔루션을 제공합니다.</span><br>
             <br>
-             Always Successful Partner with Clients.</strong></p></h2><br>
+                <span style="font-size:25px;color:#3d3d3d;font-weight:bold;font-family:'Noto Sans',sans-serif;">Successful Partner with Clients.</span></strong></p></h2><br>
             <br>
             <button type="submit" class="btn blue" style="position:relative; left:80px; top:-30px;" onclick="location.href='/Contact_us'">CONTACT US</button>
         </div>

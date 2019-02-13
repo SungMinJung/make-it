@@ -50,6 +50,7 @@
 }
 
 </style>
+
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <div class="row" style="background-image:url('/image/46.png'); width:1920px; height:330px; margin:0 auto;">
@@ -59,7 +60,7 @@
             <button type="submit" class="btn gray" style="margin:0px auto; margin-top:20px;" onclick="location.href='{{ route('service.mobile') }}'">자세히 알아보기</button>
         </div>
     </div>
-</div>
+
     
 
     <div class="row" style="background-image:url('/image/47.png'); width:1920px; height:330px; margin:0 auto;">

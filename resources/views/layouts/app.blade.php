@@ -12,15 +12,16 @@
     <title>메이크아이티</title>
     <link rel="shortcut icon" href="/img/favicon.ico">
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="/js/app.js" defer></script>
+
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    
+    <link href="/css/app.css" rel="stylesheet">
+
 </head>
 <body>
         @include('common.header')

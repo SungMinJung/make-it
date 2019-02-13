@@ -1,3 +1,6 @@
+@extends('gentelella.app')
+
+@section('content')
 <table>
     <thead>
         <tr>
@@ -9,18 +12,24 @@
         </tr>
     </thead>
     <tbody>
-        @foreach ($contactuses as $item)
+        @foreach ($contacts as $item)
             <tr>
                 <td>{{ $item->id }}</td>
-                <td><a href="{{ route('contact.show', $item->id) }}">{{ $item->contact_name }}</a></td>
+                <td>{{ $item->contact_name }}</a></td>
                 <td>{{ $item->contact_email }}</td>
                 <td>{{ $item->created_at }}</td>
-                <form action="{{ route('contact.destroy', $item->id) }}" method="post">
-                    @csrf
-                    @method('delete')
-                    <button type="submit">삭제</button>
-                </form>
+                {{-- <td><a href="{{ route('admin.contact.show', $item->id) }}">보기</a></td> --}}
+                <td><button onclick="location.href='{{ route('admin.contact.show', $item->id) }}'">보기</button></td>
+                <td>
+                    <form action="{{ route('admin.contact.destroy', $item->id) }}" method="post">
+                        @csrf
+                        @method('delete')
+                        <button type="submit">삭제</button>
+                    </form>
+                </td>
             </tr>
         @endforeach
     </tbody>
 </table>
+{{ $contacts->render() }}
+@endsection

@@ -38,7 +38,12 @@
               <ul class="nav side-menu">
                 <li><a><i class="fa fa-users"></i> 지구회원관리</a></li>
                 <li><a><i class="fa fa-calendar"></i> 지구일정관리</a></li>
+<<<<<<< HEAD
                 {{-- <li><a><i class="fa fa-bullhorn"></i> Qna 및 공지사항 <span class="fa fa-chevron-down"></span></a>
+=======
+                <li><a href="{{ route('admin.contact') }}"><i class="fa fa-file-audio-o"></i>Contact us</a></li>
+                <li><a><i class="fa fa-bullhorn"></i> 커뮤니티 게시판 관리 <span class="fa fa-chevron-down"></span></a>
+>>>>>>> dev
                     <ul class="nav child_menu">
                         <li><a href="">전체</a></li>
                         <li><a href="">공지사항</a></li>

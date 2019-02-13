@@ -24,19 +24,23 @@ Route::group(['prefix'=>'Service','as'=>'service.'],function(){
 });
 Route::get('/About_us','AboutusController@index')->name('about');
 Route::get('/Portfolio','PortfolioController@index')->name('portfolio');
+Route::get('/Port/{seq}','PortfolioController@index2')->name('port');
 Route::get('/QandA','QnaController@index')->name('qna');
 // contactus관련라우트
 // Route::get('/admin','ContactusController@admin')->name('contact.admin');
 Route::get('/Contact_us','ContactusController@index')->name('contact');
 Route::post('/Contact_us','ContactusController@store')->name('contact.store');
-Route::get('/Contact_us/{id}','ContactusController@show')->name('contact.show');
-Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.destroy');
 // Route::get('/Portfolio','')
 
 
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function()
 {
     Route::get('/', 'Admin\HomeController@index')->name('home');
+    //contactus관련라우트
+    Route::get('/contact', 'Admin\ContactusController@index')->name('contact');
+    Route::get('/contact/{id}', 'Admin\ContactusController@show')->name('contact.show');
+    Route::delete('/contact/{id}', 'Admin\ContactusController@destroy')->name('contact.destroy');
+    //qna관련 라우트
     Route::resource('notice','Admin\NoticeController');
 
 });

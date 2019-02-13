@@ -109,7 +109,7 @@ img.img{
     <div class="row">
         <div class="container">
             <div class="col-4">
-                <img id="" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/E788CFC0-2C6B-4413-978F-FD68FF882C5F.png" style="width:166.5px; height:83px; margin-top:40px;"><strong class="smalltitle">를 이끌어나가는 사람들</strong><br>
+                <img id="" src="/image/sublogo.png" style="width:166.5px; height:83px; margin-top:40px;"><strong class="smalltitle">를 이끌어나가는 사람들</strong><br>
             </div>
             <div class="row">
                 <div class="col-2" style="text-align:center; font-size:15px;margin-bottom:100px;">
@@ -136,7 +136,7 @@ img.img{
     <div class="row" style="background-color:lightgray;">
     <div class="container">
         <div class="col-4">
-            <img id="" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/E788CFC0-2C6B-4413-978F-FD68FF882C5F.png" style="width:166.5px; height:83px;margin-top:40px;"><strong class="smalltitle">작업 필드</strong><br>
+            <img id="" src="/image/sublogo.png" style="width:166.5px; height:83px;margin-top:40px;"><strong class="smalltitle">작업 필드</strong><br>
         </div>
     </div>
     <div class="container">

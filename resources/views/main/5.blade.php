@@ -22,7 +22,7 @@
                 </div>
 
             <div class="col-5">
-                <img id="choice" src="https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/E788CFC0-2C6B-4413-978F-FD68FF882C5F.png" style="width:166.5px; height:83px;"><strong style="font-size:27px;font-weight:bold;color:#3d3d3d;font-family:'Noto Sans KR',sans-serif;position:relative;bottom:3px;left:15px;">을 선택해야하는 이유</strong><br>
+                <img id="choice" src="/image/sublogo.png" style="width:166.5px; height:83px;"><strong style="font-size:27px;font-weight:bold;color:#3d3d3d;font-family:'Noto Sans KR',sans-serif;position:relative;bottom:3px;left:15px;">을 선택해야하는 이유</strong><br>
                 <p style="font-size:27px; color:#0066ff; font-weight:bold; margin-top:30px; font-family:'Noto Sans KR',sans-serif;">
                 다양성<span style="font-size:20px; color:#3d3d3d; margin-left:15px; font-weight:400;">Variety</span></p>
                 <span class="main5content">공장에서 찍어내는 듯한 웹/앱 서비스를 제공하지않습니다.</span>

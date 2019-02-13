@@ -60,18 +60,4 @@ class ContactusController extends Controller
 
         return view('contact.aftersend');
     }
-
-    public function show($id) 
-    {
-        $contactus = Contactus::find($id);
-
-        return view('admin.contact.show', compact('contactus'));
-    }
-
-    public function destroy($id) {
-        $contactus = Contactus::find($id);
-        $contactus->delete();
-
-        return redirect()->route('contact.admin');
-    }
 }

@@ -36320,7 +36320,7 @@ $(document).ready(function () {
 
     $('.port-box').each(function (index, elem) {
         $(elem).click(function () {
-            console.log(index);
+            // console.log(index);
         });
         $(elem).mouseover(function () {
             $(elem).find('.port-hover').css('display', 'block');
@@ -36334,8 +36334,8 @@ $(document).ready(function () {
     $('.fil-cat').each(function (index, elem) {
         $(elem).click(function () {
             selectedClass = $(elem).attr("data-rel");
-            console.log(index);
-            console.log(selectedClass);
+            // console.log(index);
+            // console.log(selectedClass);
             $("#portfolio").fadeTo(100, 0.1);
             $("#portfolio .port-box").not("." + selectedClass).fadeOut().removeClass('scale-anm');
 
@@ -36346,6 +36346,26 @@ $(document).ready(function () {
             }, 300);
         });
     });
+
+    //modal
+    // var scrollHeight = 0;
+    // $('.link-p').each(function(index, elem){
+    //     $(elem).click(function(){
+    //         scrollHeight = $("body").scrollTop();  
+    //         $("body").addClass('layer-open');
+    //         $("#portpop").css({
+    //             "position" : "fixed",
+    //             "top" : "30px"
+    //         });
+
+    //         $('#portpop').modal("show");
+    //     })
+    // })
+    // $('#portpop').click(function(){
+    //     $("body").removeClass("layer-open");
+    //     $("body").scrollTop(scrollHeight);
+    //     $('#portpop').modal("hide");
+    // })
 
     //Q&A
 
@@ -36360,8 +36380,8 @@ $(document).ready(function () {
     $('#notice_title>.col-1').each(function (index, elem) {
         $(elem).click(function () {
             selectedClass = $(elem).attr("data-rel");
-            console.log(index);
-            console.log(selectedClass);
+            // console.log(index);
+            // console.log(selectedClass);
             $("." + selectedClass).fadeIn();
             $('.all').not("." + selectedClass).fadeOut();
 
@@ -36375,7 +36395,7 @@ $(document).ready(function () {
 
     var selectedQNA;
     $('.qna-btn-down').each(function (index, elem) {
-        console.log(index);
+        // console.log(index);
 
         $(elem).click(function () {
             selectedQNA = $(elem).attr("data-target");
@@ -36388,7 +36408,7 @@ $(document).ready(function () {
     });
 
     $('.qna-btn-up').each(function (index, elem) {
-        console.log(index);
+        // console.log(index);
 
         $(elem).click(function () {
             selectedQNA = $(elem).attr("data-target");

@@ -11,7 +11,7 @@
         /* margin-left:5%; */
         /* margin: 0 auto; */
         padding:36px 2px 36px 0px;
-        /* font-family: NotoSansCJKkr-Regular; */
+        font-family: 'Noto Sans KR', sans-serif;
         font-size:20px;
         color:#707070 !important;
         text-decoration: none;
@@ -22,6 +22,7 @@
     #menu a{
         text-decoration: none;
         color: #707070;
+        font-family: 'Noto Sans KR', sans-serif;
     }
     #logo{
         /* margin-left:12%; */
@@ -55,7 +56,6 @@ display: none;
  #navBar1 ul li a {
  display: block;
  text-decoration: none;
- font-family: Tahoma, Geneva, sans-serif;
  text-align:right;
  padding-left:16px;
  padding-top:-9px;

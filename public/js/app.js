@@ -39881,31 +39881,8 @@ jQuery.extend( {
 		}
 	},
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    $('.port-box').each(function (index, elem) {
-        $(elem).click(function () {
-            // console.log(index);
-        });
-        $(elem).mouseover(function () {
-            $(elem).find('.port-hover').css('display', 'block');
-        });
-        $(elem).mouseleave(function () {
-            $(elem).find('.port-hover').css('display', 'none');
-        });
-    });
+ HEAD
 
-    var selectedClass = "";
-    $('.fil-cat').each(function (index, elem) {
-        $(elem).click(function () {
-            selectedClass = $(elem).attr("data-rel");
-            // console.log(index);
-            // console.log(selectedClass);
-            $("#portfolio").fadeTo(100, 0.1);
-            $("#portfolio .port-box").not("." + selectedClass).fadeOut().removeClass('scale-anm');
-=======
->>>>>>> dev
 	// Not public - generate a queueHooks object, or return the current one
 	_queueHooks: function( elem, type ) {
 		var key = type + "queueHooks";
@@ -39920,10 +39897,7 @@ jQuery.extend( {
 jQuery.fn.extend( {
 	queue: function( type, data ) {
 		var setter = 2;
-<<<<<<< HEAD
-=======
->>>>>>> woals
->>>>>>> dev
+ dev
 
 		if ( typeof type !== "string" ) {
 			data = type;
@@ -39931,12 +39905,12 @@ jQuery.fn.extend( {
 			setter--;
 		}
 
-<<<<<<< HEAD
+ HEAD
 		if ( arguments.length < setter ) {
 			return jQuery.queue( this[ 0 ], type );
 		}
-=======
-<<<<<<< HEAD
+
+ HEAD
     //modal
     // var scrollHeight = 0;
     // $('.link-p').each(function(index, elem){
@@ -39958,23 +39932,23 @@ jQuery.fn.extend( {
     // })
 
     //Q&A
-=======
+
 		if ( arguments.length < setter ) {
 			return jQuery.queue( this[ 0 ], type );
 		}
->>>>>>> woals
->>>>>>> dev
+ woals
+ dev
 
 		return data === undefined ?
 			this :
 			this.each( function() {
 				var queue = jQuery.queue( this, type, data );
 
-<<<<<<< HEAD
+ HEAD
 				// Ensure a hooks for this queue
 				jQuery._queueHooks( this, type );
-=======
-<<<<<<< HEAD
+
+ HEAD
     $('#notice_title>.col-1').each(function (index, elem) {
         $(elem).click(function () {
             selectedClass = $(elem).attr("data-rel");
@@ -39982,11 +39956,11 @@ jQuery.fn.extend( {
             // console.log(selectedClass);
             $("." + selectedClass).fadeIn();
             $('.all').not("." + selectedClass).fadeOut();
-=======
+
 				// Ensure a hooks for this queue
-				jQuery._queueHooks( this, type );
->>>>>>> woals
->>>>>>> dev
+        jQuery._queueHooks( this, type );
+        woals
+        dev
 
 				if ( type === "fx" && queue[ 0 ] !== "inprogress" ) {
 					jQuery.dequeue( this, type );
@@ -40002,14 +39976,14 @@ jQuery.fn.extend( {
 		return this.queue( type || "fx", [] );
 	},
 
-<<<<<<< HEAD
-=======
+ HEAD
+
 <<<<<<< HEAD
     var selectedQNA;
     $('.qna-btn-down').each(function (index, elem) {
         // console.log(index);
 =======
->>>>>>> dev
+ dev
 	// Get a promise resolved when queues of a certain type
 	// are emptied (fx is the type by default)
 	promise: function( type, obj ) {
@@ -40025,8 +39999,8 @@ jQuery.fn.extend( {
 			};
 <<<<<<< HEAD
 =======
->>>>>>> woals
->>>>>>> dev
+ woals
+ dev
 
 		if ( typeof type !== "string" ) {
 			obj = type;
@@ -40040,7 +40014,7 @@ jQuery.fn.extend( {
     $('.qna-btn-up').each(function (index, elem) {
         // console.log(index);
 =======
->>>>>>> dev
+ dev
 		while ( i-- ) {
 			tmp = dataPriv.get( elements[ i ], type + "queueHooks" );
 			if ( tmp && tmp.empty ) {
@@ -40055,8 +40029,8 @@ jQuery.fn.extend( {
 var pnum = ( /[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/ ).source;
 <<<<<<< HEAD
 =======
->>>>>>> woals
->>>>>>> dev
+ woals
+ dev
 
 var rcssNum = new RegExp( "^(?:([+-])=|)(" + pnum + ")([a-z%]*)$", "i" );
 

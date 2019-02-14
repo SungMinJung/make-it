@@ -11,7 +11,8 @@ try {
     window.$ = window.jQuery = require('jquery');
     require('bootstrap');
     require('gentelella')
-    
+    var dropzone = require('dropzone');
+    dropzone.autoDiscover = false;
     // require('moment');
 } catch (e) {}
 
@@ -78,3 +79,9 @@ window.Vue = require('vue');
 const app = new Vue({
     el: '#app'
 });
+
+$(document).ready(function() {
+    $('.dropzone').dropzone({
+        url: '/file'
+    })
+})

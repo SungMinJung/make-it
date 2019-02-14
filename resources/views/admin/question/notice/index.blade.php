@@ -7,6 +7,7 @@
                 <a href="{{route('admin.notice.create')}}">
                     <button class="btn btn-primary pull-right">공지 추가 </button>
                 </a>
+
             @endslot
 
         <div class="table-responsive">

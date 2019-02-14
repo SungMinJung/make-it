@@ -15,6 +15,7 @@ class CreateNoticesTable extends Migration
     {
         Schema::create('notices', function (Blueprint $table) {
             $table->increments('id'); //번호
+            $table->string('category'); //제목
             $table->string('subject'); //제목
             $table->string('content'); //작성자
             $table->string('img')->nullable();//이미지

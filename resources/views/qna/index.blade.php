@@ -194,9 +194,10 @@ td img {
         <hr id="horizen">
     
 
-        <table id="notice_table">
-            @foreach ($qnaList as $item)
+        {{-- <table id="notice_table">
+            @foreach ($notices as $item)
                 <tr class=" {{$item['category']}} all">    
+
                     <td id="notice-td">
                         @if ( $item['category'] == "notice")
                             <div id="icon">공지</div>
@@ -204,7 +205,9 @@ td img {
                             <img src="/image/Q.png">
                         @endif
                     </td>
+
                     <td id="content-td">{{ $item['title'] }}</td>
+
                     <td>
                         <div class="qna-btn">
                             <span class="qna-btn-down" data-target={{ $item['id'] }}><img src="/image/qnadown.png"></span>
@@ -212,6 +215,7 @@ td img {
                         </div>
                     </td>
                 </tr>
+
                 <tr class="ans-tr {{ $item['id'] }}">
                     <td style="text-align: center;">
                         @if ( $item['category'] == "qna")
@@ -222,6 +226,22 @@ td img {
                 </tr>
             @endforeach
 
+        </table> --}}
+        <table id="notice_table">
+            @foreach ($notices as $notice)
+            <tr>
+                <td id="notice-td"><div id="icon">공지</div></td>
+                <td id="content-td">{{$notice->subject}}</td>
+                <td>
+                    <div class="qna-btn">
+                            <span class="qna-btn-down"><img src="/image/qnadown.png"></span>
+
+                    </div>
+                </td>
+           </tr>
+                
+            @endforeach
+            <tr></tr>
         </table>
       </div>
     @include('main.6');

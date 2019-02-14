@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Notice;
 
 class QnaController extends Controller
 {
@@ -39,6 +40,11 @@ class QnaController extends Controller
                 'id'=>'board-5'
             ],
         ];
-        return view('qna.index',compact('qnaList'));
+        
+         $notices=Notice::all();
+
+        // return view('qna.index',compact('qnaList'));
+        return view('qna.index',compact('notices'));
+
     }
 }

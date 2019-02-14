@@ -4,6 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Notice;
+use Illuminate\Support\Facades\DB;
+
 
 class NoticeController extends Controller
 {
@@ -14,7 +17,10 @@ class NoticeController extends Controller
      */
     public function index()
     {
-        return view('admin.notice.index');
+
+        $notices=Notice::all();
+        $notices=DB::table('notices')->orderBy('id','desc')->paginate(10);
+        return view('admin.question.index',compact('notices'));
     }
 
     /**
@@ -24,7 +30,7 @@ class NoticeController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.question.notice.create');
     }
 
     /**
@@ -35,7 +41,21 @@ class NoticeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'subject' => 'required',
+            'content' => 'required',
+        ]);
+
+        $notice = new Notice([
+            'subject' => $request->input('subject'),
+            'content' => $request->input('content'),
+            'cnt'=>0
+        ]);
+        
+        // $url = $this->uploadFile($request, 'main_image');
+        // $document->main_image = $url;
+        $notice->save();
+        return redirect()->route('admin.notice.index');
     }
 
     /**
@@ -46,7 +66,10 @@ class NoticeController extends Controller
      */
     public function show($id)
     {
-        //
+        $notice=Notice::find($id);
+        $notice->cnt++;
+        $notice->save();
+        return view('admin.question.notice.show',compact('notice'));
     }
 
     /**
@@ -80,6 +103,9 @@ class NoticeController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $notice=Notice::where('id',$id)->delete();
+        // $notice=Notice::find($id);
+        // $notice->delete();
+        return redirect()->route('admin.notice.index');
     }
 }

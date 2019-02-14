@@ -1,10 +1,27 @@
+@extends('gentelella.app')
+
+@section('pagetitle', 'Q&A 및 공지사항')
+
+@section('title_right')
+<div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+    <form class="input-group" action="">
+      <input type="text" class="form-control" placeholder="Search for..." name="search">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="submit">Go!</button>
+      </span>
+    </form>
+  </div>
+@endsection
+
+
+@section('content')
 <div class="row">
     <div class="col-md-12 col-sm-12 col-xs-12">
 
         @component('gentelella.panel')
             @slot('title')
-                <h2>Q&A</h2>
-                <a href="">
+                <h2>전체 목록</h2>
+                <a >
                     <button class="btn btn-primary pull-right">회원 추가 </button>
                 </a>
             @endslot
@@ -15,16 +32,21 @@
                 <tr class="headings">
                     <th>#</th>
                     <th class="column-title">번호 </th>
-                    <th class="column-title">제목 </th>
+                    <th class="column-title">가입일 </th>
+                    <th class="column-title">소속클럽 </th>
+                    <th class="column-title">이름 </th>
+                    <th class="column-title">이메일 </th>
+                    <th class="column-title">휴대전화 </th>
+                    <th class="column-title">비고 </th>
                     </th>
                     <th class="bulk-actions" colspan="7">
                         <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
                     </th>
                 </tr>
             </thead>
-
+{{-- 
             <tbody>
-                {{-- @foreach ($items as $index => $item)
+                @foreach ($items as $index => $item)
                     <tr class="{{ ($index % 2) ? 'odd' : 'evan' }} pointer">
                         <td class="a-center ">
                             <input type="checkbox" name="" id="">
@@ -41,9 +63,9 @@
                             <button class="btn btn-danger btn-xs">삭제</button>
                         </td>
                     </tr>
-                @endforeach --}}
+                @endforeach
 
-            </tbody>
+            </tbody> --}}
             </table>
             <div class="paging">
                 {{-- {{ $items->appends($_GET)->links() }} --}}
@@ -52,3 +74,7 @@
         @endcomponent
     </div>
 </div>
+@include('admin.question.notice.index')
+@include('admin.question.qna.index')
+
+@endsection

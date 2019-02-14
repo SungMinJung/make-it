@@ -1,6 +1,6 @@
 
 
-$(document).ready(function(){
+$(document).ready(function(){ 
     $('#aimg2').css('opacity','1');
     setTimeout(function(){
         $('#aimg3').css('opacity','1');

@@ -31,7 +31,6 @@
             
         
             <tbody>
-                {{-- @foreach ($items as $index => $item) --}}
                 @foreach ($portList as $item)
                     <tr class="pointer">
                         <td class="a-center ">
@@ -42,14 +41,16 @@
                         <td class=""><a href="{{ route('admin.portfolio.show', $item->id) }}">{{ $item->title }}</a></a></td>
                         <td>
                             <a href="{{ route('admin.portfolio.edit', $item->id) }}">
-                                <button class="btn btn-warning btn-xs" onclick="{{ route('admin.portfolio.show', $item->id) }}">수정</button>
+                                <button class="btn btn-warning btn-xs">수정</button>
                             </a>
-                            <button class="btn btn-danger btn-xs">삭제</button>
+                            <form method="POST" action="{{ route('admin.portfolio.destroy', $item->id) }}" style="display: inline">
+                                {{ csrf_field() }}
+                                {{ method_field('DELETE')}}
+                                <button type="submit" class="btn btn-danger btn-xs">삭제</button>
+                            </form>
                         </td>
                     </tr>
                 @endforeach
-                {{-- @endforeach --}}
-
             </tbody>
             </table>
             {{-- <div class="paging">

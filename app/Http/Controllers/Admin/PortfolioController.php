@@ -53,9 +53,8 @@ class PortfolioController extends Controller
 
         ]);
         $port->save();
-        $portList = Portfolio::all();
         
-        return view("admin.portfolio.index",compact('portList'));
+        return redirect('admin/portfolio');
     }
 
     /**
@@ -81,6 +80,9 @@ class PortfolioController extends Controller
     public function edit($id)
     {
         //
+        $port = Portfolio::find($id);
+
+        return view("admin.portfolio.edit", compact('port'));
         
     }
 
@@ -94,6 +96,16 @@ class PortfolioController extends Controller
     public function update(Request $request, $id)
     {
         //
+        
+
+
+        $port = Portfolio::find($id);
+        $port->category = $request->get('category');
+        $port->title = $request->get('title');
+
+        $port->update();
+
+        return redirect('admin/portfolio');
     }
 
     /**
@@ -102,8 +114,13 @@ class PortfolioController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(
+        $id)
     {
         //
+        $port = Portfolio::find($id);
+        
+        $port->delete();
+        return redirect('admin/portfolio');
     }
 }

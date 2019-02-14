@@ -40,6 +40,6 @@ Route::delete('/Contact_us/{id}','ContactusController@destroy')->name('contact.d
 Route::group(['prefix' => 'admin', 'as' => 'admin.'], function()
 {
     Route::get('/', 'Admin\HomeController@index')->name('home');
-    Route::resource('portfolio', 'Admin\PortfolioController');
-    Route::resource('portfolio.show/{id}', 'Admin\PortfolioController@show');
+    Route::resource('/portfolio', 'Admin\PortfolioController');
+
 });

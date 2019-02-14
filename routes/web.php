@@ -42,4 +42,5 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function()
     Route::get('/contact', 'Admin\ContactusController@index')->name('contact');
     Route::get('/contact/{id}', 'Admin\ContactusController@show')->name('contact.show');
     Route::delete('/contact/{id}', 'Admin\ContactusController@destroy')->name('contact.destroy');
+    Route::resource('/portfolio', 'Admin\PortfolioController');
 });

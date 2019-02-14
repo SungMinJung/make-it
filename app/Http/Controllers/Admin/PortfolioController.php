@@ -3,8 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 
+use App\Http\Controllers\Controller;
+use App\Portfolio;
 class PortfolioController extends Controller
 {
     /**
@@ -15,7 +16,9 @@ class PortfolioController extends Controller
     public function index()
     {
         //
-        return view("admin.portfolio.index");
+        $portList = Portfolio::all();
+        
+        return view("admin.portfolio.index",compact('portList'));
     }
 
     /**
@@ -26,6 +29,7 @@ class PortfolioController extends Controller
     public function create()
     {
         //
+        return view("admin.portfolio.create");
     }
 
     /**
@@ -37,6 +41,21 @@ class PortfolioController extends Controller
     public function store(Request $request)
     {
         //
+        $request->validate([
+            'category' => 'required',
+            'title' => 'required',
+        ]);
+
+
+        $port = new Portfolio([
+            'category' => $request->get('category'),
+            'title' => $request->get('title'),
+
+        ]);
+        $port->save();
+        $portList = Portfolio::all();
+        
+        return view("admin.portfolio.index",compact('portList'));
     }
 
     /**
@@ -48,6 +67,9 @@ class PortfolioController extends Controller
     public function show($id)
     {
         //
+        $port = Portfolio::find($id);
+
+        return view("admin.portfolio.show", compact('port'));
     }
 
     /**
@@ -59,6 +81,7 @@ class PortfolioController extends Controller
     public function edit($id)
     {
         //
+        
     }
 
     /**

@@ -41,4 +41,5 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function()
 {
     Route::get('/', 'Admin\HomeController@index')->name('home');
     Route::resource('portfolio', 'Admin\PortfolioController');
+    Route::resource('portfolio.show/{id}', 'Admin\PortfolioController@show');
 });

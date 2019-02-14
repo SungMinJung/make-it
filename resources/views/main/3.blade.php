@@ -50,10 +50,17 @@
 }
 
 </style>
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+
+<!-- <script type="text/javascript"> -->
+<script>
+
+
+</script>
 
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
-    <div class="row" style="background-image:url('/image/46.png'); width:1920px; height:330px; margin:0 auto;">
+   
+    <div class="row" style="background-image:url('/image/46.png'); width:1920px; height:330px; margin:0 auto;" id="bimg2" >
         <div class="container"style="margin-top:60px;"> 
             <p><span class="title">Mobile Appilcation</p></span>
             <p class="sub" style="margin-top:10px;">모바일 어플리케이션</p><br>
@@ -61,9 +68,10 @@
         </div>
     </div>
 
+
     
 
-    <div class="row" style="background-image:url('/image/47.png'); width:1920px; height:330px; margin:0 auto;">
+    <div class="row" style="background-image:url('/image/47.png'); width:1920px; height:330px; margin:0 auto;"id="bimg3">
         <div class="container"style="margin-top:60px;"> 
             <p><span class="title">Website</p></span>
             <p class="sub" style="margin-top:10px;">웹사이트</p><br>
@@ -71,7 +79,7 @@
         </div>
     </div>
     
-    <div class="row" style="background-image:url('/image/49.png'); width:1920px; height:330px; margin:0 auto;">
+    <div class="row" style="background-image:url('/image/49.png'); width:1920px; height:330px; margin:0 auto;"id="bimg4">
         <div class="container"style="margin-top:60px;"> 
             <p><span class="title">Responsive Website</p></span>
             <p class="sub" style="margin-top:10px;">반응형 웹사이트</p><br>

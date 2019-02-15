@@ -10,7 +10,8 @@ window._ = require('lodash');
 try {
     window.$ = window.jQuery = require('jquery');
     require('bootstrap');
-    require('gentelella')
+    require('gentelella');
+    require('summernote');
     var dropzone = require('dropzone');
     dropzone.autoDiscover = false;
     // require('moment');
@@ -85,4 +86,6 @@ $(document).ready(function() {
         url: '/file',
         addRemoveLinks: true
     })
+
+    $('#summernote').summernote();
 })

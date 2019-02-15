@@ -74,7 +74,7 @@
                         메인사진 <span class="required">*</span>
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">   
-                        <div class="dropzone"></div>
+                        <textarea id="summernote" name="summernote">Hello!</textarea>
                     </div>
                 </div>
 

@@ -66,6 +66,7 @@ img.img{
     left: 20px;
     font-family:'Noto Sans KR',sans-serif;
 }
+
 .smalltitle{
     font-size:27px;
     font-weight:bold;
@@ -128,6 +129,44 @@ img.img{
                 <img src="/img/kang.jpg" style="width:224px; height:224px;" class="img">
                 <strong class="person">KANG</strong><br>
                 <strong class="person">MAKEIT 개발 팀장</strong><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2" style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/167.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">kWON YOUNGJUN</strong><br>
+                <strong class="person">디자이너</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/166.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">YUJUNG</strong><br>
+                <strong class="person">디자이너</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/165.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">PARK HYUNGYU</strong><br>
+                <strong class="person">프로그래머</strong><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2" style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/170.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">YOON JAEMIN</strong><br>
+                <strong class="person">프로그래머</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/169.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">LEE DONGWOOK</strong><br>
+                <strong class="person">프로그래머</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/168.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">JUNG SEONGMIN</strong><br>
+                <strong class="person">프로그래머</strong><br>
                 </div>
             </div>
         </div>

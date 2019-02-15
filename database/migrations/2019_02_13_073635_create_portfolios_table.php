@@ -20,6 +20,7 @@ class CreatePortfoliosTable extends Migration
             $table->string('main_title');
             $table->string('main_imagurl')->nullable();
             $table->string('category');
+            $table->string('link');
             $table->date('dep_date');
             $table->timestamps();
         });

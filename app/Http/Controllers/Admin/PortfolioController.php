@@ -41,16 +41,13 @@ class PortfolioController extends Controller
     public function store(Request $request)
     {
         //
-        $request->validate([
-            'category' => 'required',
-            'title' => 'required',
-        ]);
-
 
         $port = new Portfolio([
             'category' => $request->get('category'),
             'title' => $request->get('title'),
-
+            'main_title' => $request->get('main_title'),
+            'dep_date' => $request->get('dep_date'),
+            'link' => $request->get('link')
         ]);
         $port->save();
         
@@ -102,7 +99,6 @@ class PortfolioController extends Controller
         $port = Portfolio::find($id);
         $port->category = $request->get('category');
         $port->title = $request->get('title');
-
         $port->update();
 
         return redirect('admin/portfolio');

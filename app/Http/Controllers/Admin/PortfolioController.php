@@ -47,7 +47,8 @@ class PortfolioController extends Controller
             'title' => $request->get('title'),
             'main_title' => $request->get('main_title'),
             'dep_date' => $request->get('dep_date'),
-            'link' => $request->get('link')
+            'link' => $request->get('link'),
+            'main_imgurl' => $request->get('summernote')
         ]);
         $port->save();
         

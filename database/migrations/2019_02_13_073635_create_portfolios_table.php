@@ -18,7 +18,7 @@ class CreatePortfoliosTable extends Migration
             $table->string('title');
             $table->string('title_imgurl')->nullable();
             $table->string('main_title');
-            $table->string('main_imagurl')->nullable();
+            $table->string('main_imgurl')->nullable();
             $table->string('category');
             $table->string('link');
             $table->date('dep_date');

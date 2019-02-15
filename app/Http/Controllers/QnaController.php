@@ -17,4 +17,5 @@ class QnaController extends Controller
         return view('qna.index',compact('notices'));
 
     }
+
 }

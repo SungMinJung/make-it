@@ -42,5 +42,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function()
     Route::delete('/contact/{id}', 'Admin\ContactusController@destroy')->name('contact.destroy');
     //qna관련 라우트
     Route::resource('notice','Admin\NoticeController');
+    Route::get('qnacreate','Admin\QnaController@create')->name('qnacreate');
+    Route::get('common','Admin\QnaController@common')->name('typecommon');
+    Route::get('qnatest/{type}','Admin\QnaController@test')->name('qnatest');
+    Route::post('qnastore/{type}','Admin\QnaController@store')->name('qnastore');
+
 
 });

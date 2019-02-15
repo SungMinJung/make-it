@@ -10,6 +10,7 @@ class Notice extends Model
         'id',
         'subject',
         'content',
+        'category',
         'cnt',
     ];
     protected $hidden=[

@@ -19,7 +19,7 @@
                     <th class="column-title">제목</th>
                     <th class="column-title">글쓴이 </th>
                     <th class="column-title">날짜 </th>
-                    <th class="column-title">조회 </th>
+                    <th class="column-title">조회수 </th>
                     <th class="column-title">비고 </th>
 
                     <th class="bulk-actions" colspan="7">
@@ -39,7 +39,6 @@
                         <td class="">{{ $notice->subject }}</td>
                         <td class=""><b> 관리자</b></td>   
                         <td class="">{{ date("Y년 m월 d일", strtotime($notice->created_at)) }}</td>
-
                         <td class="">{{$notice->cnt}}</td>
                         <td>
                             <button class="btn btn-warning btn-xs">수정</button>
@@ -48,7 +47,7 @@
                             <form action="{{route('admin.notice.destroy',$notice->id)}}" method="post" style="display:inline;">
                                     @csrf
                                     @method('delete')
-                                <button class="btn btn-danger btn-xs" type="submit">삭제2</button>
+                                <button class="btn btn-danger btn-xs" type="submit">삭제</button>
                             </form>
 
                         </td>
@@ -60,7 +59,7 @@
             <div class="paging">
                 {{-- {{ $items->appends($_GET)->links() }} --}}
             </div>
-            {{$notices->render()}}
+            {{-- {{$notices->render()}} --}}
         </div>
         @endcomponent
     </div>

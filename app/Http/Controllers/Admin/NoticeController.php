@@ -17,10 +17,11 @@ class NoticeController extends Controller
      */
     public function index()
     {
-
-        $notices=Notice::all();
-        $notices=DB::table('notices')->orderBy('id','desc')->paginate(10);
-        return view('admin.question.index',compact('notices'));
+        $notices = Notice::where('category', 'notice')->get();
+        $qnas = Notice::where('category', 'qna')->get();
+        // $notices=Notice::all();
+        // $notices=DB::table('notices')->orderBy('id','desc')->paginate(10);
+        return view('admin.question.index',compact('notices', 'qnas'));
     }
 
     /**
@@ -30,8 +31,19 @@ class NoticeController extends Controller
      */
     public function create()
     {
-        return view('admin.question.notice.create');
+        // if($type=='qna'){
+        //     return view('admin.question.qna.create');
+        // }
+        // if($type=='notice')
+        // {
+        //     return view('admin.question.notice.create');
+
+        // }
+
+             return view('admin.question.notice.create');
+
     }
+
 
     /**
      * Store a newly created resource in storage.
@@ -39,8 +51,23 @@ class NoticeController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request,String $type)
     {
+
+        if($type==='qna')
+        {
+            // $query = Notice::where('category', 'notice')->first();
+            $query='qna';
+
+        }else{
+            // $query = Notice::where('category', 'qna')->first();
+            $query='notice';
+
+        }
+        // $notice=Notice::where('category',$type==='notice'?'notice':'qna')->first();
+
+        // $notice=Notice::where('category',$type)->first();
+
         $request->validate([
             'subject' => 'required',
             'content' => 'required',
@@ -49,8 +76,10 @@ class NoticeController extends Controller
         $notice = new Notice([
             'subject' => $request->input('subject'),
             'content' => $request->input('content'),
-            'cnt'=>0
+            'category'=>$query,
+            'cnt'=>0,
         ]);
+        
         
         // $url = $this->uploadFile($request, 'main_image');
         // $document->main_image = $url;

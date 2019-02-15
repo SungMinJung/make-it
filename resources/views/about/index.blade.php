@@ -90,7 +90,7 @@ img.img{
 </style>
 @section('content')    
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <div class="row" style="background-image:url('/image/mask36.jpg'); height:695px;">
+    <div class="row" style="background-image:url('/img/aboutbg.jpg'); background-repeat:no-repeat; width:1920px; height:695px; margin:0px auto;">
         <div class="container"> 
             <div clss="col-5">
             <div class="row">
@@ -186,8 +186,6 @@ img.img{
         <div class="col-4">
             <img id="" src="/image/sublogo.png" style="width:166.5px; height:83px;margin-top:40px;"><strong class="smalltitle">작업 필드</strong><br>
         </div>
-    </div>
-    <div class="container">
     <div class="row">
         <div class="col-5" style=" margin-top:20px; margin-bottom:10px; position:relative; background:#707070;">
             <img id=""src="/img/black1.svg">

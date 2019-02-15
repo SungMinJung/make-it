@@ -43292,7 +43292,8 @@ var app = new Vue({
 
 $(document).ready(function () {
   $('.dropzone').dropzone({
-    url: '/file'
+    url: '/file',
+    addRemoveLinks: true
   });
 });
 

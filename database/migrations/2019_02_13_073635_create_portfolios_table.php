@@ -17,8 +17,10 @@ class CreatePortfoliosTable extends Migration
             $table->increments('id');
             $table->string('title');
             $table->string('title_imgurl')->nullable();
+            $table->string('main_title');
             $table->string('main_imagurl')->nullable();
             $table->string('category');
+            $table->date('dep_date');
             $table->timestamps();
         });
     }

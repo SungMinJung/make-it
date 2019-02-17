@@ -57,7 +57,7 @@
             </tbody>
             </table>
             <div class="paging">
-                {{-- {{ $items->appends($_GET)->links() }} --}}
+                {{ $notices->appends($_GET)->links() }}
             </div>
             {{-- {{$notices->render()}} --}}
         </div>

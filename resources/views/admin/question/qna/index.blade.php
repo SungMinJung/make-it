@@ -58,9 +58,9 @@
 
             </table>
             <div class="paging">
-                {{-- {{ $items->appends($_GET)->links() }} --}}
+                {{ $qnas->appends($_GET)->links() }}
             </div>
-            {{-- {{$notices->render()}} --}}
+            {{-- {{$qnas->render()}} --}}
 
         </div>
 

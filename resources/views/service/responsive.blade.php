@@ -5,7 +5,7 @@
 {{-- 가로 리스트 생성 jquery --}}
 
 
-<div class="row" style="background-image:url('https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/FF9FF129-E6E2-4783-910D-5B889A007DCD.png');width:1920px;height:733px;margin:0px auto;">
+<div class="row" style="background-image:url('/img/serviceresponsivebg.jpg');width:1920px;height:733px;margin:0px auto;">
     <div class="container">
         <div class="row">
             <div class="col-5"></div>

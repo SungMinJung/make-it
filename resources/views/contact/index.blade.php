@@ -71,7 +71,7 @@ function FormSubmit() {
 
 </script>
 
-<div class="row" style="background-image:url(https://cdn.zeplin.io/5c492537058fa079f196c51a/assets/7BAA5789-D65E-4606-8293-13F748184125.png);padding-top:100px;width:1920px;height:820px;background-repeat:no-repeat;margin:0px auto;">
+<div class="row" style="background-image:url('/img/contactbg.jpg');padding-top:100px;width:1920px;height:820px;background-repeat:no-repeat;margin:0px auto;">
     <div class="container">
         <div class="row">
             <p class="contacttitle">Contact us</p>
@@ -83,7 +83,7 @@ function FormSubmit() {
         <div class="row"><br><br><br><br></div>
         <div class="row">
             <div class="col-3">
-                <img src="img/contactmakeit.svg" alt="" style="width:368px;height:184;margin-bottom:40px;">
+                <img src="/img/contactmakeit.svg" alt="" style="width:368px;height:184;margin-bottom:40px;">
                 <div class="row" style="margin-bottom:60px;">
                     <div class="col-1 contactneed">
                         Tel<br><br>

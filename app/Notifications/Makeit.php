@@ -72,10 +72,10 @@ class Makeit extends Notification
 
         return (new SlackMessage)
                     ->content(
-                        $notifiable->contact_name.'님께서 문의를 요청하셨습니다. '.
-                        '전화번호 : '.$notifiable->contact_tel.' '.
-                        '이메일 : '.$notifiable->contact_email.' '.
-                        '참고사이트 : '.$notifiable->contact_refsite.' '.
+                        $notifiable->contact_name.'님께서 문의를 요청하셨습니다. '."\n".
+                        '전화번호 : '.$notifiable->contact_tel."\n".
+                        '이메일 : '.$notifiable->contact_email."\n".
+                        '참고사이트 : '.$notifiable->contact_refsite."\n".
                         '내용 : '.$notifiable->contact_content
                     );
     }

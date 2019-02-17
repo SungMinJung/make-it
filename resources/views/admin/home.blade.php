@@ -1,5 +1,5 @@
 @extends('gentelella.app')
 
 @section('content')
-    asdf
+    asdfs
 @endsection

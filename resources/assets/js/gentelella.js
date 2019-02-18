@@ -87,5 +87,27 @@ $(document).ready(function() {
         addRemoveLinks: true
     })
 
-    $('#summernote').summernote();
+    $('#summernote').summernote({
+        callbacks:{
+            onImageUpload: function(files){
+                console.log(files);
+                data = new FormData();
+                
+                data.append('file',files[0]);
+
+
+                $.ajax({
+                    data:data,
+                    type:'post',
+                    url:'/api/file',
+                    chche:false,
+                    contentType:false,
+                    processData:false,
+                    success: function(data){
+                        $('#summernote').summernote('insertImage',data);
+                    }
+                })
+            }
+        }
+    });
 })

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 use App\Http\Controllers\Controller;
 use App\Portfolio;
@@ -41,15 +42,22 @@ class PortfolioController extends Controller
     public function store(Request $request)
     {
         //
+        $path = 'public/hyungyu';
+        $file = $request->file('title_imgurl');
+        $result = $file->store($path);
+
+        $url = Storage::url($result);
 
         $port = new Portfolio([
-            'category' => $request->get('category'),
-            'title' => $request->get('title'),
-            'main_title' => $request->get('main_title'),
-            'dep_date' => $request->get('dep_date'),
-            'link' => $request->get('link'),
-            'main_imgurl' => $request->get('summernote')
+            'category' => $request->input('category'),
+            'title' => $request->input('title'),
+            'title_imgurl' => $url,
+            'main_title' => $request->input('main_title'),
+            'dep_date' => $request->input('dep_date'),
+            'link' => $request->input('link'),
+            'main_imgurl' => $request->input('summernote')
         ]);
+        // $port->main_imgurl = $request->input('summernote');
         $port->save();
         
         return redirect('admin/portfolio');

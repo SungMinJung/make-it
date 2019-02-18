@@ -9,7 +9,7 @@
                 <h2>포트폴리오 추가</h2>
             @endslot
 
-            <form method="POST" action="{{route('admin.portfolio.store')}}" class="form-horizontal form-label-left">
+            <form method="POST" action="{{route('admin.portfolio.store')}}" enctype="multipart/form-data" class="form-horizontal form-label-left">
                 @csrf
                 <div class="form-group">
                     <label class="control-label col-md-3 col-sm-3 col-xs-12" for="카테고리">

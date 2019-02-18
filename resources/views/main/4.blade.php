@@ -10,9 +10,9 @@
         <div class="col-5">
         <ul class="port-li">
             <li class="btn fil-cat" data-rel="all">All</li>
-            <li class="btn fil-cat" data-rel="app">App</li>
-            <li class="btn fil-cat" data-rel="web">Web</li>
-            <li class="btn fil-cat" data-rel="response">Responsive</li>
+            <li class="btn fil-cat" data-rel="APP">App</li>
+            <li class="btn fil-cat" data-rel="WEB">Web</li>
+            <li class="btn fil-cat" data-rel="RESPON">Responsive</li>
         </ul>
     </div>
     </div>

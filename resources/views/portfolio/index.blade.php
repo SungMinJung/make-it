@@ -31,9 +31,9 @@
         <div class="col-5">
         <ul class="port-li">
             <li class="btn fil-cat" data-rel="all">All</li>
-            <li class="btn fil-cat" data-rel="app">App</li>
-            <li class="btn fil-cat" data-rel="web">Web</li>
-            <li class="btn fil-cat" data-rel="response">Responsive</li>
+            <li class="btn fil-cat" data-rel="APP">App</li>
+            <li class="btn fil-cat" data-rel="WEB">Web</li>
+            <li class="btn fil-cat" data-rel="RESPON">Responsive</li>
         </ul>
     </div>
     </div>
@@ -41,7 +41,7 @@
     
     
     <div id="portfolio" class="row" >
-        @foreach ($portfolio as $item)
+        @foreach ($portList as $item)
         <div>
             <div class="tile col-2 port-box scale-anm reldiv {{ $item['category'] }} all" style="background: url('{{$item['title_imgurl'] }}')">
                 

@@ -46027,7 +46027,20 @@ $(document).ready(function () {
 /* 52 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: SyntaxError: C:/Users/donguk/makeit-home/resources/assets/js/main.js: Unexpected token (8:0)\n\n\u001b[0m \u001b[90m  6 | \u001b[39m    \u001b[36mvar\u001b[39m scrolled \u001b[33m=\u001b[39m $(window)\u001b[33m.\u001b[39mscrollTop()\u001b[33m;\u001b[39m\n \u001b[90m  7 | \u001b[39m    $(\u001b[32m'#bimg2'\u001b[39m)\u001b[33m.\u001b[39mcss(\u001b[32m'background-position-y'\u001b[39m\u001b[33m,\u001b[39m\u001b[33m-\u001b[39m(scrolled \u001b[33m*\u001b[39m \u001b[35m1.2\u001b[39m)\u001b[33m+\u001b[39m\u001b[32m'px'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 | \u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  9 | \u001b[39m    $(\u001b[32m'#bimg3'\u001b[39m)\u001b[33m.\u001b[39mcss(\u001b[32m'background-position-y'\u001b[39m\u001b[33m,\u001b[39m\u001b[33m-\u001b[39m(scrolled \u001b[33m*\u001b[39m \u001b[35m0.8\u001b[39m)\u001b[33m+\u001b[39m\u001b[32m'px'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 10 | \u001b[39m\u001b[33m===\u001b[39m\u001b[33m===\u001b[39m\u001b[33m=\u001b[39m\n \u001b[90m 11 | \u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\u001b[0m\n");
+$(window).scroll(function (e) {
+    parallax();
+});
+
+function parallax() {
+    var scrolled = $(window).scrollTop();
+    $('#bimg2').css('background-position-y', -(scrolled * 1.2) + 'px');
+
+    $('#bimg3').css('background-position-y', -(scrolled * 0.8) + 'px');
+
+    $('#bimg3').css('background-position-y', -(scrolled * 0.8) + 'px');
+
+    $('#bimg4').css('background-position-y', -(scrolled * 1.0) + 'px');
+}
 
 /***/ }),
 /* 53 */

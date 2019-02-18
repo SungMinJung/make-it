@@ -66,7 +66,24 @@ img.img{
     left: 20px;
     font-family:'Noto Sans KR',sans-serif;
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+.subperson{
+    font-weight:bold;
+    font-size:20px;
+    color:#3d3d3d;
+    position: relative;
+    left: 20px;
+    font-family:'Noto Sans KR',sans-serif;
+    position: relative;
+    top: 10px;
+}
+=======
+
+>>>>>>> dongwook
+>>>>>>> dev
 .smalltitle{
     font-size:27px;
     font-weight:bold;
@@ -81,7 +98,7 @@ img.img{
 </style>
 @section('content')    
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <div class="row" style="background-image:url('/image/mask36.jpg'); height:695px;">
+    <div class="row" style="background-image:url('/img/aboutbg.jpg'); background-repeat:no-repeat; width:1920px; height:695px; margin:0px auto;">
         <div class="container"> 
             <div clss="col-5">
             <div class="row">
@@ -116,19 +133,95 @@ img.img{
                 <div class="col-2" style="text-align:center; font-size:15px;margin-bottom:100px;">
                 <img src="/img/jinhyung.jpg" style="width:224px; height:224px;" class="img">
                 <strong class="person">KIM JINHYUNG</strong><br>
-                <strong class="person">MAKEIT 대표</strong><br>
+                <strong class="subperson">MAKEIT 대표</strong><br>
                 </div>
                 <div class="col-2"></div>
                 <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
                 <img src="/img/seongyeom.jpg" style="width:224px; height:224px;" class="img">
                 <strong class="person">KIM SEONGYEOM</strong><br>
-                <strong class="person">MAKEIT 기획/디자인 팀장</strong><br>
+                <strong class="subperson">MAKEIT 기획/디자인 팀장</strong><br>
                 </div>
                 <div class="col-2"></div>
                 <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
                 <img src="/img/kang.jpg" style="width:224px; height:224px;" class="img">
                 <strong class="person">KANG</strong><br>
-                <strong class="person">MAKEIT 개발 팀장</strong><br>
+                <strong class="subperson">MAKEIT 개발 팀장</strong><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2" style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/img/kwon youngjun.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">KWON YOUNGJUN</strong><br>
+                <strong class="subperson">디자이너</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/img/yujung.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">YUJUNG</strong><br>
+                <strong class="subperson">디자이너</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/img/park hyungyu.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">PARK HYUNGYU</strong><br>
+                <strong class="subperson">프로그래머</strong><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2" style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/img/yoon jaemin.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">YOON JAEMIN</strong><br>
+                <strong class="subperson">프로그래머</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/img/lee dongwook.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">LEE DONGWOOK</strong><br>
+                <strong class="subperson">프로그래머</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/img/jung seongmin.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">JUNG SEONGMIN</strong><br>
+                <strong class="subperson">프로그래머</strong><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2" style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/167.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">kWON YOUNGJUN</strong><br>
+                <strong class="person">디자이너</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/166.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">YUJUNG</strong><br>
+                <strong class="person">디자이너</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/165.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">PARK HYUNGYU</strong><br>
+                <strong class="person">프로그래머</strong><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2" style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/170.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">YOON JAEMIN</strong><br>
+                <strong class="person">프로그래머</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/169.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">LEE DONGWOOK</strong><br>
+                <strong class="person">프로그래머</strong><br>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-2"style="text-align:center; font-size:15px;margin-bottom:100px;">
+                <img src="/image/168.jpg" style="width:224px; height:224px;" class="img">
+                <strong class="person">JUNG SEONGMIN</strong><br>
+                <strong class="person">프로그래머</strong><br>
                 </div>
             </div>
             <div class="row">
@@ -177,8 +270,6 @@ img.img{
         <div class="col-4">
             <img id="" src="/image/sublogo.png" style="width:166.5px; height:83px;margin-top:40px;"><strong class="smalltitle">작업 필드</strong><br>
         </div>
-    </div>
-    <div class="container">
     <div class="row">
         <div class="col-5" style=" margin-top:20px; margin-bottom:10px; position:relative; background:#707070;">
             <img id=""src="/img/black1.svg">

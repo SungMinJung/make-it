@@ -19,6 +19,9 @@
     {{-- <link href="{{ asset('css/gentelella.css') }}" rel="stylesheet"> --}}
     <link href="/css/gentelella.css" rel="stylesheet">
 
+
+
+
   </head>
   <body class="@yield('bodyclass')">
         @yield('body')

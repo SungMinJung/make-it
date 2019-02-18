@@ -43218,6 +43218,7 @@ window.Vue = __webpack_require__(44);
  */
 
 Vue.component('example-component', __webpack_require__(53));
+Vue.component('image-form', __webpack_require__(80));
 
 var app = new Vue({
   el: '#app'
@@ -46026,16 +46027,7 @@ $(document).ready(function () {
 /* 52 */
 /***/ (function(module, exports) {
 
-$(window).scroll(function (e) {
-    parallax();
-});
-
-function parallax() {
-    var scrolled = $(window).scrollTop();
-    $('#bimg2').css('background-position-y', -(scrolled * 1.2) + 'px');
-    $('#bimg3').css('background-position-y', -(scrolled * 0.8) + 'px');
-    $('#bimg4').css('background-position-y', -(scrolled * 1.0) + 'px');
-}
+throw new Error("Module build failed: SyntaxError: C:/Users/donguk/makeit-home/resources/assets/js/main.js: Unexpected token (8:0)\n\n\u001b[0m \u001b[90m  6 | \u001b[39m    \u001b[36mvar\u001b[39m scrolled \u001b[33m=\u001b[39m $(window)\u001b[33m.\u001b[39mscrollTop()\u001b[33m;\u001b[39m\n \u001b[90m  7 | \u001b[39m    $(\u001b[32m'#bimg2'\u001b[39m)\u001b[33m.\u001b[39mcss(\u001b[32m'background-position-y'\u001b[39m\u001b[33m,\u001b[39m\u001b[33m-\u001b[39m(scrolled \u001b[33m*\u001b[39m \u001b[35m1.2\u001b[39m)\u001b[33m+\u001b[39m\u001b[32m'px'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 | \u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\n \u001b[90m    | \u001b[39m\u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m  9 | \u001b[39m    $(\u001b[32m'#bimg3'\u001b[39m)\u001b[33m.\u001b[39mcss(\u001b[32m'background-position-y'\u001b[39m\u001b[33m,\u001b[39m\u001b[33m-\u001b[39m(scrolled \u001b[33m*\u001b[39m \u001b[35m0.8\u001b[39m)\u001b[33m+\u001b[39m\u001b[32m'px'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 10 | \u001b[39m\u001b[33m===\u001b[39m\u001b[33m===\u001b[39m\u001b[33m=\u001b[39m\n \u001b[90m 11 | \u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\u001b[0m\n");
 
 /***/ }),
 /* 53 */
@@ -46276,6 +46268,204 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 59 */,
+/* 60 */,
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */,
+/* 74 */,
+/* 75 */,
+/* 76 */,
+/* 77 */,
+/* 78 */,
+/* 79 */,
+/* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(54)
+/* script */
+var __vue_script__ = __webpack_require__(81)
+/* template */
+var __vue_template__ = __webpack_require__(82)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/admin/ImageForm.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-86dadcd0", Component.options)
+  } else {
+    hotAPI.reload("data-v-86dadcd0", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 81 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    props: ['src'],
+    data: function data() {
+        return {
+            main_image: ''
+        };
+    },
+    mounted: function mounted() {
+        if (this.src) {
+            this.main_image = this.src;
+        }
+    },
+
+    methods: {
+        imageUpload: function imageUpload(e) {
+            this.$refs.fileInput.click();
+        },
+        imageDrop: function imageDrop() {
+            // TODO: 이미지 Drop 이후, 같은 이미지 등록시 감지 못함
+            this.main_image = '';
+        },
+
+        uploadFile: function uploadFile(files) {
+            var _this = this;
+
+            var formData = new FormData();
+            formData.append('file', files[0]);
+            axios.post('/api/file', formData, { headers: { 'Content-Type': 'multipart/form-data' } }).then(function (res) {
+                _this.main_image = res.data.real_path;
+            });
+        },
+        onImageChange: function onImageChange(e) {
+            this.uploadFile(this.$refs.fileInput.files);
+        }
+    }
+});
+
+/***/ }),
+/* 82 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "profile-form" }, [
+    _c("img", {
+      staticClass: "profile_img",
+      staticStyle: { "max-height": "125px" },
+      attrs: { src: _vm.main_image, alt: "프로필 이미지" }
+    }),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass: "upload-buttons",
+        staticStyle: {
+          display: "inline-block",
+          height: "125px",
+          "margin-left": "30px"
+        }
+      },
+      [
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-primary",
+            staticStyle: { width: "100px" },
+            attrs: { type: "button" },
+            on: { click: _vm.imageUpload }
+          },
+          [_vm._v("업로드 ")]
+        ),
+        _c("br"),
+        _vm._v(" "),
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-primary",
+            staticStyle: { width: "100px", "margin-top": "10px" },
+            attrs: { type: "button" },
+            on: { click: _vm.imageDrop }
+          },
+          [_vm._v("삭제 ")]
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _c("input", {
+      attrs: { type: "hidden", name: "image" },
+      domProps: { value: _vm.main_image }
+    }),
+    _vm._v(" "),
+    _c("input", {
+      ref: "fileInput",
+      staticStyle: { display: "none" },
+      attrs: { type: "file" },
+      on: { change: _vm.onImageChange }
+    })
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-86dadcd0", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

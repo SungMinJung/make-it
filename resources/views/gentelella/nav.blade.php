@@ -38,16 +38,8 @@
               <ul class="nav side-menu">
                 <li><a><i class="fa fa-users"></i> 지구회원관리</a></li>
                 <li><a href="{{ route('admin.portfolio.index') }}"><i class="fa fa-calendar"></i> 포트폴리오관리</a></li>
+                <li><a  href="{{route('admin.notice.index')}}"><i class="fa fa-bullhorn"></i> Q&A 및 공지사항</a></li>
                 <li><a href="{{ route('admin.contact') }}"><i class="fa fa-file-audio-o"></i>Contact us</a></li>
-                <li><a><i class="fa fa-bullhorn"></i> 커뮤니티 게시판 관리 <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                        <li><a href="">로타리클럽 소식관리</a></li>
-                        <li><a href="">로타리지식 관리</a></li>
-                        <li><a href="">신세대소식 관리</a></li>
-                        <li><a href="">재단기부 관리</a></li>
-                        <li><a href="">자료실</a></li>
-                    </ul>
-                </li>
               </ul>
             </div>
 

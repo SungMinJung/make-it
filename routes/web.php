@@ -11,12 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('main/index');
-});
+
 
 Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 
 Route::group(['prefix'=>'Service','as'=>'service.'],function(){
     Route::get('/website','ServiceController@web')->name('web');
@@ -42,5 +40,12 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function()
     Route::get('/contact', 'Admin\ContactusController@index')->name('contact');
     Route::get('/contact/{id}', 'Admin\ContactusController@show')->name('contact.show');
     Route::delete('/contact/{id}', 'Admin\ContactusController@destroy')->name('contact.destroy');
+    //qna관련 라우트
+    Route::resource('notice','Admin\NoticeController');
+    Route::get('qnacreate','Admin\QnaController@create')->name('qnacreate');
+    Route::get('common','Admin\QnaController@common')->name('typecommon');
+    Route::get('qnatest/{type}','Admin\QnaController@test')->name('qnatest');
+    Route::post('qnastore/{type}','Admin\QnaController@store')->name('qnastore');
+
     Route::resource('/portfolio', 'Admin\PortfolioController');
 });

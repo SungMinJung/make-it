@@ -16,9 +16,12 @@ class CreatePortfoliosTable extends Migration
         Schema::create('portfolios', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
-            $table->string('title_imgurl')->nullable();
-            $table->string('main_imagurl')->nullable();
+            $table->text('title_imgurl')->nullable();
+            $table->string('main_title');
+            $table->text('main_imgurl')->nullable();
             $table->string('category');
+            $table->string('link');
+            $table->date('dep_date');
             $table->timestamps();
         });
     }

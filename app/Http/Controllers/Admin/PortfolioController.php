@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 use App\Http\Controllers\Controller;
 use App\Portfolio;
@@ -41,17 +42,22 @@ class PortfolioController extends Controller
     public function store(Request $request)
     {
         //
-        $request->validate([
-            'category' => 'required',
-            'title' => 'required',
-        ]);
+        $path = 'public/hyungyu';
+        $file = $request->file('title_imgurl');
+        $result = $file->store($path);
 
+        $url = Storage::url($result);
 
         $port = new Portfolio([
-            'category' => $request->get('category'),
-            'title' => $request->get('title'),
-
+            'category' => $request->input('category'),
+            'title' => $request->input('title'),
+            'title_imgurl' => $url,
+            'main_title' => $request->input('main_title'),
+            'dep_date' => $request->input('dep_date'),
+            'link' => $request->input('link'),
+            'main_imgurl' => $request->input('summernote')
         ]);
+        // $port->main_imgurl = $request->input('summernote');
         $port->save();
         
         return redirect('admin/portfolio');
@@ -97,12 +103,20 @@ class PortfolioController extends Controller
     {
         //
         
+        $path = 'public/hyungyu';
+        $file = $request->file('title_imgurl');
+        $result = $file->store($path);
 
+        $url = Storage::url($result);
 
         $port = Portfolio::find($id);
         $port->category = $request->get('category');
-        $port->title = $request->get('title');
+        $port->main_title = $request->get('main_title');
+        $port->link = $request->get('link');
+        $port->dep_date = $request->get('dep_date');
 
+        // $port->title = $url;
+        // $port->main_imgrul = $request->input('summernote');
         $port->update();
 
         return redirect('admin/portfolio');
@@ -114,8 +128,7 @@ class PortfolioController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(
-        $id)
+    public function destroy($id)
     {
         //
         $port = Portfolio::find($id);

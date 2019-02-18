@@ -38,10 +38,8 @@
               <ul class="nav side-menu">
                 <li><a><i class="fa fa-users"></i> 지구회원관리</a></li>
                 <li><a href="{{ route('admin.portfolio.index') }}"><i class="fa fa-calendar"></i> 포트폴리오관리</a></li>
-                <li><a href="{{ route('admin.contact') }}"><i class="fa fa-file-audio-o"></i>Contact us</a></li>
-
                 <li><a  href="{{route('admin.notice.index')}}"><i class="fa fa-bullhorn"></i> Q&A 및 공지사항</a></li>
-
+                <li><a href="{{ route('admin.contact') }}"><i class="fa fa-file-audio-o"></i>Contact us</a></li>
               </ul>
             </div>
 

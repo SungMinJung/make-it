@@ -20,7 +20,9 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
+        "codemirror": "^5.43.0",
         "dropzone": "^5.5.1",
-        "gentelella": "^1.4.0"
+        "gentelella": "^1.4.0",
+        "summernote": "^0.8.11"
     }
 }

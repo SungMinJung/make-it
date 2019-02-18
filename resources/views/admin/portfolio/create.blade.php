@@ -9,7 +9,7 @@
                 <h2>포트폴리오 추가</h2>
             @endslot
 
-            <form method="POST" action="{{route('admin.portfolio.store')}}" class="form-horizontal form-label-left">
+            <form method="POST" action="{{route('admin.portfolio.store')}}" enctype="multipart/form-data" class="form-horizontal form-label-left">
                 @csrf
                 <div class="form-group">
                     <label class="control-label col-md-3 col-sm-3 col-xs-12" for="카테고리">
@@ -26,10 +26,37 @@
 
                 <div class="form-group">
                     <label class="control-label col-md-3 col-sm-3 col-xs-12" for="title">
-                        제목 <span class="required">*</span>
+                        타이틀 제목 <span class="required">*</span>
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <input type="text" id="title" name="title" required="required" class="form-control col-md-7 col-xs-12">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="title">
+                        메인 제목 <span class="required">*</span>
+                    </label>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" id="main_title" name="main_title" required="required" class="form-control col-md-7 col-xs-12">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="title">
+                        링크 <span class="required">*</span>
+                    </label>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" id="link" name="link" required="required" class="form-control col-md-7 col-xs-12">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="title">
+                        개발 날짜<span class="required">*</span>
+                    </label>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="date" id="dep_date" name="dep_date" required="required" class="form-control col-md-7 col-xs-12">
                     </div>
                 </div>
 
@@ -38,7 +65,7 @@
                         썸네일 <span class="required">*</span>
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        s
+                        <input type="file" id="title_imgurl" name="title_imgurl">
                     </div>
                 </div>
 
@@ -47,7 +74,7 @@
                         메인사진 <span class="required">*</span>
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">   
-                        <div class="dropzone"></div>
+                        <textarea id="summernote" name="summernote">Hello!</textarea>
                     </div>
                 </div>
 

@@ -10,7 +10,8 @@ window._ = require('lodash');
 try {
     window.$ = window.jQuery = require('jquery');
     require('bootstrap');
-    require('gentelella')
+    require('gentelella');
+    require('summernote');
     var dropzone = require('dropzone');
     dropzone.autoDiscover = false;
     // require('moment');
@@ -82,6 +83,31 @@ const app = new Vue({
 
 $(document).ready(function() {
     $('.dropzone').dropzone({
-        url: '/file'
+        url: '/file',
+        addRemoveLinks: true
     })
+
+    $('#summernote').summernote({
+        callbacks:{
+            onImageUpload: function(files){
+                console.log(files);
+                data = new FormData();
+                
+                data.append('file',files[0]);
+
+
+                $.ajax({
+                    data:data,
+                    type:'post',
+                    url:'/api/file',
+                    chche:false,
+                    contentType:false,
+                    processData:false,
+                    success: function(data){
+                        $('#summernote').summernote('insertImage',data);
+                    }
+                })
+            }
+        }
+    });
 })

@@ -47,5 +47,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function()
     Route::get('qnatest/{type}','Admin\QnaController@test')->name('qnatest');
     Route::post('qnastore/{type}','Admin\QnaController@store')->name('qnastore');
 
+
     Route::resource('/portfolio', 'Admin\PortfolioController');
 });

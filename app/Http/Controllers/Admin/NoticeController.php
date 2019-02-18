@@ -74,7 +74,8 @@ class NoticeController extends Controller
      */
     public function edit($id)
     {
-        //
+        $notices=Notice::find($id);
+        return view('admin.question.notice.edit',compact('notices'));
     }
 
     /**
@@ -86,7 +87,17 @@ class NoticeController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'subject' => 'required',
+            'content' => 'required',
+        ]);
+
+        $notice = Notice::find($id);
+        $notice->subject = $request->input('subject');
+        $notice->content = $request->input('content');
+        $notice->save();
+
+        return redirect()->route('admin.notice.index');
     }
 
     /**

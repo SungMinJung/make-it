@@ -42,7 +42,7 @@
     
                             <td class="">{{$notice->cnt}}</td>
                             <td>
-                                <button class="btn btn-warning btn-xs">수정</button>
+                                <button class="btn btn-warning btn-xs" onclick="location.href='{{route('admin.notice.edit',['id'=>$notice->id])}}'">수정</button>
                                 <button class="btn btn-success btn-xs" onclick="location.href='{{route('admin.notice.show',['id'=>$notice->id])}}'"> 보기</button>
                                 {{-- <button class="btn btn-danger btn-xs" onclick="location.href='{{route('admin.notice.destroy',['id'=>$notice->id])}}'">삭제</button> --}}
                                 <form action="{{route('admin.notice.destroy',$notice->id)}}" method="post" style="display:inline;">

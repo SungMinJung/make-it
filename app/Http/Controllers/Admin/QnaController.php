@@ -76,4 +76,6 @@ class QnaController extends Controller
     }
 
 
+
+
 }

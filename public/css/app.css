@@ -554,7 +554,7 @@ ul.tab li.current {
 .port-box .title-p {
   font-family: 'Noto Sans', sans-serif;
   font-size: 24px;
-  padding-top: 50px;
+  padding-top: 5px;
   font-weight: bold;
   color: #fff;
   line-height: 1.5;
@@ -676,5 +676,51 @@ ul.tab li.current {
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
+}
+
+.port-info {
+  margin-top: 30px;
+}
+
+.port-info .port-info-title .p1 {
+  font-size: 49px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.49;
+  letter-spacing: normal;
+  text-align: left;
+  color: #bf272c;
+}
+
+.port-info .port-info-title .p2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.port-info .port-img {
+  text-align: center;
+}
+
+.port-info .port-img img {
+  min-width: 100%;
+}
+
+.port-info .port-img p {
+  margin: 50px 0 50px 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: normal;
 }
 

@@ -40,15 +40,14 @@
 
     
     
-    <div id="portfolio" class="row " >
+    <div id="portfolio" class="row" >
         @foreach ($portfolio as $item)
         <div>
-            <div class="tile col-2 port-box scale-anm {{ $item['category'] }} all" style="background: url('{{$item['main_image'] }}')">
-                <div class="port-hover">
-                    <p class="title-p">{{ $item['title'] }}</p>
-                    
+            <div class="tile col-2 port-box scale-anm reldiv {{ $item['category'] }} all" style="background: url('{{$item['title_imgurl'] }}')">
+                
+                <div class="port-hover"> 
+                    <p class="title-p">{{ $item['title'] }}<br>{{ $item['category'] }}</p>
                     <p class="link-p"><a href="{{ route('port',['seq'=>$item['title']]) }}">이동</a></p>
-                    
                 </div>
             </div>
         </div>

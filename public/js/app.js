@@ -46082,6 +46082,7 @@ $(document).ready(function () {
             $(elem).css('display', 'none');
             $(elem).next().css('display', 'block');
             $(elem).parents('tr').css('background', '#0066FF').css('color', '#fff');
+            $(elem).parents('tr').find('#qna').css('background', "#0066ff").css('color', '#fff');
             $(elem).parents('tr').find('#icon').css('background', "#fff").css('color', '#0066ff');
         });
     });
@@ -46096,6 +46097,7 @@ $(document).ready(function () {
             $(elem).prev().css('display', 'block');
             $(elem).parents('tr').css('background', '#fff').css('color', '#000');
             $(elem).parents('tr').find('#icon').css('background', "#0066FF").css('color', '#fff');
+            $(elem).parents('tr').find('#qna').css('background', "#fff").css('color', '#0066ff');
         });
     });
 

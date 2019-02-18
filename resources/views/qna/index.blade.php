@@ -112,6 +112,14 @@ input {
     font-weight:bold;
 
 }
+#notice_table #qna{
+    color:#0066ff;
+    padding:5px 0px 5px 0px;
+    font-weight:bold;
+    font-size:30px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
 #notice_table #question{
     text-align:center;
     padding:15px 0 15px 0;
@@ -201,7 +209,7 @@ td img {
                         @if ( $item->category == "notice")
                             <div id="icon">공지</div>
                         @else 
-                            <img src="/image/Q.png">
+                            <div id="qna">Q</div>
                         @endif
                     </td>
 

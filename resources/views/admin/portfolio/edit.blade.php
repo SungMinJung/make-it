@@ -27,7 +27,7 @@
 
                 <div class="form-group">
                     <label class="control-label col-md-3 col-sm-3 col-xs-12" for="title">
-                       제목 <span class="required">*</span>
+                        타이틀 제목 <span class="required">*</span>
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <input type="text" id="title" name="title" required="required" class="form-control col-md-7 col-xs-12" value= {{$port->title}}>
@@ -35,20 +35,48 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="control-label col-md-3 col-sm-3 col-xs-12">
-                        썸네일 <span class="required">*</span>
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="title">
+                        메인 제목 <span class="required">*</span>
                     </label>
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        s
+                        <input type="text" id="title" name="main_title" required="required" class="form-control col-md-7 col-xs-12" value= {{$port->main_title}}>
                     </div>
                 </div>
 
                 <div class="form-group">
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="title">
+                        링크 <span class="required">*</span>
+                    </label>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" id="link" name="link" required="required" class="form-control col-md-7 col-xs-12" value= {{$port->link}}>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="title">
+                        개발 날짜<span class="required">*</span>
+                    </label>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="date" id="dep_date" name="dep_date" required="required" class="form-control col-md-7 col-xs-12" value= {{$port->dep_date}} >
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="control-label col-md-3 col-sm-3 col-xs-12">
+                        썸네일 <span class="required">*</span>
+                    </label>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="file" id="title_imgurl" name="title_imgurl" value= {{$port->title_imgurl}}>
+                    </div>
+                </div>
+                
+                <div class="form-group">
                     <label class="control-label col-md-3 col-sm-3 col-xs-12">
                         메인사진 <span class="required">*</span>
                     </label>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        s
+                    <div class="col-md-6 col-sm-6 col-xs-12">   
+                        <textarea id="summernote" name="summernote">{{$port->main_imgurl}}</textarea>
                     </div>
                 </div>
 
@@ -57,9 +85,9 @@
                 <div class="form-group">
                     <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                         <button type="submit" class="btn btn-success">수정</button>
-                        <a href="">
-                            <button class="btn btn-primary" type="button">취소</button>
-                        </a>
+             
+                        <button class="btn btn-primary" type="reset">다시</button>
+                        
                     </div>
                 </div>
 

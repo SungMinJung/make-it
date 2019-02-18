@@ -115,8 +115,8 @@ class PortfolioController extends Controller
         $port->link = $request->get('link');
         $port->dep_date = $request->get('dep_date');
 
-        // $port->title = $url;
-        // $port->main_imgrul = $request->input('summernote');
+        $port->title = $url;
+        $port->main_imgrul = $request->input('summernote');
         $port->update();
 
         return redirect('admin/portfolio');
